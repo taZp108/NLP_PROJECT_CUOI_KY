@@ -1,0 +1,185 @@
+{
+ "cau_hinh": {
+  "learning_rate": 0.05,
+  "epochs_moi_dot": 3,
+  "so_dot_toi_da": 10,
+  "patience": 3,
+  "so_nhan": 12,
+  "so_feature": 59,
+  "so_dong_train": 5953,
+  "so_dong_dev": 209
+ },
+ "dot_tot_nhat": 2,
+ "lich_su": [
+  {
+   "dot": 1,
+   "epoch": 3,
+   "loss_cac_epoch": [],
+   "dev_p": 0.9765886287625418,
+   "dev_r": 0.8156424581005587,
+   "dev_f1": 0.8888888888888891,
+   "dev_macro_f1": 0.8356751060333923,
+   "dev_f1_tung_nhan": {
+    "COMPANY": 0.18181818181818182,
+    "DEADLINE": 1.0,
+    "DEGREE": 0.651685393258427,
+    "EXPERIENCE": 0.9655172413793104,
+    "LOCATION": 1.0,
+    "POSITION": 0.9,
+    "SALARY": 1.0,
+    "SKILL": 0.9649122807017544,
+    "SKILL_GROUP": 0.8571428571428571
+   },
+   "thoi_gian_giay": 51.6
+  },
+  {
+   "dot": 2,
+   "epoch": 6,
+   "loss_cac_epoch": [],
+   "dev_p": 0.979933110367893,
+   "dev_r": 0.8184357541899442,
+   "dev_f1": 0.8919330289193302,
+   "dev_macro_f1": 0.836934896998805,
+   "dev_f1_tung_nhan": {
+    "COMPANY": 0.18181818181818182,
+    "DEADLINE": 1.0,
+    "DEGREE": 0.651685393258427,
+    "EXPERIENCE": 0.9565217391304348,
+    "LOCATION": 1.0,
+    "POSITION": 0.8852459016393444,
+    "SALARY": 1.0,
+    "SKILL": 1.0,
+    "SKILL_GROUP": 0.8571428571428571
+   },
+   "thoi_gian_giay": 69.1
+  },
+  {
+   "dot": 3,
+   "epoch": 9,
+   "loss_cac_epoch": [],
+   "dev_p": 0.9765886287625418,
+   "dev_r": 0.8156424581005587,
+   "dev_f1": 0.8888888888888891,
+   "dev_macro_f1": 0.8350025298490464,
+   "dev_f1_tung_nhan": {
+    "COMPANY": 0.18181818181818182,
+    "DEADLINE": 1.0,
+    "DEGREE": 0.651685393258427,
+    "EXPERIENCE": 0.9391304347826087,
+    "LOCATION": 1.0,
+    "POSITION": 0.8852459016393444,
+    "SALARY": 1.0,
+    "SKILL": 1.0,
+    "SKILL_GROUP": 0.8571428571428571
+   },
+   "thoi_gian_giay": 72.2
+  },
+  {
+   "dot": 4,
+   "epoch": 12,
+   "loss_cac_epoch": [],
+   "dev_p": 0.9765886287625418,
+   "dev_r": 0.8156424581005587,
+   "dev_f1": 0.8888888888888891,
+   "dev_macro_f1": 0.8350025298490464,
+   "dev_f1_tung_nhan": {
+    "COMPANY": 0.18181818181818182,
+    "DEADLINE": 1.0,
+    "DEGREE": 0.651685393258427,
+    "EXPERIENCE": 0.9391304347826087,
+    "LOCATION": 1.0,
+    "POSITION": 0.8852459016393444,
+    "SALARY": 1.0,
+    "SKILL": 1.0,
+    "SKILL_GROUP": 0.8571428571428571
+   },
+   "thoi_gian_giay": 89.5
+  },
+  {
+   "dot": 5,
+   "epoch": 15,
+   "loss_cac_epoch": [],
+   "dev_p": 0.9794520547945206,
+   "dev_r": 0.7988826815642458,
+   "dev_f1": 0.88,
+   "dev_macro_f1": 0.8294201358608554,
+   "dev_f1_tung_nhan": {
+    "COMPANY": 0.18181818181818182,
+    "DEADLINE": 1.0,
+    "DEGREE": 0.651685393258427,
+    "EXPERIENCE": 0.888888888888889,
+    "LOCATION": 1.0,
+    "POSITION": 0.8852459016393444,
+    "SALARY": 1.0,
+    "SKILL": 1.0,
+    "SKILL_GROUP": 0.8571428571428571
+   },
+   "thoi_gian_giay": 90.6
+  }
+ ],
+ "ket_qua_dev_tot_nhat": {
+  "micro": {
+   "p": 0.979933110367893,
+   "r": 0.8184357541899442,
+   "f1": 0.8919330289193302,
+   "so_that": 358
+  },
+  "macro_f1": 0.836934896998805,
+  "tung_nhan": {
+   "COMPANY": {
+    "p": 1.0,
+    "r": 0.1,
+    "f1": 0.18181818181818182,
+    "so_that": 30
+   },
+   "DEADLINE": {
+    "p": 1.0,
+    "r": 1.0,
+    "f1": 1.0,
+    "so_that": 30
+   },
+   "DEGREE": {
+    "p": 0.9666666666666667,
+    "r": 0.4915254237288136,
+    "f1": 0.651685393258427,
+    "so_that": 59
+   },
+   "EXPERIENCE": {
+    "p": 1.0,
+    "r": 0.9166666666666666,
+    "f1": 0.9565217391304348,
+    "so_that": 60
+   },
+   "LOCATION": {
+    "p": 1.0,
+    "r": 1.0,
+    "f1": 1.0,
+    "so_that": 60
+   },
+   "POSITION": {
+    "p": 0.8709677419354839,
+    "r": 0.9,
+    "f1": 0.8852459016393444,
+    "so_that": 30
+   },
+   "SALARY": {
+    "p": 1.0,
+    "r": 1.0,
+    "f1": 1.0,
+    "so_that": 29
+   },
+   "SKILL": {
+    "p": 1.0,
+    "r": 1.0,
+    "f1": 1.0,
+    "so_that": 57
+   },
+   "SKILL_GROUP": {
+    "p": 0.75,
+    "r": 1.0,
+    "f1": 0.8571428571428571,
+    "so_that": 3
+   }
+  }
+ }
+}

@@ -1,0 +1,396 @@
+[
+  {
+    "task_id": "train_noisy_data_engineer_khong_dau",
+    "tokenized": [
+      [["Cty", 0, 3], ["FPT", 4, 7], ["can", 8, 11], ["tuyen", 12, 17], ["gap", 18, 21], ["Data", 22, 26], ["Engineer", 27, 35], ["lam", 36, 39], ["ve", 40, 42], ["Python", 43, 49], ["va", 50, 52], ["SQL", 53, 56], [".", 56, 57]],
+      [["Yeu", 0, 3], ["cau", 4, 7], ["co", 8, 10], ["3", 11, 12], ["nam", 13, 16], ["kn", 17, 19], ["voi", 20, 24], ["Airflow", 25, 32], [",", 32, 33], ["Kafka", 34, 39], [".", 39, 40]],
+      [["Luong", 0, 5], ["30-40tr", 6, 13], ["/", 13, 14], ["thang", 14, 19], [",", 19, 20], ["full", 21, 25], ["time", 26, 30], [".", 30, 31]],
+      [["Lam", 0, 3], ["o", 4, 5], ["Ha", 6, 8], ["Noi", 9, 12], [",", 12, 13], ["Quan", 14, 18], ["Cau", 19, 22], ["Giay", 23, 27], [".", 27, 28]],
+      [["Duoc", 0, 4], ["dong", 5, 9], ["BHXH", 10, 14], [",", 14, 15], ["BHYT", 16, 20], ["day", 21, 24], ["du", 25, 27], [".", 27, 28]],
+      [["Thuong", 0, 6], ["thang", 7, 12], ["13", 13, 15], [",", 15, 16], ["review", 17, 23], ["luong", 24, 29], ["2", 30, 31], ["lan", 32, 35], ["1", 36, 37], ["nam", 38, 41], [".", 41, 42]],
+      [["Han", 0, 3], ["nop", 4, 7], ["cv", 8, 10], ["la", 11, 13], ["30/11/2024", 14, 24], [".", 24, 25]],
+      [["Ae", 0, 2], ["nao", 3, 6], ["quan", 7, 11], ["tam", 12, 15], ["thi", 16, 19], ["ib", 20, 22], ["minh", 23, 27], ["nhe", 28, 31], ["!", 31, 32]]
+    ],
+    "bio": [
+      ["O", "B-COMPANY", "O", "O", "O", "B-POSITION", "I-POSITION", "O", "O", "B-SKILL", "O", "B-SKILL_GROUP", "O"],
+      ["O", "O", "O", "B-EXPERIENCE", "I-EXPERIENCE", "O", "O", "B-SKILL", "O", "B-SKILL", "O"],
+      ["O", "B-SALARY", "O", "I-SALARY", "O", "O", "O", "O"],
+      ["O", "O", "B-LOCATION", "I-LOCATION", "O", "I-LOCATION", "I-LOCATION", "I-LOCATION", "O"],
+      ["O", "O", "B-BENEFIT", "O", "B-BENEFIT", "O", "O", "O"],
+      ["B-BENEFIT", "I-BENEFIT", "I-BENEFIT", "O", "B-BENEFIT", "I-BENEFIT", "I-BENEFIT", "I-BENEFIT", "I-BENEFIT", "I-BENEFIT", "O"],
+      ["O", "O", "O", "O", "B-DEADLINE", "O"],
+      ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+    ]
+  },
+  {
+    "task_id": "train_noisy_mobile_dev_teencode",
+    "tokenized": [
+      [["Shopee", 0, 6], ["tuyen", 7, 12], ["gap", 13, 16], ["Mobile", 17, 23], ["Dev", 24, 27], ["xai", 28, 31], ["React", 32, 37], ["Native", 38, 44], ["hoac", 45, 49], ["Swift", 50, 55], [".", 55, 56]],
+      [["Can", 0, 3], ["2", 4, 5], ["nam", 6, 9], ["kn", 10, 12], ["lam", 13, 16], ["app", 17, 20], ["mobile", 21, 27], [".", 27, 28]],
+      [["Luong", 0, 5], ["20-30tr", 6, 13], ["/", 13, 14], ["thang", 14, 19], [".", 19, 20]],
+      [["Dia", 0, 3], ["diem", 4, 8], ["lam", 9, 12], ["viec", 13, 17], ["tai", 18, 21], ["TP.HCM", 22, 28], [".", 28, 29]],
+      [["Co", 0, 2], ["cung", 3, 7], ["cap", 8, 11], ["Laptop", 12, 18], ["nha", 19, 22], [".", 22, 23]],
+      [["Duoc", 0, 4], ["nghi", 5, 9], ["12", 10, 12], ["ngay", 13, 17], ["phep", 18, 22], ["nam", 23, 26], [".", 26, 27]],
+      [["Han", 0, 3], ["nop", 4, 7], ["ho", 8, 10], ["so", 11, 13], ["15/12/2024", 14, 24], [".", 24, 25]],
+      [["Ae", 0, 2], ["quan", 3, 7], ["tam", 8, 11], ["ib", 12, 14], ["minh", 15, 19], [".", 19, 20]],
+      [["Cong", 0, 4], ["ty", 5, 7], ["lam", 8, 11], ["viec", 12, 16], ["tre", 17, 20], ["trung", 21, 26], [",", 26, 27], ["thoai", 28, 33], ["mai", 34, 37], [".", 37, 38]],
+      [["Co", 0, 2], ["gi", 3, 5], ["thac", 6, 10], ["mac", 11, 14], ["cu", 15, 17], ["hoi", 18, 21], ["nhe", 22, 25], [".", 25, 26]]
+    ],
+    "bio": [
+      ["B-COMPANY", "O", "O", "B-POSITION", "I-POSITION", "O", "B-SKILL", "I-SKILL", "O", "B-SKILL", "O"],
+      ["O", "B-EXPERIENCE", "I-EXPERIENCE", "O", "O", "O", "O", "O"],
+      ["O", "B-SALARY", "O", "I-SALARY", "O"],
+      ["O", "O", "O", "O", "O", "B-LOCATION", "O"],
+      ["O", "O", "O", "B-BENEFIT", "O", "O"],
+      ["O", "O", "B-BENEFIT", "I-BENEFIT", "I-BENEFIT", "I-BENEFIT", "O"],
+      ["O", "O", "O", "O", "B-DEADLINE", "O"],
+      ["O", "O", "O", "O", "O", "O"],
+      ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"],
+      ["O", "O", "O", "O", "O", "O", "O", "O"]
+    ]
+  },
+  {
+    "task_id": "train_noisy_qa_engineer_teencode",
+    "tokenized": [
+      [["VNG", 0, 3], ["can", 4, 7], ["tuyen", 8, 13], ["QA", 14, 16], ["Engineer", 17, 25], ["(", 26, 27], ["manual", 27, 33], ["test", 34, 38], [")", 38, 39], [".", 39, 40]],
+      [["Yeu", 0, 3], ["cau", 4, 7], ["1-2", 8, 11], ["nam", 12, 15], ["kn", 16, 18], ["test", 19, 23], ["web", 24, 27], ["/", 27, 28], ["mobile", 28, 34], [".", 34, 35]],
+      [["Biet", 0, 4], ["dung", 5, 9], ["Jira", 10, 14], ["va", 15, 17], ["Postman", 18, 25], ["la", 26, 28], ["ok", 29, 31], [".", 31, 32]],
+      [["Luong", 0, 5], ["15tr", 6, 10], ["/", 10, 11], ["thang", 11, 16], [".", 16, 17]],
+      [["Lam", 0, 3], ["tai", 4, 7], ["Da", 8, 10], ["Nang", 11, 15], [".", 15, 16]],
+      [["Duoc", 0, 4], ["huong", 5, 10], ["BHXH", 11, 15], [",", 15, 16], ["BHYT", 17, 21], [",", 21, 22], ["BHTN", 23, 27], ["day", 28, 31], ["du", 32, 34], [".", 34, 35]],
+      [["Han", 0, 3], ["chot", 4, 8], ["20/10/2024", 9, 19], [".", 19, 20]],
+      [["Inbox", 0, 5], ["minh", 6, 10], ["de", 11, 13], ["biet", 14, 18], ["them", 19, 23], ["chi", 24, 27], ["tiet", 28, 32], [".", 32, 33]],
+      [["Team", 0, 4], ["building", 5, 13], ["1", 14, 15], ["nam", 16, 19], ["2", 20, 21], ["lan", 22, 25], [".", 25, 26]],
+      [["Cong", 0, 4], ["ty", 5, 7], ["bao", 8, 11], ["cap", 12, 15], ["laptop", 16, 22], [".", 22, 23]]
+    ],
+    "bio": [
+      ["B-COMPANY", "O", "O", "B-POSITION", "I-POSITION", "O", "B-SKILL", "I-SKILL", "O", "O"],
+      ["O", "O", "B-EXPERIENCE", "I-EXPERIENCE", "O", "O", "B-SKILL_GROUP", "O", "B-SKILL_GROUP", "O"],
+      ["O", "O", "B-SKILL", "O", "B-SKILL", "O", "O", "O"],
+      ["O", "B-SALARY", "O", "I-SALARY", "O"],
+      ["O", "O", "B-LOCATION", "I-LOCATION", "O"],
+      ["O", "O", "B-BENEFIT", "O", "B-BENEFIT", "O", "B-BENEFIT", "O", "O", "O"],
+      ["O", "O", "B-DEADLINE", "O"],
+      ["O", "O", "O", "O", "O", "O", "O", "O"],
+      ["B-BENEFIT", "I-BENEFIT", "I-BENEFIT", "I-BENEFIT", "I-BENEFIT", "I-BENEFIT", "O"],
+      ["O", "O", "O", "O", "B-BENEFIT", "O"]
+    ]
+  },
+  {
+    "task_id": "train_noisy_data_engineer_khong_dau",
+    "tokenized": [
+      [["Cty", 0, 3], ["FPT", 4, 7], ["can", 8, 11], ["tuyen", 12, 17], ["gap", 18, 21], ["Data", 22, 26], ["Engineer", 27, 35], ["lam", 36, 39], ["ve", 40, 42], ["Python", 43, 49], ["va", 50, 52], ["SQL", 53, 56], [".", 56, 57]],
+      [["Yeu", 0, 3], ["cau", 4, 7], ["co", 8, 10], ["3", 11, 12], ["nam", 13, 16], ["kn", 17, 19], ["voi", 20, 24], ["Airflow", 25, 32], [",", 32, 33], ["Kafka", 34, 39], [".", 39, 40]],
+      [["Luong", 0, 5], ["30-40tr", 6, 13], ["/", 13, 14], ["thang", 14, 19], [",", 19, 20], ["full", 21, 25], ["time", 26, 30], [".", 30, 31]],
+      [["Lam", 0, 3], ["o", 4, 5], ["Ha", 6, 8], ["Noi", 9, 12], [",", 12, 13], ["Quan", 14, 18], ["Cau", 19, 22], ["Giay", 23, 27], [".", 27, 28]],
+      [["Duoc", 0, 4], ["dong", 5, 9], ["BHXH", 10, 14], [",", 14, 15], ["BHYT", 16, 20], ["day", 21, 24], ["du", 25, 27], [".", 27, 28]],
+      [["Thuong", 0, 6], ["thang", 7, 12], ["13", 13, 15], [",", 15, 16], ["review", 17, 23], ["luong", 24, 29], ["2", 30, 31], ["lan", 32, 35], ["1", 36, 37], ["nam", 38, 41], [".", 41, 42]],
+      [["Han", 0, 3], ["nop", 4, 7], ["cv", 8, 10], ["la", 11, 13], ["30/11/2024", 14, 24], [".", 24, 25]],
+      [["Ae", 0, 2], ["nao", 3, 6], ["quan", 7, 11], ["tam", 12, 15], ["thi", 16, 19], ["ib", 20, 22], ["minh", 23, 27], ["nhe", 28, 31], ["!", 31, 32]]
+    ],
+    "bio": [
+      ["O", "B-COMPANY", "O", "O", "O", "B-POSITION", "I-POSITION", "O", "O", "B-SKILL", "O", "B-SKILL_GROUP", "O"],
+      ["O", "O", "O", "B-EXPERIENCE", "I-EXPERIENCE", "O", "O", "B-SKILL", "O", "B-SKILL", "O"],
+      ["O", "B-SALARY", "O", "I-SALARY", "O", "O", "O", "O"],
+      ["O", "O", "B-LOCATION", "I-LOCATION", "O", "I-LOCATION", "I-LOCATION", "I-LOCATION", "O"],
+      ["O", "O", "B-BENEFIT", "O", "B-BENEFIT", "O", "O", "O"],
+      ["B-BENEFIT", "I-BENEFIT", "I-BENEFIT", "O", "B-BENEFIT", "I-BENEFIT", "I-BENEFIT", "I-BENEFIT", "I-BENEFIT", "I-BENEFIT", "O"],
+      ["O", "O", "O", "O", "B-DEADLINE", "O"],
+      ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+    ]
+  },
+  {
+    "task_id": "train_noisy_mobile_dev_teencode",
+    "tokenized": [
+      [["Shopee", 0, 6], ["tuyen", 7, 12], ["gap", 13, 16], ["Mobile", 17, 23], ["Dev", 24, 27], ["xai", 28, 31], ["React", 32, 37], ["Native", 38, 44], ["hoac", 45, 49], ["Swift", 50, 55], [".", 55, 56]],
+      [["Can", 0, 3], ["2", 4, 5], ["nam", 6, 9], ["kn", 10, 12], ["lam", 13, 16], ["app", 17, 20], ["mobile", 21, 27], [".", 27, 28]],
+      [["Luong", 0, 5], ["20-30tr", 6, 13], ["/", 13, 14], ["thang", 14, 19], [".", 19, 20]],
+      [["Dia", 0, 3], ["diem", 4, 8], ["lam", 9, 12], ["viec", 13, 17], ["tai", 18, 21], ["TP.HCM", 22, 28], [".", 28, 29]],
+      [["Co", 0, 2], ["cung", 3, 7], ["cap", 8, 11], ["Laptop", 12, 18], ["nha", 19, 22], [".", 22, 23]],
+      [["Duoc", 0, 4], ["nghi", 5, 9], ["12", 10, 12], ["ngay", 13, 17], ["phep", 18, 22], ["nam", 23, 26], [".", 26, 27]],
+      [["Han", 0, 3], ["nop", 4, 7], ["ho", 8, 10], ["so", 11, 13], ["15/12/2024", 14, 24], [".", 24, 25]],
+      [["Ae", 0, 2], ["quan", 3, 7], ["tam", 8, 11], ["ib", 12, 14], ["minh", 15, 19], [".", 19, 20]],
+      [["Cong", 0, 4], ["ty", 5, 7], ["lam", 8, 11], ["viec", 12, 16], ["tre", 17, 20], ["trung", 21, 26], [",", 26, 27], ["thoai", 28, 33], ["mai", 34, 37], [".", 37, 38]],
+      [["Co", 0, 2], ["gi", 3, 5], ["thac", 6, 10], ["mac", 11, 14], ["cu", 15, 17], ["hoi", 18, 21], ["nhe", 22, 25], [".", 25, 26]]
+    ],
+    "bio": [
+      ["B-COMPANY", "O", "O", "B-POSITION", "I-POSITION", "O", "B-SKILL", "I-SKILL", "O", "B-SKILL", "O"],
+      ["O", "B-EXPERIENCE", "I-EXPERIENCE", "O", "O", "O", "O", "O"],
+      ["O", "B-SALARY", "O", "I-SALARY", "O"],
+      ["O", "O", "O", "O", "O", "B-LOCATION", "O"],
+      ["O", "O", "O", "B-BENEFIT", "O", "O"],
+      ["O", "O", "B-BENEFIT", "I-BENEFIT", "I-BENEFIT", "I-BENEFIT", "O"],
+      ["O", "O", "O", "O", "B-DEADLINE", "O"],
+      ["O", "O", "O", "O", "O", "O"],
+      ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"],
+      ["O", "O", "O", "O", "O", "O", "O", "O"]
+    ]
+  },
+  {
+    "task_id": "train_noisy_qa_engineer_teencode",
+    "tokenized": [
+      [["VNG", 0, 3], ["can", 4, 7], ["tuyen", 8, 13], ["QA", 14, 16], ["Engineer", 17, 25], ["(", 26, 27], ["manual", 27, 33], ["test", 34, 38], [")", 38, 39], [".", 39, 40]],
+      [["Yeu", 0, 3], ["cau", 4, 7], ["1-2", 8, 11], ["nam", 12, 15], ["kn", 16, 18], ["test", 19, 23], ["web", 24, 27], ["/", 27, 28], ["mobile", 28, 34], [".", 34, 35]],
+      [["Biet", 0, 4], ["dung", 5, 9], ["Jira", 10, 14], ["va", 15, 17], ["Postman", 18, 25], ["la", 26, 28], ["ok", 29, 31], [".", 31, 32]],
+      [["Luong", 0, 5], ["15tr", 6, 10], ["/", 10, 11], ["thang", 11, 16], [".", 16, 17]],
+      [["Lam", 0, 3], ["tai", 4, 7], ["Da", 8, 10], ["Nang", 11, 15], [".", 15, 16]],
+      [["Duoc", 0, 4], ["huong", 5, 10], ["BHXH", 11, 15], [",", 15, 16], ["BHYT", 17, 21], [",", 21, 22], ["BHTN", 23, 27], ["day", 28, 31], ["du", 32, 34], [".", 34, 35]],
+      [["Han", 0, 3], ["chot", 4, 8], ["20/10/2024", 9, 19], [".", 19, 20]],
+      [["Inbox", 0, 5], ["minh", 6, 10], ["de", 11, 13], ["biet", 14, 18], ["them", 19, 23], ["chi", 24, 27], ["tiet", 28, 32], [".", 32, 33]],
+      [["Team", 0, 4], ["building", 5, 13], ["1", 14, 15], ["nam", 16, 19], ["2", 20, 21], ["lan", 22, 25], [".", 25, 26]],
+      [["Cong", 0, 4], ["ty", 5, 7], ["bao", 8, 11], ["cap", 12, 15], ["laptop", 16, 22], [".", 22, 23]]
+    ],
+    "bio": [
+      ["B-COMPANY", "O", "O", "B-POSITION", "I-POSITION", "O", "B-SKILL", "I-SKILL", "O", "O"],
+      ["O", "O", "B-EXPERIENCE", "I-EXPERIENCE", "O", "O", "B-SKILL_GROUP", "O", "B-SKILL_GROUP", "O"],
+      ["O", "O", "B-SKILL", "O", "B-SKILL", "O", "O", "O"],
+      ["O", "B-SALARY", "O", "I-SALARY", "O"],
+      ["O", "O", "B-LOCATION", "I-LOCATION", "O"],
+      ["O", "O", "B-BENEFIT", "O", "B-BENEFIT", "O", "B-BENEFIT", "O", "O", "O"],
+      ["O", "O", "B-DEADLINE", "O"],
+      ["O", "O", "O", "O", "O", "O", "O", "O"],
+      ["B-BENEFIT", "I-BENEFIT", "I-BENEFIT", "I-BENEFIT", "I-BENEFIT", "I-BENEFIT", "O"],
+      ["O", "O", "O", "O", "B-BENEFIT", "O"]
+    ]
+  },
+  {
+    "task_id": "train_noisy_ba_vng_teencode",
+    "tokenized": [
+      [["[", 0, 1], ["HOT", 1, 4], ["]", 4, 5], ["Cty", 6, 9], ["VNG", 10, 13], ["can", 14, 17], ["tuyen", 18, 23], ["BA", 24, 26], ["(", 27, 28], ["Business", 28, 36], ["Analyst", 37, 44], [")", 44, 45], ["gap", 46, 49]],
+      [["Yeu", 0, 3], ["cau", 4, 7], ["co", 8, 10], ["2", 11, 12], ["nam", 13, 16], ["kn", 17, 19], ["lam", 20, 23], ["viec", 24, 28], ["voi", 29, 32], ["SQL", 33, 36], ["va", 37, 39], ["Excel", 40, 45]],
+      [["Luong", 0, 5], ["20-30tr", 6, 13], ["(", 14, 15], ["thoa", 15, 19], ["thuan", 20, 25], ["theo", 26, 30], ["nang", 31, 35], ["luc", 36, 39], [")", 39, 40]],
+      [["Lam", 0, 3], ["viec", 4, 8], ["tai", 9, 12], ["Ha", 13, 15], ["Noi", 16, 19], [",", 19, 20], ["Quan", 21, 25], ["Cau", 26, 29], ["Giay", 30, 34]],
+      [["Duoc", 0, 4], ["huong", 5, 10], ["BHXH", 11, 15], [",", 15, 16], ["BHYT", 17, 21], [",", 21, 22], ["12", 23, 25], ["ngay", 26, 30], ["phep", 31, 35]],
+      [["Han", 0, 3], ["nop", 4, 7], ["cv", 8, 10], ["truoc", 11, 16], ["30/11/2024", 17, 27], ["nhe", 28, 31], ["ae", 32, 34]],
+      [["Ai", 0, 2], ["co", 3, 5], ["portfolio", 6, 15], ["gui", 16, 19], ["kem", 20, 23], ["nha", 24, 27], [",", 27, 28], ["luong", 29, 34], ["cao", 35, 38], ["lam", 39, 42]]
+    ],
+    "bio": [
+      ["O", "O", "O", "O", "B-COMPANY", "O", "O", "B-POSITION", "O", "I-POSITION", "I-POSITION", "O", "O"],
+      ["O", "O", "O", "B-EXPERIENCE", "I-EXPERIENCE", "O", "O", "O", "O", "B-SKILL_GROUP", "O", "B-SKILL"],
+      ["O", "B-SALARY", "O", "B-SALARY", "I-SALARY", "O", "O", "O", "O"],
+      ["O", "O", "O", "B-LOCATION", "I-LOCATION", "O", "I-LOCATION", "I-LOCATION", "I-LOCATION"],
+      ["O", "O", "B-BENEFIT", "O", "B-BENEFIT", "O", "B-BENEFIT", "I-BENEFIT", "I-BENEFIT"],
+      ["O", "O", "O", "O", "B-DEADLINE", "O", "O"],
+      ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+    ]
+  },
+  {
+    "task_id": "train_noisy_devops_fpt_khong_dau",
+    "tokenized": [
+      [["[", 0, 1], ["URGENT", 1, 7], ["]", 7, 8], ["FPT", 9, 12], ["Software", 13, 21], ["tuyen", 22, 27], ["gap", 28, 31], ["DevOps", 32, 38], ["Engineer", 39, 47]],
+      [["Yeu", 0, 3], ["cau", 4, 7], ["3", 8, 9], ["nam", 10, 13], ["kn", 14, 16], ["voi", 17, 20], ["Docker", 21, 27], [",", 27, 28], ["K8s", 29, 32], ["va", 33, 35], ["CI", 36, 38], ["/", 38, 39], ["CD", 39, 41]],
+      [["Luong", 0, 5], ["25-35tr", 6, 13], ["/", 14, 15], ["thang", 16, 21], [",", 21, 22], ["thuong", 23, 29], ["thang", 30, 35], ["13", 36, 38]],
+      [["Dia", 0, 3], ["diem", 4, 8], [":", 8, 9], ["Ha", 10, 12], ["Noi", 13, 16], ["(", 17, 18], ["Cau", 18, 21], ["Giay", 22, 26], [")", 26, 27]],
+      [["Duoc", 0, 4], ["cap", 5, 8], ["Laptop", 9, 15], ["va", 16, 18], ["bao", 19, 22], ["hiem", 23, 27], ["suc", 28, 31], ["khoe", 32, 36]],
+      [["Han", 0, 3], ["nop", 4, 7], [":", 7, 8], ["30/11/2024", 9, 19], [",", 19, 20], ["apply", 21, 26], ["ngay", 27, 31], ["nhe", 32, 35]],
+      [["Ai", 0, 2], ["co", 3, 5], ["chung", 6, 11], ["chi", 12, 15], ["AWS", 16, 19], ["Certified", 20, 29], ["thi", 30, 33], ["oke", 34, 37]],
+      [["Moi", 0, 3], ["truong", 4, 10], ["tre", 11, 14], ["trung", 15, 20], [",", 20, 21], ["team", 22, 26], ["building", 27, 35], ["2", 36, 37], ["lan", 38, 41], ["/", 41, 42], ["nam", 42, 45]]
+    ],
+    "bio": [
+      ["O", "O", "O", "B-COMPANY", "I-COMPANY", "O", "O", "B-POSITION", "I-POSITION"],
+      ["O", "O", "B-EXPERIENCE", "I-EXPERIENCE", "O", "O", "B-SKILL", "O", "B-SKILL", "O", "B-SKILL_GROUP", "O", "B-SKILL_GROUP"],
+      ["O", "B-SALARY", "O", "I-SALARY", "O", "B-BENEFIT", "I-BENEFIT", "I-BENEFIT"],
+      ["O", "O", "O", "B-LOCATION", "I-LOCATION", "O", "I-LOCATION", "I-LOCATION", "O"],
+      ["O", "O", "B-BENEFIT", "O", "B-BENEFIT", "I-BENEFIT", "I-BENEFIT", "I-BENEFIT"],
+      ["O", "O", "O", "B-DEADLINE", "O", "O", "O", "O"],
+      ["O", "O", "O", "O", "B-CERTIFICATE", "I-CERTIFICATE", "O", "O"],
+      ["O", "O", "O", "O", "O", "B-BENEFIT", "I-BENEFIT", "I-BENEFIT", "I-BENEFIT", "O", "I-BENEFIT"]
+    ]
+  },
+  {
+    "task_id": "train_noisy_ds_shopee_teencode",
+    "tokenized": [
+      [["Shopee", 0, 6], ["tuyen", 7, 12], ["Data", 13, 17], ["Scientist", 18, 27], ["(", 28, 29], ["Python", 29, 35], [",", 35, 36], ["ML", 37, 39], [")", 39, 40], ["gap", 41, 44], ["lam", 45, 48]],
+      [["Can", 0, 3], ["3+", 4, 6], ["nam", 7, 10], ["kinh", 11, 15], ["nghiem", 16, 22], ["ve", 23, 25], ["ML", 26, 28], [",", 28, 29], ["DL", 30, 32]],
+      [["Luong", 0, 5], ["30-45tr", 6, 13], ["/", 14, 15], ["thang", 16, 21], [",", 21, 22], ["qua", 23, 26], ["xin", 27, 30]],
+      [["Lam", 0, 3], ["tai", 4, 7], ["TP.HCM", 8, 14], [",", 14, 15], ["Quan", 16, 20], ["1", 21, 22]],
+      [["Biet", 0, 4], ["dung", 5, 9], ["TensorFlow", 10, 20], ["hoac", 21, 25], ["PyTorch", 26, 33], ["la", 34, 36], ["1", 37, 38], ["loi", 39, 42], ["the", 43, 46]],
+      [["Duoc", 0, 4], ["huong", 5, 10], ["BHXH", 11, 15], [",", 15, 16], ["BHYT", 17, 21], ["va", 22, 24], ["15", 25, 27], ["ngay", 28, 32], ["phep", 33, 37]],
+      [["Han", 0, 3], ["chot", 4, 8], ["15/12/2024", 9, 19], [",", 19, 20], ["nop", 21, 24], ["gap", 25, 28], ["nha", 29, 32]],
+      [["Ae", 0, 2], ["co", 3, 5], ["cert", 6, 10], ["TensorFlow", 11, 21], ["Developer", 22, 31], ["thi", 32, 35], ["qua", 36, 39], ["troi", 40, 44]],
+      [["Moi", 0, 3], ["truong", 4, 10], ["lam", 11, 14], ["viec", 15, 19], [":", 19, 20], ["startup", 21, 28], [",", 28, 29], ["nhieu", 30, 35], ["thu", 36, 39], ["thach", 40, 45]]
+    ],
+    "bio": [
+      ["B-COMPANY", "O", "B-POSITION", "I-POSITION", "O", "B-SKILL", "O", "B-SKILL_GROUP", "O", "O", "O"],
+      ["O", "B-EXPERIENCE", "I-EXPERIENCE", "O", "O", "O", "B-SKILL_GROUP", "O", "B-SKILL_GROUP"],
+      ["O", "B-SALARY", "O", "I-SALARY", "O", "O", "O"],
+      ["O", "O", "B-LOCATION", "O", "I-LOCATION", "I-LOCATION"],
+      ["O", "O", "B-SKILL", "O", "B-SKILL", "O", "O", "O", "O"],
+      ["O", "O", "B-BENEFIT", "O", "B-BENEFIT", "O", "B-BENEFIT", "I-BENEFIT", "I-BENEFIT"],
+      ["O", "O", "B-DEADLINE", "O", "O", "O", "O"],
+      ["O", "O", "O", "B-CERTIFICATE", "I-CERTIFICATE", "O", "O", "O"],
+      ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+    ]
+  },
+  {
+    "task_id": "train_noisy_hr_cmc_khong_dau",
+    "tokenized": [
+      [["CMC", 0, 3], ["Global", 4, 10], ["tuyen", 11, 16], ["HR", 17, 19], ["Recruiter", 20, 29]],
+      [["Yeu", 0, 3], ["cau", 4, 7], ["2", 8, 9], ["nam", 10, 13], ["kinh", 14, 18], ["nghiem", 19, 25], ["tuyen", 26, 31], ["dung", 32, 36]],
+      [["Luong", 0, 5], ["12-18tr", 6, 13], [",", 13, 14], ["dong", 15, 19], ["BHXH", 20, 24], ["day", 25, 28], ["du", 29, 31]],
+      [["Lam", 0, 3], ["viec", 4, 8], ["tai", 9, 12], ["Ha", 13, 15], ["Noi", 16, 19], [",", 19, 20], ["quan", 21, 25], ["Cau", 26, 29], ["Giay", 30, 34]],
+      [["Team", 0, 4], ["building", 5, 13], [",", 13, 14], ["du", 15, 17], ["lich", 18, 22], ["1", 23, 24], ["nam", 25, 28], ["1", 29, 30], ["lan", 31, 34]],
+      [["Han", 0, 3], ["nop", 4, 7], [":", 7, 8], ["15/11/2024", 9, 19], [",", 19, 20], ["ai", 21, 23], ["quan", 24, 28], ["tam", 29, 32], ["ib", 33, 35], ["minh", 36, 40]],
+      [["Yeu", 0, 3], ["cau", 4, 7], ["them", 8, 12], [":", 12, 13], ["co", 14, 16], ["laptop", 17, 23], [",", 23, 24], ["chi", 25, 28], ["tiet", 29, 33], ["khi", 34, 37], ["phong", 38, 43], ["van", 44, 47]]
+    ],
+    "bio": [
+      ["B-COMPANY", "I-COMPANY", "O", "B-POSITION", "I-POSITION"],
+      ["O", "O", "B-EXPERIENCE", "I-EXPERIENCE", "O", "O", "O", "O"],
+      ["O", "B-SALARY", "O", "O", "B-BENEFIT", "O", "O"],
+      ["O", "O", "O", "B-LOCATION", "I-LOCATION", "O", "I-LOCATION", "I-LOCATION", "I-LOCATION"],
+      ["B-BENEFIT", "I-BENEFIT", "O", "B-BENEFIT", "I-BENEFIT", "I-BENEFIT", "I-BENEFIT", "I-BENEFIT", "I-BENEFIT"],
+      ["O", "O", "O", "B-DEADLINE", "O", "O", "O", "O", "O", "O"],
+      ["O", "O", "O", "O", "O", "B-BENEFIT", "O", "O", "O", "O", "O", "O"]
+    ]
+  },
+  {
+    "task_id": "train_noisy_netadmin_viettel_teencode",
+    "tokenized": [
+      [["Viettel", 0, 7], ["tuyen", 8, 13], ["SysAdmin", 14, 22], ["/", 22, 23], ["Network", 23, 30], ["Admin", 31, 36], ["gap", 37, 40]],
+      [["Yeu", 0, 3], ["cau", 4, 7], ["2", 8, 9], ["nam", 10, 13], ["kn", 14, 16], ["quan", 17, 21], ["tri", 22, 25], ["he", 26, 28], ["thong", 29, 34], ["Linux", 35, 40]],
+      [["Biet", 0, 4], ["TCP", 5, 8], ["/", 8, 9], ["IP", 9, 11], [",", 11, 12], ["Firewall", 13, 21], [",", 21, 22], ["Cisco", 23, 28], ["la", 29, 31], ["ok", 32, 34]],
+      [["Luong", 0, 5], ["18-25tr", 6, 13], [",", 13, 14], ["thuong", 15, 21], ["thang", 22, 27], ["13", 28, 30]],
+      [["Dia", 0, 3], ["diem", 4, 8], [":", 8, 9], ["Ha", 10, 12], ["Noi", 13, 16], [",", 16, 17], ["Hoang", 18, 23], ["Mai", 24, 27]],
+      [["Dong", 0, 4], ["BHXH", 5, 9], [",", 9, 10], ["BHYT", 11, 15], [",", 15, 16], ["12", 17, 19], ["ngay", 20, 24], ["phep", 25, 29]],
+      [["Han", 0, 3], ["chot", 4, 8], ["nop", 9, 12], [":", 12, 13], ["20/10/2024", 14, 24], [",", 24, 25], ["nhanh", 26, 31], ["tay", 32, 35], ["nhe", 36, 39]],
+      [["Ai", 0, 2], ["co", 3, 5], ["CCNA", 6, 10], ["thi", 11, 14], ["inbox", 15, 20], ["minh", 21, 25], [",", 25, 26], ["co", 27, 29], ["hoi", 30, 33], ["ngon", 34, 38]]
+    ],
+    "bio": [
+      ["B-COMPANY", "O", "B-POSITION", "O", "B-POSITION", "I-POSITION", "O"],
+      ["O", "O", "B-EXPERIENCE", "I-EXPERIENCE", "O", "O", "O", "O", "O", "B-SKILL"],
+      ["O", "B-SKILL", "O", "B-SKILL", "O", "B-SKILL", "O", "B-SKILL", "O", "O"],
+      ["O", "B-SALARY", "O", "B-BENEFIT", "I-BENEFIT", "I-BENEFIT"],
+      ["O", "O", "O", "B-LOCATION", "I-LOCATION", "O", "I-LOCATION", "I-LOCATION"],
+      ["O", "B-BENEFIT", "O", "B-BENEFIT", "O", "B-BENEFIT", "I-BENEFIT", "I-BENEFIT"],
+      ["O", "O", "O", "O", "B-DEADLINE", "O", "O", "O", "O"],
+      ["O", "O", "B-CERTIFICATE", "O", "O", "O", "O", "O", "O", "O"]
+    ]
+  },
+
+  {
+    "task_id": "train_006_vcb_data_analyst",
+    "tokenized": [
+      [["Công", 0, 4], ["ty", 5, 7], ["Vietcombank", 8, 19], ["tuyển", 20, 25], ["Data", 26, 30], ["Analyst", 31, 38], [".", 38, 39]],
+      [["Địa", 0, 3], ["điểm", 4, 8], ["làm", 9, 12], ["việc", 13, 17], [":", 17, 18], ["Hà", 19, 21], ["Nội", 22, 25], [".", 25, 26]],
+      [["Mức", 0, 3], ["lương", 4, 9], [":", 9, 10], ["20-30", 11, 16], ["triệu", 17, 22], ["VND", 23, 26], [".", 26, 27]],
+      [["Yêu", 0, 3], ["cầu", 4, 7], ["2", 8, 9], ["năm", 10, 13], ["kinh", 14, 18], ["nghiệm", 19, 26], ["ngành", 27, 32], ["tài", 33, 36], ["chính", 37, 42], [".", 42, 43]],
+      [["Bằng", 0, 4], ["Đại", 5, 8], ["học", 9, 12], ["chuyên", 13, 19], ["ngành", 20, 25], ["Khoa", 26, 30], ["học", 31, 34], ["dữ", 35, 37], ["liệu", 38, 42], [".", 42, 43]],
+      [["Kỹ", 0, 2], ["năng", 3, 7], [":", 7, 8], ["SQL", 9, 12], [",", 12, 13], ["Python", 14, 20], [",", 20, 21], ["Power", 22, 27], ["BI", 28, 30], [",", 30, 31], ["Tableau", 32, 39], [".", 39, 40]],
+      [["Chứng", 0, 5], ["chỉ", 6, 9], [":", 9, 10], ["Google", 11, 17], ["Data", 18, 22], ["Analytics", 23, 32], [".", 32, 33]],
+      [["Quyền", 0, 5], ["lợi", 6, 9], [":", 9, 10], ["Thưởng", 11, 17], ["tháng", 18, 23], ["13", 24, 26], [",", 26, 27], ["bảo", 28, 31], ["hiểm", 32, 36], ["sức", 37, 40], ["khỏe", 41, 45], [".", 45, 46]],
+      [["Hạn", 0, 3], ["chót", 4, 8], [":", 8, 9], ["30/12/2024", 10, 20], [".", 20, 21]]
+    ],
+    "bio": [
+      ["O", "O", "B-COMPANY", "O", "B-POSITION", "I-POSITION", "O"],
+      ["O", "O", "O", "O", "O", "B-LOCATION", "I-LOCATION", "O"],
+      ["O", "O", "O", "B-SALARY", "I-SALARY", "I-SALARY", "O"],
+      ["O", "O", "B-EXPERIENCE", "I-EXPERIENCE", "O", "O", "O", "B-EXPERIENCE", "I-EXPERIENCE", "O"],
+      ["O", "B-DEGREE", "I-DEGREE", "O", "O", "B-DEGREE", "I-DEGREE", "I-DEGREE", "I-DEGREE", "O"],
+      ["O", "O", "O", "B-SKILL_GROUP", "O", "B-SKILL", "O", "B-SKILL", "I-SKILL", "O", "B-SKILL", "O"],
+      ["O", "O", "O", "B-CERTIFICATE", "I-CERTIFICATE", "I-CERTIFICATE", "O"],
+      ["O", "O", "O", "B-BENEFIT", "I-BENEFIT", "I-BENEFIT", "O", "B-BENEFIT", "I-BENEFIT", "I-BENEFIT", "I-BENEFIT", "O"],
+      ["O", "O", "O", "B-DEADLINE", "O"]
+    ]
+  },
+  {
+    "task_id": "train_007_vng_game_dev",
+    "tokenized": [
+      [["VNG", 0, 3], ["tuyển", 4, 9], ["Game", 10, 14], ["Developer", 15, 24], [".", 24, 25]],
+      [["Nơi", 0, 3], ["làm", 4, 7], ["việc", 8, 12], [":", 12, 13], ["TP.HCM", 14, 20], [".", 20, 21]],
+      [["Thu", 0, 3], ["nhập", 4, 8], [":", 8, 9], ["1500", 10, 14], ["-", 15, 16], ["2500", 17, 21], ["USD", 22, 25], [".", 25, 26]],
+      [["Yêu", 0, 3], ["cầu", 4, 7], ["3", 8, 9], ["năm", 10, 13], ["kinh", 14, 18], ["nghiệm", 19, 26], ["làm", 27, 30], ["Game", 31, 35], [".", 35, 36]],
+      [["Học", 0, 3], ["vấn", 4, 8], [":", 8, 9], ["Cao", 10, 13], ["đẳng", 14, 18], ["CNTT", 19, 23], [".", 23, 24]],
+      [["Kỹ", 0, 2], ["năng", 3, 7], [":", 7, 8], ["C++", 9, 12], [",", 12, 13], ["C#", 14, 16], [",", 16, 17], ["Unity", 18, 23], [",", 23, 24], ["Unreal", 25, 31], ["Engine", 32, 38], [".", 38, 39]],
+      [["Chứng", 0, 5], ["chỉ", 6, 9], [":", 9, 10], ["IELTS", 11, 16], ["6.5", 17, 20], [".", 20, 21]],
+      [["Phúc", 0, 4], ["lợi", 5, 8], [":", 8, 9], ["Laptop", 10, 16], [",", 16, 17], ["du", 18, 20], ["lịch", 21, 25], ["công", 26, 30], ["ty", 31, 33], [".", 33, 34]],
+      [["Hạn", 0, 3], ["nộp", 4, 7], [":", 7, 8], ["15/11/2024", 9, 19], [".", 19, 20]]
+    ],
+    "bio": [
+      ["B-COMPANY", "O", "B-POSITION", "I-POSITION", "O"],
+      ["O", "O", "O", "O", "B-LOCATION", "O"],
+      ["O", "O", "O", "B-SALARY", "I-SALARY", "I-SALARY", "I-SALARY", "O"],
+      ["O", "O", "B-EXPERIENCE", "I-EXPERIENCE", "O", "O", "O", "B-SKILL_GROUP", "O"],
+      ["O", "O", "O", "B-DEGREE", "I-DEGREE", "B-DEGREE", "O"],
+      ["O", "O", "O", "B-SKILL", "O", "B-SKILL", "O", "B-SKILL", "O", "B-SKILL", "I-SKILL", "O"],
+      ["O", "O", "O", "B-CERTIFICATE", "I-CERTIFICATE", "O"],
+      ["O", "O", "O", "B-BENEFIT", "O", "B-BENEFIT", "I-BENEFIT", "I-BENEFIT", "I-BENEFIT", "O"],
+      ["O", "O", "O", "B-DEADLINE", "O"]
+    ]
+  },
+  {
+    "task_id": "train_008_shopee_qa",
+    "tokenized": [
+      [["Shopee", 0, 6], ["cần", 7, 10], ["tuyển", 11, 16], ["QA", 17, 19], ["Engineer", 20, 28], [".", 28, 29]],
+      [["Địa", 0, 3], ["chỉ", 4, 7], [":", 7, 8], ["Hồ", 9, 11], ["Chí", 12, 15], ["Minh", 16, 20], [".", 20, 21]],
+      [["Mức", 0, 3], ["lương", 4, 9], [":", 9, 10], ["Cạnh", 11, 15], ["tranh", 16, 21], [".", 21, 22]],
+      [["Kinh", 0, 4], ["nghiệm", 5, 12], [":", 12, 13], ["2", 14, 15], ["năm", 16, 19], ["làm", 20, 23], ["Manual", 24, 30], ["Test", 31, 35], [".", 35, 36]],
+      [["Bằng", 0, 4], ["cấp", 5, 8], [":", 8, 9], ["Đại", 10, 13], ["học", 14, 17], ["Khoa", 18, 22], ["học", 23, 26], ["máy", 27, 30], ["tính", 31, 35], [".", 35, 36]],
+      [["Kỹ", 0, 2], ["năng", 3, 7], [":", 7, 8], ["Jira", 9, 13], [",", 13, 14], ["TestRail", 15, 23], [",", 23, 24], ["Postman", 25, 32], [",", 32, 33], ["API", 34, 37], [".", 37, 38]],
+      [["Chứng", 0, 5], ["chỉ", 6, 9], [":", 9, 10], ["ISTQB", 11, 16], [".", 16, 17]],
+      [["Quyền", 0, 5], ["lợi", 6, 9], [":", 9, 10], ["Bảo", 11, 14], ["hiểm", 15, 19], ["xã", 20, 22], ["hội", 23, 26], [",", 26, 27], ["team", 28, 32], ["building", 33, 41], [".", 41, 42]],
+      [["Hạn", 0, 3], ["chót", 4, 8], [":", 8, 9], ["01/12/2024", 10, 20], [".", 20, 21]]
+    ],
+    "bio": [
+      ["B-COMPANY", "O", "O", "B-POSITION", "I-POSITION", "O"],
+      ["O", "O", "O", "B-LOCATION", "I-LOCATION", "I-LOCATION", "O"],
+      ["O", "O", "O", "B-SALARY", "I-SALARY", "O"],
+      ["O", "O", "O", "B-EXPERIENCE", "I-EXPERIENCE", "O", "O", "B-SKILL", "I-SKILL", "O"],
+      ["O", "O", "O", "B-DEGREE", "I-DEGREE", "O", "B-DEGREE", "I-DEGREE", "I-DEGREE", "I-DEGREE", "O"],
+      ["O", "O", "O", "B-SKILL", "O", "B-SKILL", "O", "B-SKILL", "O", "B-SKILL_GROUP", "O"],
+      ["O", "O", "O", "B-CERTIFICATE", "O"],
+      ["O", "O", "O", "B-BENEFIT", "I-BENEFIT", "I-BENEFIT", "I-BENEFIT", "O", "B-BENEFIT", "I-BENEFIT", "O"],
+      ["O", "O", "O", "B-DEADLINE", "O"]
+    ]
+  },
+  {
+    "task_id": "train_009_viettel_network",
+    "tokenized": [
+      [["Tập", 0, 3], ["đoàn", 4, 8], ["Viettel", 9, 16], ["tuyển", 17, 22], ["Network", 23, 30], ["Administrator", 31, 44], [".", 44, 45]],
+      [["Địa", 0, 3], ["điểm", 4, 8], [":", 8, 9], ["Hà", 10, 12], ["Nội", 13, 16], [".", 16, 17]],
+      [["Lương", 0, 5], [":", 5, 6], ["15-20", 7, 12], ["triệu", 13, 18], [".", 18, 19]],
+      [["Yêu", 0, 3], ["cầu", 4, 7], ["2", 8, 9], ["năm", 10, 13], ["kinh", 14, 18], ["nghiệm", 19, 26], ["quản", 27, 31], ["trị", 32, 34], ["mạng", 35, 39], [".", 39, 40]],
+      [["Bằng", 0, 4], ["Đại", 5, 8], ["học", 9, 12], ["Điện", 13, 17], ["tử", 18, 20], ["viễn", 21, 25], ["thông", 26, 31], [".", 31, 32]],
+      [["Kỹ", 0, 2], ["năng", 3, 7], [":", 7, 8], ["TCP", 9, 12], ["/", 12, 13], ["IP", 13, 15], [",", 15, 16], ["Cisco", 17, 22], [",", 22, 23], ["Linux", 24, 29], [",", 29, 30], ["Firewall", 31, 39], [".", 39, 40]],
+      [["Chứng", 0, 5], ["chỉ", 6, 9], [":", 9, 10], ["CCNA", 11, 15], [".", 15, 16]],
+      [["Phúc", 0, 4], ["lợi", 5, 8], [":", 8, 9], ["Xe", 10, 12], ["đưa", 13, 16], ["đón", 17, 20], [",", 20, 21], ["ăn", 22, 24], ["trưa", 25, 29], [".", 29, 30]],
+      [["Hạn", 0, 3], ["nộp", 4, 7], [":", 7, 8], ["20/10/2024", 9, 19], [".", 19, 20]]
+    ],
+    "bio": [
+      ["B-COMPANY", "I-COMPANY", "I-COMPANY", "O", "B-POSITION", "I-POSITION", "O"],
+      ["O", "O", "O", "B-LOCATION", "I-LOCATION", "O"],
+      ["O", "O", "B-SALARY", "I-SALARY", "O"],
+      ["O", "O", "B-EXPERIENCE", "I-EXPERIENCE", "O", "O", "B-SKILL_GROUP", "I-SKILL_GROUP", "O"],
+      ["O", "B-DEGREE", "I-DEGREE", "O", "B-DEGREE", "I-DEGREE", "I-DEGREE", "I-DEGREE", "O"],
+      ["O", "O", "O", "B-SKILL", "O", "B-SKILL", "O", "B-SKILL", "O", "B-SKILL", "O", "B-SKILL", "O"],
+      ["O", "O", "O", "B-CERTIFICATE", "O"],
+      ["O", "O", "O", "B-BENEFIT", "I-BENEFIT", "I-BENEFIT", "O", "B-BENEFIT", "I-BENEFIT", "O"],
+      ["O", "O", "O", "B-DEADLINE", "O"]
+    ]
+  },
+  {
+    "task_id": "train_010_fpt_hr",
+    "tokenized": [
+      [["FPT", 0, 3], ["Software", 4, 12], ["tuyển", 13, 18], ["HR", 19, 21], ["Executive", 22, 31], [".", 31, 32]],
+      [["Địa", 0, 3], ["chỉ", 4, 7], [":", 7, 8], ["Đà", 9, 11], ["Nẵng", 12, 16], [".", 16, 17]],
+      [["Thu", 0, 3], ["nhập", 4, 8], [":", 8, 9], ["12", 10, 12], ["-", 13, 14], ["18", 15, 17], ["triệu", 18, 23], ["VND", 24, 27], [".", 27, 28]],
+      [["Kinh", 0, 4], ["nghiệm", 5, 12], [":", 12, 13], ["1", 14, 15], ["năm", 16, 19], [".", 19, 20]],
+      [["Học", 0, 3], ["vấn", 4, 8], [":", 8, 9], ["Đại", 10, 13], ["học", 14, 17], ["Quản", 18, 22], ["trị", 23, 25], ["nhân", 26, 30], ["lực", 31, 34], [".", 34, 35]],
+      [["Kỹ", 0, 2], ["năng", 3, 7], [":", 7, 8], ["Recruitment", 9, 20], [",", 20, 21], ["Communication", 22, 35], [",", 35, 36], ["Excel", 37, 42], [".", 42, 43]],
+      [["Chứng", 0, 5], ["chỉ", 6, 9], [":", 9, 10], ["TOEIC", 11, 16], ["700", 17, 20], [".", 20, 21]],
+      [["Quyền", 0, 5], ["lợi", 6, 9], [":", 9, 10], ["Bảo", 11, 14], ["hiểm", 15, 19], ["y", 20, 21], ["tế", 22, 24], [",", 24, 25], ["12", 26, 28], ["ngày", 29, 33], ["phép", 34, 38], [".", 38, 39]],
+      [["Hạn", 0, 3], ["chót", 4, 8], [":", 8, 9], ["10/11/2024", 10, 20], [".", 20, 21]]
+    ],
+    "bio": [
+      ["B-COMPANY", "I-COMPANY", "O", "B-POSITION", "I-POSITION", "O"],
+      ["O", "O", "O", "B-LOCATION", "I-LOCATION", "O"],
+      ["O", "O", "O", "B-SALARY", "I-SALARY", "I-SALARY", "I-SALARY", "I-SALARY", "O"],
+      ["O", "O", "O", "B-EXPERIENCE", "I-EXPERIENCE", "O"],
+      ["O", "O", "O", "B-DEGREE", "I-DEGREE", "O", "B-DEGREE", "I-DEGREE", "I-DEGREE", "I-DEGREE", "O"],
+      ["O", "O", "O", "O", "O", "O", "O", "B-SKILL", "O"],
+      ["O", "O", "O", "B-CERTIFICATE", "I-CERTIFICATE", "O"],
+      ["O", "O", "O", "B-BENEFIT", "I-BENEFIT", "I-BENEFIT", "I-BENEFIT", "O", "B-BENEFIT", "I-BENEFIT", "I-BENEFIT", "O"],
+      ["O", "O", "O", "B-DEADLINE", "O"]
+    ]
+  }
+
+]

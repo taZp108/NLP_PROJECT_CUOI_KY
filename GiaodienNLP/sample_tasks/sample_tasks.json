@@ -1,0 +1,1369 @@
+[
+
+{
+  "task_id": "task_11_ultra_dense_newline",
+  "text": "Tập đoàn Công nghệ FPT đang tìm kiếm vị trí Principal AI Engineer.\nĐịa điểm làm việc: Tòa nhà F-Town 3, Khu Công nghệ cao, Phường Hiệp Phú, TP. Thủ Đức, TP.HCM.\nMức lương: Cạnh tranh, thỏa thuận.\nYêu cầu ứng viên có 8+ năm kinh nghiệm trong mảng Tài chính, Ngân hàng.\nTốt nghiệp Thạc sĩ chuyên ngành Trí tuệ nhân tạo hoặc related fields. Có bằng Tiến sĩ là một lợi thế.\nChứng chỉ bắt buộc: TOEFL iBT 90, AWS Certified Machine Learning. Ưu tiên ứng viên có chứng chỉ PMP.\nKỹ năng cần thiết:\n- Thành thạo lĩnh vực AI, ML, DL, NLP, CV.\n- Sử dụng Python, Go, TensorFlow, PyTorch, Scikit-learn, OpenCV.\n- Kinh nghiệm với cloud services (AWS, GCP) và Docker, Kubernetes.\n- Làm việc với cơ sở dữ liệu SQL, NoSQL (MongoDB, PostgreSQL).\n- Hiểu biết về Deep Learning, CNN, RNN, Transformer, BERT, GPT.\n- Nắm vững OOP, MVC, Microservices, Clean Code.\nQuyền lợi:\n- Thưởng tháng 13 và BHXH, BHYT đầy đủ.\n- 15 ngày phép năm.\n- Trang bị Laptop Macbook Pro.\n- Tham gia Team building hàng năm.\n- Có phòng Gym, Yoga tại công ty.\n- Hỗ trợ làm việc hybrid (2 ngày/tuần).\nHạn chót nộp hồ sơ: Ngày 28/02/2025.\nFPT là tập đoàn công nghệ hàng đầu, mang đến môi trường làm việc chuyên nghiệp, cơ hội thăng tiến rộng mở. Chúng tôi luôn tìm kiếm những tài năng xuất sắc nhất để cùng nhau kiến tạo tương lai số. Nếu bạn đam mê trí tuệ nhân tạo, mong muốn giải quyết những bài toán lớn của ngành tài chính, hãy gia nhập cùng chúng tôi. Chúng tôi cam kết mang lại trải nghiệm nhân viên tuyệt vời nhất, chế độ đãi ngộ cạnh tranh và văn hóa doanh nghiệp gắn kết.",
+  "spans": [
+    [19, 22, "COMPANY", "FPT"],
+    [45, 64, "POSITION", "Principal AI Engineer"],
+    [84, 157, "LOCATION", "Tòa nhà F-Town 3, Khu Công nghệ cao, Phường Hiệp Phú, TP. Thủ Đức, TP.HCM"],
+    [170, 192, "SALARY", "Cạnh tranh, thỏa thuận"],
+    [214, 220, "EXPERIENCE", "8+ năm"],
+    [244, 253, "EXPERIENCE", "Tài chính"],
+    [255, 264, "EXPERIENCE", "Ngân hàng"],
+    [277, 284, "DEGREE", "Thạc sĩ"],
+    [298, 313, "DEGREE", "Trí tuệ nhân tạo"],
+    [319, 333, "DEGREE", "related fields"],
+    [343, 350, "DEGREE", "Tiến sĩ"],
+    [387, 399, "CERTIFICATE", "TOEFL iBT 90"],
+    [401, 431, "CERTIFICATE", "AWS Certified Machine Learning"],
+    [462, 465, "CERTIFICATE", "PMP"],
+    [506, 508, "SKILL_GROUP", "AI"],
+    [510, 512, "SKILL_GROUP", "ML"],
+    [514, 516, "SKILL_GROUP", "DL"],
+    [518, 521, "SKILL_GROUP", "NLP"],
+    [523, 525, "SKILL_GROUP", "CV"],
+    [537, 543, "SKILL", "Python"],
+    [545, 547, "SKILL", "Go"],
+    [549, 559, "SKILL", "TensorFlow"],
+    [561, 568, "SKILL", "PyTorch"],
+    [570, 582, "SKILL", "Scikit-learn"],
+    [584, 590, "SKILL", "OpenCV"],
+    [610, 624, "SKILL_GROUP", "cloud services"],
+    [626, 629, "SKILL", "AWS"],
+    [631, 634, "SKILL", "GCP"],
+    [639, 645, "SKILL", "Docker"],
+    [647, 657, "SKILL", "Kubernetes"],
+    [687, 690, "SKILL_GROUP", "SQL"],
+    [692, 697, "SKILL_GROUP", "NoSQL"],
+    [699, 706, "SKILL", "MongoDB"],
+    [708, 718, "SKILL", "PostgreSQL"],
+    [736, 749, "SKILL_GROUP", "Deep Learning"],
+    [751, 754, "SKILL", "CNN"],
+    [756, 759, "SKILL", "RNN"],
+    [761, 772, "SKILL", "Transformer"],
+    [774, 778, "SKILL", "BERT"],
+    [780, 783, "SKILL", "GPT"],
+    [847, 861, "BENEFIT", "Thưởng tháng 13"],
+    [865, 869, "BENEFIT", "BHXH"],
+    [871, 875, "BENEFIT", "BHYT"],
+    [887, 903, "BENEFIT", "15 ngày phép năm"],
+    [916, 933, "BENEFIT", "Laptop Macbook Pro"],
+    [946, 968, "BENEFIT", "Team building hàng năm"],
+    [981, 984, "BENEFIT", "Gym"],
+    [986, 990, "BENEFIT", "Yoga"],
+    [1006, 1042, "BENEFIT", "Hỗ trợ làm việc hybrid (2 ngày/tuần)"],
+    [1064, 1078, "DEADLINE", "Ngày 28/02/2025"]
+  ],
+  "slot_filling": {
+    "company": { "raw": "FPT", "name": "FPT", "source": "ner" },
+    "position": { "raw": "Principal AI Engineer", "title": "Principal AI Engineer", "source": "ner" },
+    "locations": [
+      {
+        "raw": "Tòa nhà F-Town 3, Khu Công nghệ cao, Phường Hiệp Phú, TP. Thủ Đức, TP.HCM",
+        "city": "HCM",
+        "address": "Tòa nhà F-Town 3, Khu Công nghệ cao, Phường Hiệp Phú, TP. Thủ Đức, TP.HCM",
+        "source": "ner"
+      }
+    ],
+    "salary": { "raw": "Cạnh tranh, thỏa thuận", "type": "negotiable", "min": null, "max": null, "currency": null, "period": null },
+    "experience": [
+      {
+        "raw": "8+ năm kinh nghiệm trong mảng Tài chính, Ngân hàng",
+        "min_years": 8,
+        "max_years": null,
+        "domains": ["Tài chính", "Ngân hàng"],
+        "level": "required",
+        "related_ok": false
+      }
+    ],
+    "degree": [
+      {
+        "degree_raw": "Thạc sĩ",
+        "degree_level": "master",
+        "majors": ["it_software"],
+        "related_ok": true,
+        "level": "required"
+      },
+      {
+        "degree_raw": "Tiến sĩ",
+        "degree_level": "phd",
+        "majors": [],
+        "related_ok": false,
+        "level": "preferred"
+      }
+    ],
+    "certificates": [
+      {
+        "type": "language_english",
+        "detail": [{ "name": "TOEFL", "grade": "90" }],
+        "level": "required",
+        "related_ok": false
+      },
+      {
+        "type": "tech_cloud",
+        "detail": [{ "name": "AWS Certified Machine Learning", "grade": null }],
+        "level": "required",
+        "related_ok": false
+      },
+      {
+        "type": "management_project",
+        "detail": [{ "name": "PMP", "grade": null }],
+        "level": "preferred",
+        "related_ok": false
+      }
+    ],
+    "skill_groups": [
+      {
+        "name": "AI",
+        "level": "required",
+        "source": "position",
+        "related_ok": false,
+        "skills": [
+          { "name": "AI", "raw": "AI", "level": "required", "source": "ner" },
+          { "name": "ML", "raw": "ML", "level": "required", "source": "ner" },
+          { "name": "DL", "raw": "DL", "level": "required", "source": "ner" },
+          { "name": "NLP", "raw": "NLP", "level": "required", "source": "ner" },
+          { "name": "CV", "raw": "CV", "level": "required", "source": "ner" }
+        ]
+      },
+      {
+        "name": "PROGRAMMING_LANGUAGE",
+        "level": "required",
+        "source": "kb",
+        "related_ok": false,
+        "skills": [
+          { "name": "Python", "raw": "Python", "level": "required", "source": "ner" },
+          { "name": "Go", "raw": "Go", "level": "required", "source": "ner" }
+        ]
+      },
+      {
+        "name": "CLOUD",
+        "level": "required",
+        "source": "kb",
+        "related_ok": false,
+        "skills": [
+          { "name": "AWS", "raw": "AWS", "level": "required", "source": "ner" },
+          { "name": "GCP", "raw": "GCP", "level": "required", "source": "ner" }
+        ]
+      },
+      {
+        "name": "DEVOPS",
+        "level": "required",
+        "source": "kb",
+        "related_ok": false,
+        "skills": [
+          { "name": "Docker", "raw": "Docker", "level": "required", "source": "ner" },
+          { "name": "Kubernetes", "raw": "Kubernetes", "level": "required", "source": "ner" }
+        ]
+      },
+      {
+        "name": "DATABASE",
+        "level": "required",
+        "source": "kb",
+        "related_ok": false,
+        "skills": [
+          { "name": "SQL", "raw": "SQL", "level": "required", "source": "ner" },
+          { "name": "NoSQL", "raw": "NoSQL", "level": "required", "source": "ner" },
+          { "name": "MongoDB", "raw": "MongoDB", "level": "required", "source": "ner" },
+          { "name": "PostgreSQL", "raw": "PostgreSQL", "level": "required", "source": "ner" }
+        ]
+      },
+      {
+        "name": "DL",
+        "level": "required",
+        "source": "kb",
+        "related_ok": false,
+        "skills": [
+          { "name": "Deep Learning", "raw": "Deep Learning", "level": "required", "source": "ner" },
+          { "name": "CNN", "raw": "CNN", "level": "required", "source": "ner" },
+          { "name": "RNN", "raw": "RNN", "level": "required", "source": "ner" },
+          { "name": "Transformer", "raw": "Transformer", "level": "required", "source": "ner" },
+          { "name": "BERT", "raw": "BERT", "level": "required", "source": "ner" },
+          { "name": "GPT", "raw": "GPT", "level": "required", "source": "ner" }
+        ]
+      }
+    ],
+    "deadline": { "raw": "Ngày 28/02/2025", "type": "date", "date": "2025-02-28", "source": "ner" },
+    "benefits": [
+      { "raw": "Thưởng tháng 13", "category": "bonus" },
+      { "raw": "BHXH", "category": "insurance" },
+      { "raw": "BHYT", "category": "insurance" },
+      { "raw": "15 ngày phép năm", "category": "leave" },
+      { "raw": "Laptop Macbook Pro", "category": "equipment" },
+      { "raw": "Team building hàng năm", "category": "travel_culture" },
+      { "raw": "Gym", "category": "health_wellness" },
+      { "raw": "Yoga", "category": "health_wellness" },
+      { "raw": "Hỗ trợ làm việc hybrid (2 ngày/tuần)", "category": "flexibility" }
+    ]
+  }
+},
+
+
+{
+  "task_id": "task_16_data_science",
+  "text": "Công ty Cổ phần Tiki đang tuyển dụng Senior Data Scientist.\nĐịa điểm: Tòa nhà Viettel, 285 Cách Mạng Tháng 8, Quận 10, TP.HCM.\nMức lương: 40 - 60 triệu VND.\nYêu cầu: 3-5 năm kinh nghiệm trong lĩnh vực Thương mại điện tử.\nTốt nghiệp Thạc sĩ chuyên ngành Khoa học dữ liệu.\nChứng chỉ: AWS Certified Data Analytics.\nKỹ năng: Thành thạo Python, R, SQL, NoSQL. Sử dụng TensorFlow, PyTorch, Pandas, Scikit-learn.\nQuyền lợi: Thưởng tháng 13, ESOP. Bảo hiểm sức khỏe PVI. 15 ngày phép năm. Laptop Macbook Pro. Du lịch công ty hàng năm.\nHạn chót: 31/12/2024.",
+  "spans": [
+    [14, 18, "COMPANY", "Tiki"],
+    [33, 53, "POSITION", "Senior Data Scientist"],
+    [66, 121, "LOCATION", "Tòa nhà Viettel, 285 Cách Mạng Tháng 8, Quận 10, TP.HCM"],
+    [135, 154, "SALARY", "40 - 60 triệu VND"],
+    [164, 169, "EXPERIENCE", "3-5 năm"],
+    [193, 212, "EXPERIENCE", "Thương mại điện tử"],
+    [226, 233, "DEGREE", "Thạc sĩ"],
+    [247, 262, "DEGREE", "Khoa học dữ liệu"],
+    [277, 308, "CERTIFICATE", "AWS Certified Data Analytics"],
+    [335, 341, "SKILL", "Python"],
+    [343, 344, "SKILL", "R"],
+    [346, 349, "SKILL_GROUP", "SQL"],
+    [351, 356, "SKILL_GROUP", "NoSQL"],
+    [368, 378, "SKILL", "TensorFlow"],
+    [380, 387, "SKILL", "PyTorch"],
+    [389, 395, "SKILL", "Pandas"],
+    [397, 409, "SKILL", "Scikit-learn"],
+    [426, 440, "BENEFIT", "Thưởng tháng 13"],
+    [442, 446, "BENEFIT", "ESOP"],
+    [448, 469, "BENEFIT", "Bảo hiểm sức khỏe PVI"],
+    [471, 487, "BENEFIT", "15 ngày phép năm"],
+    [489, 506, "BENEFIT", "Laptop Macbook Pro"],
+    [508, 532, "BENEFIT", "Du lịch công ty hàng năm"],
+    [546, 556, "DEADLINE", "31/12/2024"]
+  ],
+  "slot_filling": {
+    "company": { "raw": "Tiki", "name": "Tiki", "source": "ner" },
+    "position": { "raw": "Senior Data Scientist", "title": "Senior Data Scientist", "source": "ner" },
+    "locations": [{ "raw": "Tòa nhà Viettel, 285 Cách Mạng Tháng 8, Quận 10, TP.HCM", "city": "HCM", "address": "Tòa nhà Viettel, 285 Cách Mạng Tháng 8, Quận 10, TP.HCM", "source": "ner" }],
+    "salary": { "raw": "40 - 60 triệu VND", "type": "range", "min": 40000000, "max": 60000000, "currency": "VND", "period": "month" },
+    "experience": [{ "raw": "3-5 năm kinh nghiệm trong lĩnh vực Thương mại điện tử", "min_years": 3, "max_years": 5, "domains": ["Thương mại điện tử"], "level": "required", "related_ok": false }],
+    "degree": [{ "degree_raw": "Thạc sĩ", "degree_level": "master", "majors": ["it_software"], "related_ok": false, "level": "required" }],
+    "certificates": [{ "type": "tech_cloud", "detail": [{ "name": "AWS Certified Data Analytics", "grade": null }], "level": "required", "related_ok": false }],
+    "skill_groups": [
+      { "name": "PROGRAMMING_LANGUAGE", "level": "required", "source": "kb", "related_ok": false, "skills": [{ "name": "Python", "raw": "Python", "level": "required", "source": "ner" }, { "name": "R", "raw": "R", "level": "required", "source": "ner" }] },
+      { "name": "DATABASE", "level": "required", "source": "kb", "related_ok": false, "skills": [{ "name": "SQL", "raw": "SQL", "level": "required", "source": "ner" }, { "name": "NoSQL", "raw": "NoSQL", "level": "required", "source": "ner" }] },
+      { "name": "AI", "level": "required", "source": "kb", "related_ok": false, "skills": [{ "name": "TensorFlow", "raw": "TensorFlow", "level": "required", "source": "ner" }, { "name": "PyTorch", "raw": "PyTorch", "level": "required", "source": "ner" }, { "name": "Pandas", "raw": "Pandas", "level": "required", "source": "ner" }, { "name": "Scikit-learn", "raw": "Scikit-learn", "level": "required", "source": "ner" }] }
+    ],
+    "deadline": { "raw": "31/12/2024", "type": "date", "date": "2024-12-31", "source": "ner" },
+    "benefits": [{ "raw": "Thưởng tháng 13", "category": "bonus" }, { "raw": "ESOP", "category": "bonus" }, { "raw": "Bảo hiểm sức khỏe PVI", "category": "insurance" }, { "raw": "15 ngày phép năm", "category": "leave" }, { "raw": "Laptop Macbook Pro", "category": "equipment" }, { "raw": "Du lịch công ty hàng năm", "category": "travel_culture" }]
+  }
+},
+
+
+{
+  "task_id": "task_17_ui_ux_design",
+  "text": "Tập đoàn Vingroup tuyển Senior UI/UX Designer.\nĐịa điểm: Tòa nhà Vingroup, Số 7 Bằng Lăng 1, Vinhomes Riverside, Long Biên, Hà Nội.\nMức lương: Thỏa thuận.\nYêu cầu: 4+ năm kinh nghiệm trong lĩnh vực Thiết kế.\nTốt nghiệp Đại học chuyên ngành Thiết kế đồ họa hoặc related fields.\nChứng chỉ: IELTS 6.5.\nKỹ năng: Thành thạo Figma, Sketch, Adobe XD. Biết Prototyping, Wireframing. Hiểu về UI, UX.\nQuyền lợi: Làm việc remote 2 ngày/tuần. Cà phê, đồ ăn nhẹ hàng ngày. Khám sức khỏe định kỳ. 14 ngày phép.\nHạn chót: 15/11/2024.",
+  "spans": [
+    [9, 17, "COMPANY", "Vingroup"],
+    [25, 47, "POSITION", "Senior UI/UX Designer"],
+    [60, 137, "LOCATION", "Tòa nhà Vingroup, Số 7 Bằng Lăng 1, Vinhomes Riverside, Long Biên, Hà Nội"],
+    [150, 159, "SALARY", "Thỏa thuận"],
+    [169, 173, "EXPERIENCE", "4+ năm"],
+    [197, 206, "EXPERIENCE", "Thiết kế"],
+    [220, 227, "DEGREE", "Đại học"],
+    [241, 259, "DEGREE", "Thiết kế đồ họa"],
+    [265, 279, "DEGREE", "related fields"],
+    [294, 304, "CERTIFICATE", "IELTS 6.5"],
+    [331, 336, "SKILL", "Figma"],
+    [338, 344, "SKILL", "Sketch"],
+    [346, 355, "SKILL", "Adobe XD"],
+    [361, 372, "SKILL", "Prototyping"],
+    [374, 384, "SKILL", "Wireframing"],
+    [398, 400, "SKILL_GROUP", "UI"],
+    [402, 404, "SKILL_GROUP", "UX"],
+    [423, 451, "BENEFIT", "Làm việc remote 2 ngày/tuần"],
+    [453, 481, "BENEFIT", "Cà phê, đồ ăn nhẹ hàng ngày"],
+    [483, 504, "BENEFIT", "Khám sức khỏe định kỳ"],
+    [506, 520, "BENEFIT", "14 ngày phép"],
+    [534, 544, "DEADLINE", "15/11/2024"]
+  ],
+  "slot_filling": {
+    "company": { "raw": "Vingroup", "name": "Vingroup", "source": "ner" },
+    "position": { "raw": "Senior UI/UX Designer", "title": "Senior UI/UX Designer", "source": "ner" },
+    "locations": [{ "raw": "Tòa nhà Vingroup, Số 7 Bằng Lăng 1, Vinhomes Riverside, Long Biên, Hà Nội", "city": "HN", "address": "Tòa nhà Vingroup, Số 7 Bằng Lăng 1, Vinhomes Riverside, Long Biên, Hà Nội", "source": "ner" }],
+    "salary": { "raw": "Thỏa thuận", "type": "negotiable", "min": null, "max": null, "currency": null, "period": null },
+    "experience": [{ "raw": "4+ năm kinh nghiệm trong lĩnh vực Thiết kế", "min_years": 4, "max_years": null, "domains": ["Thiết kế"], "level": "required", "related_ok": false }],
+    "degree": [{ "degree_raw": "Đại học", "degree_level": "bachelor", "majors": ["it_software"], "related_ok": true, "level": "required" }],
+    "certificates": [{ "type": "language_english", "detail": [{ "name": "IELTS", "grade": "6.5" }], "level": "required", "related_ok": false }],
+    "skill_groups": [
+      { "name": "UX", "level": "required", "source": "kb", "related_ok": false, "skills": [{ "name": "Figma", "raw": "Figma", "level": "required", "source": "ner" }, { "name": "Sketch", "raw": "Sketch", "level": "required", "source": "ner" }, { "name": "Adobe XD", "raw": "Adobe XD", "level": "required", "source": "ner" }, { "name": "Prototyping", "raw": "Prototyping", "level": "required", "source": "ner" }, { "name": "Wireframing", "raw": "Wireframing", "level": "required", "source": "ner" }, { "name": "UI", "raw": "UI", "level": "required", "source": "ner" }, { "name": "UX", "raw": "UX", "level": "required", "source": "ner" }] }
+    ],
+    "deadline": { "raw": "15/11/2024", "type": "date", "date": "2024-11-15", "source": "ner" },
+    "benefits": [{ "raw": "Làm việc remote 2 ngày/tuần", "category": "flexibility" }, { "raw": "Cà phê, đồ ăn nhẹ hàng ngày", "category": "allowance_meal" }, { "raw": "Khám sức khỏe định kỳ", "category": "health_wellness" }, { "raw": "14 ngày phép", "category": "leave" }]
+  }
+},
+
+{
+  "task_id": "task_18_cloud_architect",
+  "text": "Công ty TNHH AWS Vietnam tuyển Lead Cloud Architect.\nĐịa điểm: Tòa nhà CornerStone, 16 Phan Chu Trinh, Hoàn Kiếm, Hà Nội.\nMức lương: Up to 5000 USD.\nYêu cầu: 8+ years kinh nghiệm trong lĩnh vực Cloud computing, Fintech.\nTốt nghiệp Đại học chuyên ngành Công nghệ thông tin.\nChứng chỉ: AWS Certified Solutions Architect - Professional, CKA.\nKỹ năng: Sử dụng thành thạo AWS, Terraform, Kubernetes, Docker, Ansible, Jenkins. Hiểu biết về Prometheus, Grafana. Biết lập trình Go, Python. Quy trình CI/CD.\nQuyền lợi: Phụ cấp nhà ở. Hỗ trợ chứng chỉ. 20 ngày phép năm. Laptop. Du lịch công ty hàng năm.\nHạn chót: 30/06/2025.",
+  "spans": [
+    [14, 24, "COMPANY", "AWS Vietnam"],
+    [33, 51, "POSITION", "Lead Cloud Architect"],
+    [64, 117, "LOCATION", "Tòa nhà CornerStone, 16 Phan Chu Trinh, Hoàn Kiếm, Hà Nội"],
+    [131, 145, "SALARY", "Up to 5000 USD"],
+    [155, 163, "EXPERIENCE", "8+ years"],
+    [187, 202, "EXPERIENCE", "Cloud computing"],
+    [204, 211, "EXPERIENCE", "Fintech"],
+    [225, 232, "DEGREE", "Đại học"],
+    [246, 264, "DEGREE", "Công nghệ thông tin"],
+    [279, 327, "CERTIFICATE", "AWS Certified Solutions Architect - Professional"],
+    [329, 332, "CERTIFICATE", "CKA"],
+    [365, 368, "SKILL", "AWS"],
+    [370, 379, "SKILL", "Terraform"],
+    [381, 391, "SKILL", "Kubernetes"],
+    [393, 399, "SKILL", "Docker"],
+    [401, 408, "SKILL", "Ansible"],
+    [410, 417, "SKILL", "Jenkins"],
+    [436, 446, "SKILL", "Prometheus"],
+    [448, 455, "SKILL", "Grafana"],
+    [474, 476, "SKILL", "Go"],
+    [478, 484, "SKILL", "Python"],
+    [498, 500, "SKILL_GROUP", "CI"],
+    [501, 503, "SKILL_GROUP", "CD"],
+    [522, 537, "BENEFIT", "Phụ cấp nhà ở"],
+    [539, 555, "BENEFIT", "Hỗ trợ chứng chỉ"],
+    [557, 573, "BENEFIT", "20 ngày phép năm"],
+    [575, 581, "BENEFIT", "Laptop"],
+    [583, 607, "BENEFIT", "Du lịch công ty hàng năm"],
+    [621, 631, "DEADLINE", "30/06/2025"]
+  ],
+  "slot_filling": {
+    "company": { "raw": "AWS Vietnam", "name": "AWS Vietnam", "source": "ner" },
+    "position": { "raw": "Lead Cloud Architect", "title": "Lead Cloud Architect", "source": "ner" },
+    "locations": [{ "raw": "Tòa nhà CornerStone, 16 Phan Chu Trinh, Hoàn Kiếm, Hà Nội", "city": "HN", "address": "Tòa nhà CornerStone, 16 Phan Chu Trinh, Hoàn Kiếm, Hà Nội", "source": "ner" }],
+    "salary": { "raw": "Up to 5000 USD", "type": "range", "min": 0, "max": 5000, "currency": "USD", "period": "month" },
+    "experience": [{ "raw": "8+ years kinh nghiệm trong lĩnh vực Cloud computing, Fintech", "min_years": 8, "max_years": null, "domains": ["Cloud computing", "Fintech"], "level": "required", "related_ok": false }],
+    "degree": [{ "degree_raw": "Đại học", "degree_level": "bachelor", "majors": ["it_software"], "related_ok": false, "level": "required" }],
+    "certificates": [
+      { "type": "tech_cloud", "detail": [{ "name": "AWS Certified Solutions Architect - Professional", "grade": null }], "level": "required", "related_ok": false },
+      { "type": "tech_cloud", "detail": [{ "name": "CKA", "grade": null }], "level": "required", "related_ok": false }
+    ],
+    "skill_groups": [
+      { "name": "CLOUD", "level": "required", "source": "kb", "related_ok": false, "skills": [{ "name": "AWS", "raw": "AWS", "level": "required", "source": "ner" }] },
+      { "name": "DEVOPS", "level": "required", "source": "kb", "related_ok": false, "skills": [{ "name": "Terraform", "raw": "Terraform", "level": "required", "source": "ner" }, { "name": "Kubernetes", "raw": "Kubernetes", "level": "required", "source": "ner" }, { "name": "Docker", "raw": "Docker", "level": "required", "source": "ner" }, { "name": "Ansible", "raw": "Ansible", "level": "required", "source": "ner" }, { "name": "Jenkins", "raw": "Jenkins", "level": "required", "source": "ner" }, { "name": "CI", "raw": "CI", "level": "required", "source": "ner" }, { "name": "CD", "raw": "CD", "level": "required", "source": "ner" }] },
+      { "name": "MONITORING", "level": "required", "source": "kb", "related_ok": false, "skills": [{ "name": "Prometheus", "raw": "Prometheus", "level": "required", "source": "ner" }, { "name": "Grafana", "raw": "Grafana", "level": "required", "source": "ner" }] },
+      { "name": "PROGRAMMING_LANGUAGE", "level": "required", "source": "kb", "related_ok": false, "skills": [{ "name": "Go", "raw": "Go", "level": "required", "source": "ner" }, { "name": "Python", "raw": "Python", "level": "required", "source": "ner" }] }
+    ],
+    "deadline": { "raw": "30/06/2025", "type": "date", "date": "2025-06-30", "source": "ner" },
+    "benefits": [{ "raw": "Phụ cấp nhà ở", "category": "allowance_other" }, { "raw": "Hỗ trợ chứng chỉ", "category": "training" }, { "raw": "20 ngày phép năm", "category": "leave" }, { "raw": "Laptop", "category": "equipment" }, { "raw": "Du lịch công ty hàng năm", "category": "travel_culture" }]
+  }
+},
+
+{
+  "task_id": "task_19_blockchain_mobile",
+  "text": "Công ty Cổ phần Coin98 tuyển Senior React Native Developer.\nĐịa điểm: Tòa nhà Bitexco, Số 2 Hải Triều, Quận 1, TP.HCM.\nMức lương: 2000 - 3000 USD.\nYêu cầu: 5 năm kinh nghiệm trong lĩnh vực Blockchain, Crypto.\nTốt nghiệp Cao đẳng chuyên ngành CNTT.\nChứng chỉ: TOEIC 800.\nKỹ năng: Thành thạo React Native, TypeScript, Redux, Web3.js, RESTful API. Hiểu biết về OOP.\nQuyền lợi: Thưởng token (ESOP). Làm việc remote 100%. Phòng Gym, Yoga. Bảo hiểm sức khỏe toàn diện.\nHạn chót: 31/01/2025.",
+  "spans": [
+    [14, 19, "COMPANY", "Coin98"],
+    [27, 55, "POSITION", "Senior React Native Developer"],
+    [68, 111, "LOCATION", "Tòa nhà Bitexco, Số 2 Hải Triều, Quận 1, TP.HCM"],
+    [125, 141, "SALARY", "2000 - 3000 USD"],
+    [151, 156, "EXPERIENCE", "5 năm"],
+    [180, 190, "EXPERIENCE", "Blockchain"],
+    [192, 198, "EXPERIENCE", "Crypto"],
+    [212, 220, "DEGREE", "Cao đẳng"],
+    [234, 238, "DEGREE", "CNTT"],
+    [253, 262, "CERTIFICATE", "TOEIC 800"],
+    [285, 297, "SKILL", "React Native"],
+    [299, 309, "SKILL", "TypeScript"],
+    [311, 316, "SKILL", "Redux"],
+    [318, 325, "SKILL", "Web3.js"],
+    [327, 338, "SKILL", "RESTful API"],
+    [368, 387, "BENEFIT", "Thưởng token (ESOP)"],
+    [389, 410, "BENEFIT", "Làm việc remote 100%"],
+    [421, 424, "BENEFIT", "Gym"],
+    [426, 430, "BENEFIT", "Yoga"],
+    [432, 459, "BENEFIT", "Bảo hiểm sức khỏe toàn diện"],
+    [473, 483, "DEADLINE", "31/01/2025"]
+  ],
+  "slot_filling": {
+    "company": { "raw": "Coin98", "name": "Coin98", "source": "ner" },
+    "position": { "raw": "Senior React Native Developer", "title": "Senior React Native Developer", "source": "ner" },
+    "locations": [{ "raw": "Tòa nhà Bitexco, Số 2 Hải Triều, Quận 1, TP.HCM", "city": "HCM", "address": "Tòa nhà Bitexco, Số 2 Hải Triều, Quận 1, TP.HCM", "source": "ner" }],
+    "salary": { "raw": "2000 - 3000 USD", "type": "range", "min": 2000, "max": 3000, "currency": "USD", "period": "month" },
+    "experience": [{ "raw": "5 năm kinh nghiệm trong lĩnh vực Blockchain, Crypto", "min_years": 5, "max_years": 5, "domains": ["Blockchain", "Crypto"], "level": "required", "related_ok": false }],
+    "degree": [{ "degree_raw": "Cao đẳng", "degree_level": "college", "majors": ["it_software"], "related_ok": false, "level": "required" }],
+    "certificates": [{ "type": "language_english", "detail": [{ "name": "TOEIC", "grade": "800" }], "level": "required", "related_ok": false }],
+    "skill_groups": [
+      { "name": "MOBILE", "level": "required", "source": "kb", "related_ok": false, "skills": [{ "name": "React Native", "raw": "React Native", "level": "required", "source": "ner" }, { "name": "TypeScript", "raw": "TypeScript", "level": "required", "source": "ner" }, { "name": "Redux", "raw": "Redux", "level": "required", "source": "ner" }, { "name": "Web3.js", "raw": "Web3.js", "level": "required", "source": "ner" }, { "name": "RESTful API", "raw": "RESTful API", "level": "required", "source": "ner" }] }
+    ],
+    "deadline": { "raw": "31/01/2025", "type": "date", "date": "2025-01-31", "source": "ner" },
+    "benefits": [{ "raw": "Thưởng token (ESOP)", "category": "bonus" }, { "raw": "Làm việc remote 100%", "category": "flexibility" }, { "raw": "Gym", "category": "health_wellness" }, { "raw": "Yoga", "category": "health_wellness" }, { "raw": "Bảo hiểm sức khỏe toàn diện", "category": "insurance" }]
+  }
+},
+
+{
+  "task_id": "task_20_qa_automation",
+  "text": "Công ty TNHH Gameloft Vietnam tuyển QA Automation Engineer.\nĐịa điểm: Tòa nhà Capital Tower, 109 Trần Hưng Đạo, Hoàn Kiếm, Hà Nội.\nMức lương: 20 - 30 triệu VND.\nYêu cầu: 2-3 năm kinh nghiệm trong lĩnh vực Game development.\nTốt nghiệp Đại học chuyên ngành Kỹ thuật phần mềm.\nChứng chỉ: ISTQB.\nKỹ năng: Thành thạo Selenium, Cypress, Java, Python. Biết Postman. Quy trình Agile, Scrum, CI/CD.\nQuyền lợi: Thưởng tháng 13 và thưởng KPI. 12 ngày phép năm. Khám sức khỏe định kỳ. Team building hàng năm.\nHạn chót: 20/12/2024.",
+  "spans": [
+    [14, 30, "COMPANY", "Gameloft Vietnam"],
+    [39, 60, "POSITION", "QA Automation Engineer"],
+    [73, 126, "LOCATION", "Tòa nhà Capital Tower, 109 Trần Hưng Đạo, Hoàn Kiếm, Hà Nội"],
+    [140, 159, "SALARY", "20 - 30 triệu VND"],
+    [169, 174, "EXPERIENCE", "2-3 năm"],
+    [198, 213, "EXPERIENCE", "Game development"],
+    [227, 234, "DEGREE", "Đại học"],
+    [248, 269, "DEGREE", "Kỹ thuật phần mềm"],
+    [284, 289, "CERTIFICATE", "ISTQB"],
+    [311, 319, "SKILL", "Selenium"],
+    [321, 328, "SKILL", "Cypress"],
+    [330, 334, "SKILL", "Java"],
+    [336, 342, "SKILL", "Python"],
+    [349, 356, "SKILL", "Postman"],
+    [369, 374, "SKILL", "Agile"],
+    [376, 381, "SKILL", "Scrum"],
+    [383, 385, "SKILL_GROUP", "CI"],
+    [386, 388, "SKILL_GROUP", "CD"],
+    [407, 421, "BENEFIT", "Thưởng tháng 13"],
+    [425, 437, "BENEFIT", "thưởng KPI"],
+    [439, 455, "BENEFIT", "12 ngày phép năm"],
+    [457, 478, "BENEFIT", "Khám sức khỏe định kỳ"],
+    [480, 502, "BENEFIT", "Team building hàng năm"],
+    [516, 526, "DEADLINE", "20/12/2024"]
+  ],
+  "slot_filling": {
+    "company": { "raw": "Gameloft Vietnam", "name": "Gameloft Vietnam", "source": "ner" },
+    "position": { "raw": "QA Automation Engineer", "title": "QA Automation Engineer", "source": "ner" },
+    "locations": [{ "raw": "Tòa nhà Capital Tower, 109 Trần Hưng Đạo, Hoàn Kiếm, Hà Nội", "city": "HN", "address": "Tòa nhà Capital Tower, 109 Trần Hưng Đạo, Hoàn Kiếm, Hà Nội", "source": "ner" }],
+    "salary": { "raw": "20 - 30 triệu VND", "type": "range", "min": 20000000, "max": 30000000, "currency": "VND", "period": "month" },
+    "experience": [{ "raw": "2-3 năm kinh nghiệm trong lĩnh vực Game development", "min_years": 2, "max_years": 3, "domains": ["Game development"], "level": "required", "related_ok": false }],
+    "degree": [{ "degree_raw": "Đại học", "degree_level": "bachelor", "majors": ["it_software"], "related_ok": false, "level": "required" }],
+    "certificates": [{ "type": "management_quality", "detail": [{ "name": "ISTQB", "grade": null }], "level": "required", "related_ok": false }],
+    "skill_groups": [
+      { "name": "TESTING", "level": "required", "source": "kb", "related_ok": false, "skills": [{ "name": "Selenium", "raw": "Selenium", "level": "required", "source": "ner" }, { "name": "Cypress", "raw": "Cypress", "level": "required", "source": "ner" }, { "name": "Postman", "raw": "Postman", "level": "required", "source": "ner" }] },
+      { "name": "PROGRAMMING_LANGUAGE", "level": "required", "source": "kb", "related_ok": false, "skills": [{ "name": "Java", "raw": "Java", "level": "required", "source": "ner" }, { "name": "Python", "raw": "Python", "level": "required", "source": "ner" }] },
+      { "name": "METHODOLOGY", "level": "required", "source": "kb", "related_ok": false, "skills": [{ "name": "Agile", "raw": "Agile", "level": "required", "source": "ner" }, { "name": "Scrum", "raw": "Scrum", "level": "required", "source": "ner" }] },
+      { "name": "CI", "level": "required", "source": "kb", "related_ok": false, "skills": [{ "name": "CI", "raw": "CI", "level": "required", "source": "ner" }] },
+      { "name": "CD", "level": "required", "source": "kb", "related_ok": false, "skills": [{ "name": "CD", "raw": "CD", "level": "required", "source": "ner" }] }
+    ],
+    "deadline": { "raw": "20/12/2024", "type": "date", "date": "2024-12-20", "source": "ner" },
+    "benefits": [{ "raw": "Thưởng tháng 13", "category": "bonus" }, { "raw": "thưởng KPI", "category": "bonus" }, { "raw": "12 ngày phép năm", "category": "leave" }, { "raw": "Khám sức khỏe định kỳ", "category": "health_wellness" }, { "raw": "Team building hàng năm", "category": "travel_culture" }]
+  }
+},
+
+
+{
+  "task_id": "task_13_cybersecurity_blockchain",
+  "text": "Tập đoàn Công nghệ NextTech đang tìm kiếm Senior Security Engineer / Blockchain Developer.\nĐịa điểm làm việc: Tầng 15, Tòa nhà Bitexco, Số 2 Hải Triều, Quận 1, TP.HCM.\nMức lương: 2500 - 3500 USD/tháng.\nYêu cầu: 4+ năm kinh nghiệm trong lĩnh vực Fintech, Blockchain.\nTốt nghiệp Đại học chuyên ngành An toàn thông tin hoặc related fields. Có chứng chỉ CISSP, OSCP và TOEIC 800.\nKỹ năng: Sử dụng thành thạo Python, Go, Solidity. Biết về Smart Contract. Có kinh nghiệm với Penetration Testing, Vulnerability Assessment. Hiểu về OOP, Microservices.\nQuyền lợi: Thưởng cổ phiếu (ESOP). Bảo hiểm sức khỏe toàn diện. 14 ngày phép năm. Hỗ trợ phòng Gym, Yoga. Làm việc hybrid (3 ngày/tuần).\nHạn chót: 15/01/2026.\nNextTech là công ty công nghệ hàng đầu trong lĩnh vực Web3 và Blockchain tại Việt Nam. Chúng tôi mang đến môi trường làm việc đẳng cấp quốc tế, nơi bạn được thỏa mãn đam mê với những dự án triệu đô. Hãy gia nhập để cùng kiến tạo tương lai tài chính số.",
+  "spans": [
+    [19, 27, "COMPANY", "NextTech"],
+    [49, 93, "POSITION", "Senior Security Engineer / Blockchain Developer"],
+    [113, 166, "LOCATION", "Tầng 15, Tòa nhà Bitexco, Số 2 Hải Triều, Quận 1, TP.HCM"],
+    [179, 200, "SALARY", "2500 - 3500 USD/tháng"],
+    [210, 216, "EXPERIENCE", "4+ năm"],
+    [245, 252, "EXPERIENCE", "Fintech"],
+    [254, 264, "EXPERIENCE", "Blockchain"],
+    [277, 284, "DEGREE", "Đại học"],
+    [298, 315, "DEGREE", "An toàn thông tin"],
+    [322, 336, "DEGREE", "related fields"],
+    [351, 356, "CERTIFICATE", "CISSP"],
+    [358, 362, "CERTIFICATE", "OSCP"],
+    [367, 376, "CERTIFICATE", "TOEIC 800"],
+    [404, 410, "SKILL", "Python"],
+    [412, 414, "SKILL", "Go"],
+    [416, 424, "SKILL", "Solidity"],
+    [435, 449, "SKILL", "Smart Contract"],
+    [469, 488, "SKILL", "Penetration Testing"],
+    [490, 514, "SKILL", "Vulnerability Assessment"],
+    [551, 573, "BENEFIT", "Thưởng cổ phiếu (ESOP)"],
+    [575, 602, "BENEFIT", "Bảo hiểm sức khỏe toàn diện"],
+    [604, 620, "BENEFIT", "14 ngày phép năm"],
+    [634, 637, "BENEFIT", "Gym"],
+    [639, 643, "BENEFIT", "Yoga"],
+    [645, 675, "BENEFIT", "Làm việc hybrid (3 ngày/tuần)"],
+    [688, 698, "DEADLINE", "15/01/2026"]
+  ],
+  "slot_filling": {
+    "company": { "raw": "NextTech", "name": "NextTech", "source": "ner" },
+    "position": { "raw": "Senior Security Engineer / Blockchain Developer", "title": "Senior Security Engineer / Blockchain Developer", "source": "ner" },
+    "locations": [
+      {
+        "raw": "Tầng 15, Tòa nhà Bitexco, Số 2 Hải Triều, Quận 1, TP.HCM",
+        "city": "HCM",
+        "address": "Tầng 15, Tòa nhà Bitexco, Số 2 Hải Triều, Quận 1, TP.HCM",
+        "source": "ner"
+      }
+    ],
+    "salary": { "raw": "2500 - 3500 USD/tháng", "type": "range", "min": 2500, "max": 3500, "currency": "USD", "period": "month" },
+    "experience": [
+      {
+        "raw": "4+ năm kinh nghiệm trong lĩnh vực Fintech, Blockchain",
+        "min_years": 4,
+        "max_years": null,
+        "domains": ["Fintech", "Blockchain"],
+        "level": "required",
+        "related_ok": false
+      }
+    ],
+    "degree": [
+      {
+        "degree_raw": "Đại học",
+        "degree_level": "bachelor",
+        "majors": ["it_software"],
+        "related_ok": true,
+        "level": "required"
+      }
+    ],
+    "certificates": [
+      {
+        "type": "tech_security",
+        "detail": [{ "name": "CISSP", "grade": null }],
+        "level": "required",
+        "related_ok": false
+      },
+      {
+        "type": "tech_security",
+        "detail": [{ "name": "OSCP", "grade": null }],
+        "level": "required",
+        "related_ok": false
+      },
+      {
+        "type": "language_english",
+        "detail": [{ "name": "TOEIC", "grade": "800" }],
+        "level": "required",
+        "related_ok": false
+      }
+    ],
+    "skill_groups": [
+      {
+        "name": "PROGRAMMING_LANGUAGE",
+        "level": "required",
+        "source": "kb",
+        "related_ok": false,
+        "skills": [
+          { "name": "Python", "raw": "Python", "level": "required", "source": "ner" },
+          { "name": "Go", "raw": "Go", "level": "required", "source": "ner" },
+          { "name": "Solidity", "raw": "Solidity", "level": "required", "source": "ner" }
+        ]
+      },
+      {
+        "name": "BLOCKCHAIN",
+        "level": "required",
+        "source": "kb",
+        "related_ok": false,
+        "skills": [
+          { "name": "Smart Contract", "raw": "Smart Contract", "level": "required", "source": "ner" }
+        ]
+      },
+      {
+        "name": "SECURITY",
+        "level": "required",
+        "source": "kb",
+        "related_ok": false,
+        "skills": [
+          { "name": "Penetration Testing", "raw": "Penetration Testing", "level": "required", "source": "ner" },
+          { "name": "Vulnerability Assessment", "raw": "Vulnerability Assessment", "level": "required", "source": "ner" }
+        ]
+      }
+    ],
+    "deadline": { "raw": "15/01/2026", "type": "date", "date": "2026-01-15", "source": "ner" },
+    "benefits": [
+      { "raw": "Thưởng cổ phiếu (ESOP)", "category": "bonus" },
+      { "raw": "Bảo hiểm sức khỏe toàn diện", "category": "insurance" },
+      { "raw": "14 ngày phép năm", "category": "leave" },
+      { "raw": "Gym", "category": "health_wellness" },
+      { "raw": "Yoga", "category": "health_wellness" },
+      { "raw": "Làm việc hybrid (3 ngày/tuần)", "category": "flexibility" }
+    ]
+  }
+},
+
+{
+  "task_id": "task_14_game_development",
+  "text": "Công ty TNHH VNG Games đang tìm kiếm Senior Game Developer / Game Designer.\nĐịa điểm: Tòa nhà VNG Campus, Khu Công nghệ Phần mềm Quang Trung, Quận 12, TP.HCM.\nMức lương: Thỏa thuận.\nYêu cầu: 5 năm kinh nghiệm trong lĩnh vực Game development.\nTốt nghiệp Cao đẳng chuyên ngành Thiết kế game.\nChứng chỉ: Google Cloud Certified.\nKỹ năng: Thành thạo C++, C#, Unity, Unreal Engine. Kinh nghiệm làm việc nhóm. Hiểu biết về OOP, MVC.\nQuyền lợi: Bữa ăn nhẹ (Snack), Cà phê hàng ngày. Bảo hiểm tai nạn 24/7. Nghỉ mát hàng năm. Laptop Macbook Pro.\nHạn chót: 20/12/2025.\nVNG Games là studio phát triển game hàng đầu Việt Nam với nhiều tựa game đình đám. Chúng tôi tìm kiếm những con người tài năng, đam mê sáng tạo để cùng nhau xây dựng những thế giới ảo tuyệt vời. Môi trường làm việc trẻ trung, thoải mái, đề cao sự sáng tạo cá nhân.",
+  "spans": [
+    [14, 23, "COMPANY", "VNG Games"],
+    [38, 76, "POSITION", "Senior Game Developer / Game Designer"],
+    [88, 155, "LOCATION", "Tòa nhà VNG Campus, Khu Công nghệ Phần mềm Quang Trung, Quận 12, TP.HCM"],
+    [167, 176, "SALARY", "Thỏa thuận"],
+    [194, 199, "EXPERIENCE", "5 năm"],
+    [225, 240, "EXPERIENCE", "Game development"],
+    [253, 261, "DEGREE", "Cao đẳng"],
+    [275, 288, "DEGREE", "Thiết kế game"],
+    [302, 323, "CERTIFICATE", "Google Cloud Certified"],
+    [339, 342, "SKILL", "C++"],
+    [344, 346, "SKILL", "C#"],
+    [348, 353, "SKILL", "Unity"],
+    [355, 368, "SKILL", "Unreal Engine"],
+    [435, 453, "BENEFIT", "Bữa ăn nhẹ (Snack)"],
+    [455, 470, "BENEFIT", "Cà phê hàng ngày"],
+    [472, 491, "BENEFIT", "Bảo hiểm tai nạn 24/7"],
+    [493, 509, "BENEFIT", "Nghỉ mát hàng năm"],
+    [511, 528, "BENEFIT", "Laptop Macbook Pro"],
+    [541, 551, "DEADLINE", "20/12/2025"]
+  ],
+  "slot_filling": {
+    "company": { "raw": "VNG Games", "name": "VNG Games", "source": "ner" },
+    "position": { "raw": "Senior Game Developer / Game Designer", "title": "Senior Game Developer / Game Designer", "source": "ner" },
+    "locations": [
+      {
+        "raw": "Tòa nhà VNG Campus, Khu Công nghệ Phần mềm Quang Trung, Quận 12, TP.HCM",
+        "city": "HCM",
+        "address": "Tòa nhà VNG Campus, Khu Công nghệ Phần mềm Quang Trung, Quận 12, TP.HCM",
+        "source": "ner"
+      }
+    ],
+    "salary": { "raw": "Thỏa thuận", "type": "negotiable", "min": null, "max": null, "currency": null, "period": null },
+    "experience": [
+      {
+        "raw": "5 năm kinh nghiệm trong lĩnh vực Game development",
+        "min_years": 5,
+        "max_years": 5,
+        "domains": ["Game development"],
+        "level": "required",
+        "related_ok": false
+      }
+    ],
+    "degree": [
+      {
+        "degree_raw": "Cao đẳng",
+        "degree_level": "college",
+        "majors": ["it_software"],
+        "related_ok": false,
+        "level": "required"
+      }
+    ],
+    "certificates": [
+      {
+        "type": "tech_cloud",
+        "detail": [{ "name": "Google Cloud Certified", "grade": null }],
+        "level": "required",
+        "related_ok": false
+      }
+    ],
+    "skill_groups": [
+      {
+        "name": "GAME_DEV",
+        "level": "required",
+        "source": "position",
+        "related_ok": false,
+        "skills": [
+          { "name": "C++", "raw": "C++", "level": "required", "source": "ner" },
+          { "name": "C#", "raw": "C#", "level": "required", "source": "ner" },
+          { "name": "Unity", "raw": "Unity", "level": "required", "source": "ner" },
+          { "name": "Unreal Engine", "raw": "Unreal Engine", "level": "required", "source": "ner" }
+        ]
+      }
+    ],
+    "deadline": { "raw": "20/12/2025", "type": "date", "date": "2025-12-20", "source": "ner" },
+    "benefits": [
+      { "raw": "Bữa ăn nhẹ (Snack)", "category": "allowance_meal" },
+      { "raw": "Cà phê hàng ngày", "category": "allowance_meal" },
+      { "raw": "Bảo hiểm tai nạn 24/7", "category": "insurance" },
+      { "raw": "Nghỉ mát hàng năm", "category": "travel_culture" },
+      { "raw": "Laptop Macbook Pro", "category": "equipment" }
+    ]
+  }
+},
+
+{
+  "task_id": "task_15_embedded_iot",
+  "text": "Tập đoàn Công nghiệp - Viễn thông Quân đội Viettel đang tuyển Embedded Software Engineer.\nĐịa điểm làm việc: Tòa nhà Viettel, 285 Cách Mạng Tháng 8, Quận 10, TP.HCM.\nMức lương: Up to 2000 USD.\nYêu cầu: 3+ years kinh nghiệm trong lĩnh vực Viễn thông, IoT.\nTốt nghiệp Đại học chuyên ngành Kỹ thuật điện tử.\nChứng chỉ: JLPT N2.\nKỹ năng: Lập trình C, Assembly. Làm việc với Linux, Firmware, TCP/IP. Hiểu biết về OOP, data structures.\nQuyền lợi: Xe đưa đón (Shuttle bus). Phụ cấp điện thoại. Khám sức khỏe định kỳ. Team building hàng năm.\nHạn chót: 30/06/2026.\nViettel là tập đoàn viễn thông và công nghệ lớn nhất Việt Nam, không ngừng tiên phong trong các lĩnh vực mới như IoT, 5G, và trí tuệ nhân tạo. Chúng tôi mang đến một môi trường làm việc ổn định, chuyên nghiệp, đề cao kỷ luật và tinh thần cống hiến. Gia nhập Viettel, bạn sẽ được tham gia vào những dự án tầm cỡ quốc gia, góp phần xây dựng hạ tầng số vững mạnh.",
+  "spans": [
+    [55, 62, "COMPANY", "Viettel"],
+    [74, 99, "POSITION", "Embedded Software Engineer"],
+    [111, 165, "LOCATION", "Tòa nhà Viettel, 285 Cách Mạng Tháng 8, Quận 10, TP.HCM"],
+    [177, 191, "SALARY", "Up to 2000 USD"],
+    [209, 217, "EXPERIENCE", "3+ years"],
+    [243, 253, "EXPERIENCE", "Viễn thông"],
+    [255, 258, "EXPERIENCE", "IoT"],
+    [274, 281, "DEGREE", "Đại học"],
+    [295, 311, "DEGREE", "Kỹ thuật điện tử"],
+    [325, 332, "CERTIFICATE", "JLPT N2"],
+    [348, 349, "SKILL", "C"],
+    [351, 359, "SKILL", "Assembly"],
+    [375, 380, "SKILL", "Linux"],
+    [382, 390, "SKILL", "Firmware"],
+    [392, 398, "SKILL", "TCP/IP"],
+    [450, 473, "BENEFIT", "Xe đưa đón (Shuttle bus)"],
+    [475, 493, "BENEFIT", "Phụ cấp điện thoại"],
+    [495, 516, "BENEFIT", "Khám sức khỏe định kỳ"],
+    [518, 540, "BENEFIT", "Team building hàng năm"],
+    [553, 563, "DEADLINE", "30/06/2026"]
+  ],
+  "slot_filling": {
+    "company": { "raw": "Viettel", "name": "Viettel", "source": "ner" },
+    "position": { "raw": "Embedded Software Engineer", "title": "Embedded Software Engineer", "source": "ner" },
+    "locations": [
+      {
+        "raw": "Tòa nhà Viettel, 285 Cách Mạng Tháng 8, Quận 10, TP.HCM",
+        "city": "HCM",
+        "address": "Tòa nhà Viettel, 285 Cách Mạng Tháng 8, Quận 10, TP.HCM",
+        "source": "ner"
+      }
+    ],
+    "salary": { "raw": "Up to 2000 USD", "type": "range", "min": 0, "max": 2000, "currency": "USD", "period": "month" },
+    "experience": [
+      {
+        "raw": "3+ years kinh nghiệm trong lĩnh vực Viễn thông, IoT",
+        "min_years": 3,
+        "max_years": null,
+        "domains": ["Viễn thông", "IoT"],
+        "level": "required",
+        "related_ok": false
+      }
+    ],
+    "degree": [
+      {
+        "degree_raw": "Đại học",
+        "degree_level": "bachelor",
+        "majors": ["engineering_tech"],
+        "related_ok": false,
+        "level": "required"
+      }
+    ],
+    "certificates": [
+      {
+        "type": "language_others",
+        "detail": [{ "name": "JLPT N2", "grade": null }],
+        "level": "required",
+        "related_ok": false
+      }
+    ],
+    "skill_groups": [
+      {
+        "name": "EMBEDDED",
+        "level": "required",
+        "source": "position",
+        "related_ok": false,
+        "skills": [
+          { "name": "C", "raw": "C", "level": "required", "source": "ner" },
+          { "name": "Assembly", "raw": "Assembly", "level": "required", "source": "ner" },
+          { "name": "Firmware", "raw": "Firmware", "level": "required", "source": "ner" }
+        ]
+      },
+      {
+        "name": "OPERATING_SYSTEM",
+        "level": "required",
+        "source": "kb",
+        "related_ok": false,
+        "skills": [
+          { "name": "Linux", "raw": "Linux", "level": "required", "source": "ner" }
+        ]
+      },
+      {
+        "name": "PROTOCOLS",
+        "level": "required",
+        "source": "kb",
+        "related_ok": false,
+        "skills": [
+          { "name": "TCP/IP", "raw": "TCP/IP", "level": "required", "source": "ner" }
+        ]
+      }
+    ],
+    "deadline": { "raw": "30/06/2026", "type": "date", "date": "2026-06-30", "source": "ner" },
+    "benefits": [
+      { "raw": "Xe đưa đón (Shuttle bus)", "category": "allowance_transport" },
+      { "raw": "Phụ cấp điện thoại", "category": "allowance_other" },
+      { "raw": "Khám sức khỏe định kỳ", "category": "health_wellness" },
+      { "raw": "Team building hàng năm", "category": "travel_culture" }
+    ]
+  }
+},
+
+{
+  "task_id": "task_12_half_dense_newline",
+  "text": "Công ty TNHH Shopee đang tuyển dụng Senior Flutter Developer.\nĐịa điểm làm việc: Tòa nhà Saigon Centre, 65 Lê Lợi, Quận 1, TP.HCM.\nMức lương: 30 - 45 triệu VND.\nYêu cầu ứng viên có 4 năm kinh nghiệm trong lĩnh vực Thương mại điện tử.\nTốt nghiệp Đại học chuyên ngành CNTT hoặc related fields.\nCó chứng chỉ tiếng Anh TOEIC 700.\nKỹ năng chuyên môn: Thành thạo Flutter, Dart, React Native. Biết lập trình iOS, Android. Sử dụng RESTful API, Git. Biết dùng Figma. Quy trình Agile/Scrum.\nQuyền lợi hấp dẫn: Thưởng tháng 13. 12 ngày phép năm. Hỗ trợ ăn trưa 50k/ngày. Cấp Laptop.\nHạn chót nộp hồ sơ: 30/11/2024.\nShopee là nền tảng thương mại điện tử hàng đầu Đông Nam Á, mang đến môi trường làm việc trẻ trung, năng động, sáng tạo và nhiều cơ hội thăng tiến. Hãy gia nhập cùng chúng tôi để cùng phát triển và kiến tạo tương lai.",
+  "spans": [
+    [14, 20, "COMPANY", "Shopee"],
+    [37, 61, "POSITION", "Senior Flutter Developer"],
+    [81, 126, "LOCATION", "Tòa nhà Saigon Centre, 65 Lê Lợi, Quận 1, TP.HCM"],
+    [139, 156, "SALARY", "30 - 45 triệu VND"],
+    [179, 184, "EXPERIENCE", "4 năm"],
+    [213, 232, "EXPERIENCE", "Thương mại điện tử"],
+    [245, 252, "DEGREE", "Đại học"],
+    [266, 270, "DEGREE", "CNTT"],
+    [276, 290, "DEGREE", "related fields"],
+    [315, 324, "CERTIFICATE", "TOEIC 700"],
+    [356, 363, "SKILL", "Flutter"],
+    [365, 369, "SKILL", "Dart"],
+    [371, 383, "SKILL", "React Native"],
+    [400, 403, "SKILL", "iOS"],
+    [405, 412, "SKILL", "Android"],
+    [422, 433, "SKILL", "RESTful API"],
+    [435, 438, "SKILL", "Git"],
+    [450, 455, "SKILL", "Figma"],
+    [467, 472, "SKILL", "Agile"],
+    [473, 478, "SKILL", "Scrum"],
+    [498, 512, "BENEFIT", "Thưởng tháng 13"],
+    [514, 530, "BENEFIT", "12 ngày phép năm"],
+    [532, 556, "BENEFIT", "Hỗ trợ ăn trưa 50k/ngày"],
+    [562, 568, "BENEFIT", "Laptop"],
+    [590, 600, "DEADLINE", "30/11/2024"]
+  ],
+  "slot_filling": {
+    "company": { "raw": "Shopee", "name": "Shopee", "source": "ner" },
+    "position": { "raw": "Senior Flutter Developer", "title": "Senior Flutter Developer", "source": "ner" },
+    "locations": [
+      {
+        "raw": "Tòa nhà Saigon Centre, 65 Lê Lợi, Quận 1, TP.HCM",
+        "city": "HCM",
+        "address": "Tòa nhà Saigon Centre, 65 Lê Lợi, Quận 1, TP.HCM",
+        "source": "ner"
+      }
+    ],
+    "salary": { "raw": "30 - 45 triệu VND", "type": "range", "min": 30000000, "max": 45000000, "currency": "VND", "period": "month" },
+    "experience": [
+      {
+        "raw": "4 năm kinh nghiệm trong lĩnh vực Thương mại điện tử",
+        "min_years": 4,
+        "max_years": 4,
+        "domains": ["Thương mại điện tử"],
+        "level": "required",
+        "related_ok": false
+      }
+    ],
+    "degree": [
+      {
+        "degree_raw": "Đại học",
+        "degree_level": "bachelor",
+        "majors": ["it_software"],
+        "related_ok": true,
+        "level": "required"
+      }
+    ],
+    "certificates": [
+      {
+        "type": "language_english",
+        "detail": [{ "name": "TOEIC", "grade": "700" }],
+        "level": "required",
+        "related_ok": false
+      }
+    ],
+    "skill_groups": [
+      {
+        "name": "MOBILE",
+        "level": "required",
+        "source": "position",
+        "related_ok": false,
+        "skills": [
+          { "name": "Flutter", "raw": "Flutter", "level": "required", "source": "position" },
+          { "name": "Dart", "raw": "Dart", "level": "required", "source": "ner" },
+          { "name": "React Native", "raw": "React Native", "level": "required", "source": "ner" },
+          { "name": "iOS", "raw": "iOS", "level": "required", "source": "ner" },
+          { "name": "Android", "raw": "Android", "level": "required", "source": "ner" }
+        ]
+      },
+      {
+        "name": "APIS",
+        "level": "required",
+        "source": "kb",
+        "related_ok": false,
+        "skills": [
+          { "name": "RESTful API", "raw": "RESTful API", "level": "required", "source": "ner" }
+        ]
+      },
+      {
+        "name": "VERSION_CONTROL",
+        "level": "required",
+        "source": "kb",
+        "related_ok": false,
+        "skills": [
+          { "name": "Git", "raw": "Git", "level": "required", "source": "ner" }
+        ]
+      },
+      {
+        "name": "UX",
+        "level": "required",
+        "source": "kb",
+        "related_ok": false,
+        "skills": [
+          { "name": "Figma", "raw": "Figma", "level": "required", "source": "ner" }
+        ]
+      },
+      {
+        "name": "METHODOLOGY",
+        "level": "required",
+        "source": "kb",
+        "related_ok": false,
+        "skills": [
+          { "name": "Agile", "raw": "Agile", "level": "required", "source": "ner" },
+          { "name": "Scrum", "raw": "Scrum", "level": "required", "source": "ner" }
+        ]
+      }
+    ],
+    "deadline": { "raw": "30/11/2024", "type": "date", "date": "2024-11-30", "source": "ner" },
+    "benefits": [
+      { "raw": "Thưởng tháng 13", "category": "bonus" },
+      { "raw": "12 ngày phép năm", "category": "leave" },
+      { "raw": "Hỗ trợ ăn trưa 50k/ngày", "category": "allowance_meal" },
+      { "raw": "Laptop", "category": "equipment" }
+    ]
+  }
+},
+
+{
+  "task_id": "task_04_marketing",
+  "text": "Công ty Truyền thông ABC tìm Marketing Manager.\nNơi làm việc: Hà Nội.\nLương: 1500 - 2000 USD.\nKinh nghiệm: Ít nhất 3 năm trong lĩnh vực Marketing.\nKỹ năng: Google Ads, Facebook Ads, SEO.\nBằng cấp: Cao đẳng trở lên.\nHạn chót: ASAP.",
+  "spans": [
+    [11, 27, "COMPANY", "Truyền thông ABC"],
+    [32, 49, "POSITION", "Marketing Manager"],
+    [69, 75, "LOCATION", "Hà Nội"],
+    [83, 98, "SALARY", "1500 - 2000 USD"],
+    [112, 124, "EXPERIENCE", "Ít nhất 3 năm"],
+    [140, 149, "EXPERIENCE", "Marketing"],
+    [159, 169, "SKILL", "Google Ads"],
+    [171, 183, "SKILL", "Facebook Ads"],
+    [185, 188, "SKILL", "SEO"],
+    [199, 207, "DEGREE", "Cao đẳng"],
+    [219, 223, "DEADLINE", "ASAP"]
+  ],
+  "slot_filling": {
+    "company": { "raw": "Truyền thông ABC", "name": "Truyền thông ABC", "source": "ner" },
+    "position": { "raw": "Marketing Manager", "title": "Marketing Manager", "source": "ner" },
+    "locations": [ { "raw": "Hà Nội", "city": "HN", "address": "Hà Nội", "source": "ner" } ],
+    "salary": { "raw": "1500 - 2000 USD", "type": "range", "min": 1500, "max": 2000, "currency": "USD", "period": "month" },
+    "experience": [ { "raw": "Ít nhất 3 năm Marketing", "min_years": 3, "max_years": null, "domains": ["Marketing"], "level": "required", "related_ok": false } ],
+    "degree": [ { "degree_raw": "Cao đẳng", "degree_level": "college", "majors": [], "related_ok": false, "level": "required" } ],
+    "certificates": [],
+    "skill_groups": [
+      { "name": "MARKETING", "level": "required", "source": "kb", "related_ok": false, "skills": [ { "name": "Google Ads", "raw": "Google Ads", "level": "required", "source": "ner" }, { "name": "Facebook Ads", "raw": "Facebook Ads", "level": "required", "source": "ner" }, { "name": "SEO", "raw": "SEO", "level": "required", "source": "ner" } ] }
+    ],
+    "deadline": { "raw": "ASAP", "type": "asap", "date": null, "source": "ner" },
+    "benefits": []
+  }
+},
+
+{
+  "task_id": "task_05_sparse",
+  "text": "Startup XYZ cần DevOps Engineer.\nLương: 15-20 triệu.\nKỹ năng: Docker, Kubernetes.\nDeadline: 15/12/2026.",
+  "spans": [
+    [0, 11, "COMPANY", "Startup XYZ"],
+    [17, 32, "POSITION", "DevOps Engineer"],
+    [41, 52, "SALARY", "15-20 triệu"],
+    [64, 70, "SKILL", "Docker"],
+    [72, 82, "SKILL", "Kubernetes"],
+    [92, 102, "DEADLINE", "15/12/2026"]
+  ],
+  "slot_filling": {
+    "company": { "raw": "Startup XYZ", "name": "Startup XYZ", "source": "ner" },
+    "position": { "raw": "DevOps Engineer", "title": "DevOps Engineer", "source": "ner" },
+    "locations": [],
+    "salary": { "raw": "15-20 triệu", "type": "range", "min": 15000000, "max": 20000000, "currency": "VND", "period": "month" },
+    "experience": [],
+    "degree": [],
+    "certificates": [],
+    "skill_groups": [
+      { "name": "DEVOPS", "level": "required", "source": "kb", "related_ok": false, "skills": [ { "name": "Docker", "raw": "Docker", "level": "required", "source": "ner" }, { "name": "Kubernetes", "raw": "Kubernetes", "level": "required", "source": "ner" } ] }
+    ],
+    "deadline": { "raw": "15/12/2026", "type": "date", "date": "2026-12-15", "source": "ner" },
+    "benefits": []
+  }
+},
+
+{
+  "task_id": "task_06_data_analyst",
+  "text": "Công ty TNHH Techcombank tuyển dụng Data Analyst làm tại 123 Lê Lợi, TP.HCM. Mức lương: up to 2000 USD. Yêu cầu 2-3 năm kinh nghiệm trong lĩnh vực ngân hàng, tài chính. Tốt nghiệp Đại học chuyên ngành Khoa học máy tính. Có chứng chỉ AWS Certified Solutions Architect. Thành thạo Python, SQL. Phúc lợi: Bảo hiểm sức khỏe, 14 ngày phép năm. Hạn nộp: 20/11/2024.",
+  "spans": [
+    [12, 23, "COMPANY", "Techcombank"],
+    [31, 43, "POSITION", "Data Analyst"],
+    [51, 69, "LOCATION", "123 Lê Lợi, TP.HCM"],
+    [82, 96, "SALARY", "up to 2000 USD"],
+    [106, 113, "EXPERIENCE", "2-3 năm"],
+    [135, 143, "EXPERIENCE", "ngân hàng"],
+    [145, 153, "EXPERIENCE", "tài chính"],
+    [165, 172, "DEGREE", "Đại học"],
+    [186, 203, "DEGREE", "Khoa học máy tính"],
+    [218, 250, "CERTIFICATE", "AWS Certified Solutions Architect"],
+    [263, 269, "SKILL", "Python"],
+    [271, 274, "SKILL", "SQL"],
+    [285, 301, "BENEFIT", "Bảo hiểm sức khỏe"],
+    [303, 319, "BENEFIT", "14 ngày phép năm"],
+    [332, 342, "DEADLINE", "20/11/2024"]
+  ],
+  "slot_filling": {
+    "company": { "raw": "Techcombank", "name": "Techcombank", "source": "ner" },
+    "position": { "raw": "Data Analyst", "title": "Data Analyst", "source": "ner" },
+    "locations": [
+      { "raw": "123 Lê Lợi, TP.HCM", "city": "HCM", "address": "123 Lê Lợi, TP.HCM", "source": "ner" }
+    ],
+    "salary": { "raw": "up to 2000 USD", "type": "range", "min": 0, "max": 2000, "currency": "USD", "period": "month" },
+    "experience": [
+      {
+        "raw": "2-3 năm kinh nghiệm trong lĩnh vực ngân hàng, tài chính",
+        "min_years": 2,
+        "max_years": 3,
+        "domains": ["Ngân hàng", "Tài chính"],
+        "level": "required",
+        "related_ok": false
+      }
+    ],
+    "degree": [
+      {
+        "degree_raw": "Đại học",
+        "degree_level": "bachelor",
+        "majors": ["it_software"],
+        "related_ok": false,
+        "level": "required"
+      }
+    ],
+    "certificates": [
+      {
+        "type": "tech_cloud",
+        "detail": [ { "name": "AWS Certified Solutions Architect", "grade": null } ],
+        "level": "required",
+        "related_ok": false
+      }
+    ],
+    "skill_groups": [
+      {
+        "name": "PROGRAMMING_LANGUAGE",
+        "level": "required",
+        "source": "kb",
+        "related_ok": false,
+        "skills": [ { "name": "Python", "raw": "Python", "level": "required", "source": "ner" } ]
+      },
+      {
+        "name": "DATABASE",
+        "level": "required",
+        "source": "kb",
+        "related_ok": false,
+        "skills": [ { "name": "SQL", "raw": "SQL", "level": "required", "source": "ner" } ]
+      }
+    ],
+    "deadline": { "raw": "20/11/2024", "type": "date", "date": "2024-11-20", "source": "ner" },
+    "benefits": [
+      { "raw": "Bảo hiểm sức khỏe", "category": "insurance" },
+      { "raw": "14 ngày phép năm", "category": "leave" }
+    ]
+  }
+},
+
+{
+  "task_id": "task_07_frontend_dev",
+  "text": "Tập đoàn Vingroup cần tuyển Frontend Developer. Địa điểm: Hà Nội. Lương: Thỏa thuận. Yêu cầu: Có kinh nghiệm với ReactJS, VueJS. Tốt nghiệp Cao đẳng trở lên chuyên ngành CNTT hoặc related fields. Tiếng Nhật N3. Quyền lợi: Làm việc remote 2 ngày/tuần, Team building hàng năm. Deadline: ASAP.",
+  "spans": [
+    [10, 18, "COMPANY", "Vingroup"],
+    [26, 44, "POSITION", "Frontend Developer"],
+    [56, 62, "LOCATION", "Hà Nội"],
+    [71, 80, "SALARY", "Thỏa thuận"],
+    [119, 126, "SKILL", "ReactJS"],
+    [128, 133, "SKILL", "VueJS"],
+    [144, 152, "DEGREE", "Cao đẳng"],
+    [173, 177, "DEGREE", "CNTT"],
+    [182, 196, "DEGREE", "related fields"],
+    [208, 210, "CERTIFICATE", "N3"],
+    [224, 251, "BENEFIT", "Làm việc remote 2 ngày/tuần"],
+    [253, 275, "BENEFIT", "Team building hàng năm"],
+    [286, 290, "DEADLINE", "ASAP"]
+  ],
+  "slot_filling": {
+    "company": { "raw": "Vingroup", "name": "Vingroup", "source": "ner" },
+    "position": { "raw": "Frontend Developer", "title": "Frontend Developer", "source": "ner" },
+    "locations": [
+      { "raw": "Hà Nội", "city": "HN", "address": "Hà Nội", "source": "ner" }
+    ],
+    "salary": { "raw": "Thỏa thuận", "type": "negotiable", "min": null, "max": null, "currency": null, "period": null },
+    "experience": [],
+    "degree": [
+      {
+        "degree_raw": "Cao đẳng",
+        "degree_level": "college",
+        "majors": ["it_software"],
+        "related_ok": true,
+        "level": "required"
+      }
+    ],
+    "certificates": [
+      {
+        "type": "language_others",
+        "detail": [ { "name": "N3", "grade": null } ],
+        "level": "required",
+        "related_ok": false
+      }
+    ],
+    "skill_groups": [
+      {
+        "name": "FRONTEND",
+        "level": "required",
+        "source": "kb",
+        "related_ok": false,
+        "skills": [
+          { "name": "React.js", "raw": "ReactJS", "level": "required", "source": "ner" },
+          { "name": "Vue.js", "raw": "VueJS", "level": "required", "source": "ner" }
+        ]
+      }
+    ],
+    "deadline": { "raw": "ASAP", "type": "asap", "date": null, "source": "ner" },
+    "benefits": [
+      { "raw": "Làm việc remote 2 ngày/tuần", "category": "flexibility" },
+      { "raw": "Team building hàng năm", "category": "travel_culture" }
+    ]
+  }
+},
+
+{
+  "task_id": "task_08_backend_dev",
+  "text": "Công ty Cổ phần FPT Telecom tuyển Backend Developer. Địa chỉ: Tòa nhà FPT, Phạm Hùng, Nam Từ Liêm, Hà Nội. Lương: 25 - 35 triệu VND. Yêu cầu: 3+ years kinh nghiệm. Thành thạo Java hoặc Golang. Biết sử dụng Docker, Kubernetes là một lợi thế. Quyền lợi: Thưởng tháng 13, Khám sức khỏe định kỳ. Hạn chót: 31/12/2026.",
+  "spans": [
+    [20, 31, "COMPANY", "FPT Telecom"],
+    [39, 56, "POSITION", "Backend Developer"],
+    [67, 107, "LOCATION", "Tòa nhà FPT, Phạm Hùng, Nam Từ Liêm, Hà Nội"],
+    [116, 132, "SALARY", "25 - 35 triệu VND"],
+    [143, 151, "EXPERIENCE", "3+ years"],
+    [165, 169, "SKILL", "Java"],
+    [174, 180, "SKILL", "Golang"],
+    [195, 201, "SKILL", "Docker"],
+    [203, 213, "SKILL", "Kubernetes"],
+    [236, 250, "BENEFIT", "Thưởng tháng 13"],
+    [252, 271, "BENEFIT", "Khám sức khỏe định kỳ"],
+    [284, 294, "DEADLINE", "31/12/2026"]
+  ],
+  "slot_filling": {
+    "company": { "raw": "FPT Telecom", "name": "FPT Telecom", "source": "ner" },
+    "position": { "raw": "Backend Developer", "title": "Backend Developer", "source": "ner" },
+    "locations": [
+      { "raw": "Tòa nhà FPT, Phạm Hùng, Nam Từ Liêm, Hà Nội", "city": "HN", "address": "Tòa nhà FPT, Phạm Hùng, Nam Từ Liêm, Hà Nội", "source": "ner" }
+    ],
+    "salary": { "raw": "25 - 35 triệu VND", "type": "range", "min": 25000000, "max": 35000000, "currency": "VND", "period": "month" },
+    "experience": [
+      {
+        "raw": "3+ years kinh nghiệm",
+        "min_years": 3,
+        "max_years": null,
+        "domains": [],
+        "level": "required",
+        "related_ok": false
+      }
+    ],
+    "degree": [],
+    "certificates": [],
+    "skill_groups": [
+      {
+        "name": "PROGRAMMING_LANGUAGE",
+        "level": "one_of",
+        "source": "kb",
+        "related_ok": false,
+        "skills": [
+          { "name": "Java", "raw": "Java", "level": "one_of", "source": "ner" },
+          { "name": "Go", "raw": "Golang", "level": "one_of", "source": "ner" }
+        ]
+      },
+      {
+        "name": "DEVOPS",
+        "level": "preferred",
+        "source": "kb",
+        "related_ok": false,
+        "skills": [
+          { "name": "Docker", "raw": "Docker", "level": "preferred", "source": "ner" },
+          { "name": "Kubernetes", "raw": "Kubernetes", "level": "preferred", "source": "ner" }
+        ]
+      }
+    ],
+    "deadline": { "raw": "31/12/2026", "type": "date", "date": "2026-12-31", "source": "ner" },
+    "benefits": [
+      { "raw": "Thưởng tháng 13", "category": "bonus" },
+      { "raw": "Khám sức khỏe định kỳ", "category": "health_wellness" }
+    ]
+  }
+},
+
+
+{
+  "task_id": "task_09_super_dense",
+  "text": "Tập đoàn Công nghệ CMC Corp đang tìm kiếm Senior Fullstack Developer (Node.js & React) làm việc tại Tầng 10, Tòa nhà CMC, 11 Duy Tân, Cầu Giấy, Hà Nội. Mức lương: 1500 - 2500 USD. Yêu cầu: 5+ năm kinh nghiệm trong lĩnh vực Fintech, Thương mại điện tử. Tốt nghiệp Đại học chuyên ngành Khoa học máy tính hoặc related fields. Bắt buộc có chứng chỉ AWS Certified Solutions Architect và tiếng Anh IELTS 7.0. Ưu tiên có PMP. Kỹ năng: Thành thạo Node.js, TypeScript, ReactJS, VueJS. Có kinh nghiệm với cơ sở dữ liệu SQL, NoSQL (MongoDB, PostgreSQL). Sử dụng CI/CD (Jenkins, GitLab CI), Docker và Kubernetes. Biết Agile/Scrum là một lợi thế. Hiểu biết về OOP, Microservices. Quyền lợi: Thưởng tháng 13, thưởng KPI hấp dẫn. Bảo hiểm sức khỏe PVI. 15 ngày phép năm. Hỗ trợ ăn trưa 50k/ngày. Laptop Macbook Pro. Du lịch công ty hàng năm. Hạn nộp hồ sơ: 30/04/2025.",
+  "spans": [
+    [19, 27, "COMPANY", "CMC Corp"],
+    [37, 63, "POSITION", "Senior Fullstack Developer"],
+    [90, 141, "LOCATION", "Tầng 10, Tòa nhà CMC, 11 Duy Tân, Cầu Giấy, Hà Nội"],
+    [157, 171, "SALARY", "1500 - 2500 USD"],
+    [186, 192, "EXPERIENCE", "5+ năm"],
+    [218, 225, "EXPERIENCE", "Fintech"],
+    [227, 245, "EXPERIENCE", "Thương mại điện tử"],
+    [259, 266, "DEGREE", "Đại học"],
+    [281, 298, "DEGREE", "Khoa học máy tính"],
+    [304, 318, "DEGREE", "related fields"],
+    [354, 386, "CERTIFICATE", "AWS Certified Solutions Architect"],
+    [399, 408, "CERTIFICATE", "IELTS 7.0"],
+    [428, 431, "CERTIFICATE", "PMP"],
+    [463, 470, "SKILL", "Node.js"],
+    [472, 482, "SKILL", "TypeScript"],
+    [484, 491, "SKILL", "ReactJS"],
+    [493, 498, "SKILL", "VueJS"],
+    [535, 538, "SKILL_GROUP", "SQL"],
+    [540, 545, "SKILL_GROUP", "NoSQL"],
+    [547, 554, "SKILL", "MongoDB"],
+    [556, 566, "SKILL", "PostgreSQL"],
+    [586, 588, "SKILL_GROUP", "CI"],
+    [589, 591, "SKILL_GROUP", "CD"],
+    [593, 600, "SKILL", "Jenkins"],
+    [602, 611, "SKILL", "GitLab CI"],
+    [614, 620, "SKILL", "Docker"],
+    [625, 635, "SKILL", "Kubernetes"],
+    [643, 648, "SKILL", "Agile"],
+    [649, 654, "SKILL", "Scrum"],
+    [742, 756, "BENEFIT", "Thưởng tháng 13"],
+    [758, 777, "BENEFIT", "thưởng KPI hấp dẫn"],
+    [779, 800, "BENEFIT", "Bảo hiểm sức khỏe PVI"],
+    [802, 818, "BENEFIT", "15 ngày phép năm"],
+    [820, 843, "BENEFIT", "Hỗ trợ ăn trưa 50k/ngày"],
+    [845, 862, "BENEFIT", "Laptop Macbook Pro"],
+    [864, 888, "BENEFIT", "Du lịch công ty hàng năm"],
+    [906, 916, "DEADLINE", "30/04/2025"]
+  ],
+  "slot_filling": {
+    "company": {
+      "raw": "CMC Corp",
+      "name": "CMC Corp",
+      "source": "ner"
+    },
+    "position": {
+      "raw": "Senior Fullstack Developer",
+      "title": "Senior Fullstack Developer",
+      "source": "ner"
+    },
+    "locations": [
+      {
+        "raw": "Tầng 10, Tòa nhà CMC, 11 Duy Tân, Cầu Giấy, Hà Nội",
+        "city": "HN",
+        "address": "Tầng 10, Tòa nhà CMC, 11 Duy Tân, Cầu Giấy, Hà Nội",
+        "source": "ner"
+      }
+    ],
+    "salary": {
+      "raw": "1500 - 2500 USD",
+      "type": "range",
+      "min": 1500,
+      "max": 2500,
+      "currency": "USD",
+      "period": "month"
+    },
+    "experience": [
+      {
+        "raw": "5+ năm kinh nghiệm trong lĩnh vực Fintech, Thương mại điện tử",
+        "min_years": 5,
+        "max_years": null,
+        "domains": ["Fintech", "Thương mại điện tử"],
+        "level": "required",
+        "related_ok": false
+      }
+    ],
+    "degree": [
+      {
+        "degree_raw": "Đại học",
+        "degree_level": "bachelor",
+        "majors": ["it_software"],
+        "related_ok": true,
+        "level": "required"
+      }
+    ],
+    "certificates": [
+      {
+        "type": "tech_cloud",
+        "detail": [
+          { "name": "AWS Certified Solutions Architect", "grade": null }
+        ],
+        "level": "required",
+        "related_ok": false
+      },
+      {
+        "type": "language_english",
+        "detail": [
+          { "name": "IELTS", "grade": "7.0" }
+        ],
+        "level": "required",
+        "related_ok": false
+      },
+      {
+        "type": "management_project",
+        "detail": [
+          { "name": "PMP", "grade": null }
+        ],
+        "level": "preferred",
+        "related_ok": false
+      }
+    ],
+    "skill_groups": [
+      {
+        "name": "FULLSTACK",
+        "level": "required",
+        "source": "position",
+        "related_ok": false,
+        "skills": []
+      },
+      {
+        "name": "PROGRAMMING_LANGUAGE",
+        "level": "required",
+        "source": "kb",
+        "related_ok": false,
+        "skills": [
+          { "name": "TypeScript", "raw": "TypeScript", "level": "required", "source": "ner" }
+        ]
+      },
+      {
+        "name": "BACKEND",
+        "level": "required",
+        "source": "kb",
+        "related_ok": false,
+        "skills": [
+          { "name": "Node.js", "raw": "Node.js", "level": "required", "source": "ner" }
+        ]
+      },
+      {
+        "name": "FRONTEND",
+        "level": "required",
+        "source": "kb",
+        "related_ok": false,
+        "skills": [
+          { "name": "React.js", "raw": "ReactJS", "level": "required", "source": "ner" },
+          { "name": "Vue.js", "raw": "VueJS", "level": "required", "source": "ner" }
+        ]
+      },
+      {
+        "name": "DATABASE",
+        "level": "required",
+        "source": "kb",
+        "related_ok": false,
+        "skills": [
+          { "name": "SQL", "raw": "SQL", "level": "required", "source": "ner" },
+          { "name": "NoSQL", "raw": "NoSQL", "level": "required", "source": "ner" },
+          { "name": "MongoDB", "raw": "MongoDB", "level": "required", "source": "ner" },
+          { "name": "PostgreSQL", "raw": "PostgreSQL", "level": "required", "source": "ner" }
+        ]
+      },
+      {
+        "name": "CI",
+        "level": "required",
+        "source": "kb",
+        "related_ok": false,
+        "skills": [
+          { "name": "Jenkins", "raw": "Jenkins", "level": "required", "source": "ner" },
+          { "name": "GitLab CI", "raw": "GitLab CI", "level": "required", "source": "ner" }
+        ]
+      },
+      {
+        "name": "DEVOPS",
+        "level": "required",
+        "source": "kb",
+        "related_ok": false,
+        "skills": [
+          { "name": "Docker", "raw": "Docker", "level": "required", "source": "ner" },
+          { "name": "Kubernetes", "raw": "Kubernetes", "level": "required", "source": "ner" }
+        ]
+      },
+      {
+        "name": "METHODOLOGY",
+        "level": "preferred",
+        "source": "kb",
+        "related_ok": false,
+        "skills": [
+          { "name": "Agile", "raw": "Agile", "level": "preferred", "source": "ner" },
+          { "name": "Scrum", "raw": "Scrum", "level": "preferred", "source": "ner" }
+        ]
+      }
+    ],
+    "deadline": {
+      "raw": "30/04/2025",
+      "type": "date",
+      "date": "2025-04-30",
+      "source": "ner"
+    },
+    "benefits": [
+      { "raw": "Thưởng tháng 13", "category": "bonus" },
+      { "raw": "thưởng KPI hấp dẫn", "category": "bonus" },
+      { "raw": "Bảo hiểm sức khỏe PVI", "category": "insurance" },
+      { "raw": "15 ngày phép năm", "category": "leave" },
+      { "raw": "Hỗ trợ ăn trưa 50k/ngày", "category": "allowance_meal" },
+      { "raw": "Laptop Macbook Pro", "category": "equipment" },
+      { "raw": "Du lịch công ty hàng năm", "category": "travel_culture" }
+    ]
+  }
+}
+]

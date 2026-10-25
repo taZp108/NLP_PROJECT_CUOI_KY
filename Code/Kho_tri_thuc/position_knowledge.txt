@@ -1,0 +1,190 @@
+# --- IT & Software Development ---
+Software Engineer
+Software Developer
+Backend Developer
+Backend Engineer
+Frontend Developer
+Frontend Engineer
+Full Stack Developer
+Full Stack Engineer
+Web Developer
+Mobile Developer
+iOS Developer
+Android Developer
+Game Developer
+Game Designer
+Embedded Engineer
+Embedded Software Engineer
+Firmware Engineer
+System Engineer
+Cloud Engineer
+Cloud Architect
+DevOps Engineer
+DevOps Specialist
+Site Reliability Engineer
+SRE
+Security Engineer
+Cybersecurity Engineer
+Information Security Analyst
+Penetration Tester
+QA Engineer
+QA Specialist
+QC Engineer
+Software Tester
+Automation Tester
+Manual Tester
+Test Engineer
+Software Architect
+Solution Architect
+Technical Architect
+Technical Lead
+Tech Lead
+Team Lead
+Principal Engineer
+Staff Engineer
+Software Development Manager
+Engineering Manager
+
+# --- Data & AI ---
+Data Analyst
+Data Engineer
+Data Scientist
+Data Architect
+Database Administrator
+DBA
+Big Data Engineer
+Machine Learning Engineer
+Machine Learning Scientist
+AI Engineer
+AI Researcher
+Deep Learning Engineer
+NLP Engineer
+Computer Vision Engineer
+BI Developer
+Business Intelligence Analyst
+BI Analyst
+
+# --- Product, Project & Design ---
+Product Manager
+Product Owner
+Project Manager
+Program Manager
+Scrum Master
+Agile Coach
+Business Analyst
+System Analyst
+Business Systems Analyst
+UI Designer
+UX Designer
+UI/UX Designer
+Product Designer
+Visual Designer
+Graphic Designer
+Motion Designer
+Web Designer
+Interaction Designer
+
+# --- Infrastructure, Network & IT Support ---
+System Administrator
+SysAdmin
+Network Administrator
+Network Engineer
+Network Architect
+IT Support
+IT Support Specialist
+IT Helpdesk
+Technical Support
+Technical Support Engineer
+Infrastructure Engineer
+IT Manager
+
+# --- C-Level & Management (Viết tắt & Đầy đủ) ---
+CEO
+Chief Executive Officer
+CTO
+Chief Technology Officer
+CIO
+Chief Information Officer
+CFO
+Chief Financial Officer
+COO
+Chief Operating Officer
+Director
+Giám đốc
+Trưởng phòng
+Trưởng nhóm
+Quản lý
+Manager
+Head of
+
+# --- Business, Marketing & Sales ---
+Marketing Executive
+Marketing Manager
+Digital Marketing Specialist
+SEO Specialist
+Content Creator
+Content Writer
+Copywriter
+Sales Executive
+Sales Manager
+Account Manager
+Business Development
+Business Development Manager
+Customer Success
+Customer Support
+Customer Support Specialist
+HR Executive
+HR Manager
+Human Resources
+Recruiter
+Talent Acquisition
+Accountant
+Kế toán
+Finance Analyst
+Admin
+Administrator
+Office Manager
+Operations Manager
+
+# --- Các từ khóa hạt nhân (Core Keywords - Cực kỳ quan trọng) ---
+# Các từ này giúp bắt được mọi tiền tố/hậu tố (VD: Senior_Developer, Intern_Engineer)
+Engineer
+Developer
+Programmer
+Coder
+Analyst
+Scientist
+Designer
+Tester
+Architect
+Administrator
+Manager
+Director
+Specialist
+Consultant
+Executive
+Coordinator
+Officer
+Lead
+Head
+Intern
+Fresher
+Junior
+Senior
+Expert
+
+# --- Tiếng Việt ---
+Lập trình viên
+Kỹ sư phần mềm
+Kỹ sư
+Chuyên viên
+Chuyên viên phân tích
+Chuyên viên thiết kế
+Chuyên viên kiểm thử
+Kiểm thử viên
+Quản trị viên
+Quản trị hệ thống
+Thực tập sinh
+Nhân viên
+Trưởng ca
+Giám sát

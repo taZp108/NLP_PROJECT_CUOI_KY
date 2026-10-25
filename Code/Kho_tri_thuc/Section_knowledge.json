@@ -1,0 +1,225 @@
+{
+  "description": [
+    "mô tả công việc chính", "mo ta cong viec chinh",
+    "mô tả công việc", "mo ta cong viec",
+    "mô tả vị trí", "mo ta vi tri",
+    "tóm tắt công việc", "tom tat cong viec",
+    "về công việc", "ve cong viec",
+    "về vai trò", "ve vai tro",
+    "về vị trí", "ve vi tri",
+    "what you will be doing", "what the job involves",
+    "what you'll do", "what you will do",
+    "job description", "job summary", "job overview",
+    "role description", "role overview", "position overview",
+    "about the role", "about the job",
+    "the role", "overview", "description",
+    "mô tả", "mo ta"
+  ],
+
+  "responsibilities": [
+    "trách nhiệm chính", "trach nhiem chinh",
+    "trách nhiệm công việc", "trach nhiem cong viec",
+    "nhiệm vụ hàng ngày", "nhiem vu hang ngay",
+    "công việc hàng ngày", "cong viec hang ngay",
+    "nhiệm vụ chính", "nhiem vu chinh",
+    "công việc chính", "cong viec chinh",
+    "phạm vi công việc", "pham vi cong viec",
+    "những việc bạn sẽ làm", "nhung viec ban se lam",
+    "what you'll be doing", "your responsibilities",
+    "key responsibilities", "main responsibilities",
+    "trách nhiệm", "trach nhiem",
+    "nhiệm vụ", "nhiem vu",
+    "công việc", "cong viec",
+    "daily duties", "daily tasks", "scope of work",
+    "duties", "key duties", "job duties",
+    "responsibilities"
+  ],
+
+  "requirements": [
+    "yêu cầu ứng viên", "yeu cau ung vien",
+    "yêu cầu công việc", "yeu cau cong viec",
+    "yêu cầu bắt buộc", "yeu cau bat buoc",
+    "yêu cầu tối thiểu", "yeu cau toi thieu",
+    "yêu cầu chung", "yeu cau chung",
+    "requirements & qualifications",
+    "required skills and experience",
+    "what we're looking for", "what we are looking for",
+    "what you'll need", "what you need",
+    "minimum qualifications", "required qualifications",
+    "candidate requirements",
+    "yêu cầu", "yeu cau",
+    "tiêu chuẩn", "tieu chuan",
+    "điều kiện", "dieu kien",
+    "về bạn", "ve ban",
+    "about you", "your profile", "who you are",
+    "must have", "must-have",
+    "qualifications",
+    "job requirements", "key requirements", "minimum requirements",
+    "requirements"
+  ],
+
+  "skills": [
+    "kỹ năng chuyên môn", "ky nang chuyen mon",
+    "kỹ năng cần thiết", "ky nang can thiet",
+    "kỹ năng cần có", "ky nang can co",
+    "kỹ năng ưu tiên", "ky nang uu tien",
+    "chuyên môn kỹ thuật", "chuyen mon ky thuat",
+    "công nghệ sử dụng", "cong nghe su dung",
+    "ngôn ngữ lập trình", "ngon ngu lap trinh",
+    "technical expertise", "technologies used",
+    "must-have skills", "preferred skills", "required skills",
+    "technical skills", "key skills", "core skills", "soft skills",
+    "kỹ năng mềm", "ky nang mem",
+    "kỹ năng", "ky nang",
+    "chuyên môn", "chuyen mon",
+    "tech stack", "competencies",
+    "skills"
+  ],
+
+  "certificates": [
+    "chứng chỉ cần có", "chung chi can co",
+    "chứng chỉ hành nghề", "chung chi hanh nghe",
+    "professional certifications",
+    "licenses & certifications",
+    "chứng chỉ", "chung chi",
+    "chứng nhận", "chung nhan",
+    "certifications", "certification",
+    "certificates", "licenses"
+  ],
+
+  "degree": [
+    "trình độ học vấn", "trinh do hoc van",
+    "trình độ chuyên môn", "trinh do chuyen mon",
+    "yêu cầu học vấn", "yeu cau hoc van",
+    "bằng cấp tối thiểu", "bang cap toi thieu",
+    "education requirements",
+    "educational background",
+    "academic background",
+    "academic requirements",
+    "qualifications required",
+    "học vấn", "hoc van",
+    "bằng cấp", "bang cap",
+    "trình độ", "trinh do",
+    "qualification", "education", "degree"
+  ],
+
+  "experience": [
+    "kinh nghiệm làm việc", "kinh nghiem lam viec",
+    "kinh nghiệm chuyên môn", "kinh nghiem chuyen mon",
+    "yêu cầu kinh nghiệm", "yeu cau kinh nghiem",
+    "kinh nghiệm tối thiểu", "kinh nghiem toi thieu",
+    "experience requirements",
+    "professional experience",
+    "relevant experience",
+    "years of experience",
+    "minimum experience",
+    "work experience",
+    "kinh nghiệm", "kinh nghiem",
+    "experience"
+  ],
+
+  "benefits": [
+    "chế độ đãi ngộ", "che do dai ngo",
+    "chế độ phúc lợi", "che do phuc loi",
+    "chế độ làm việc", "che do lam viec",
+    "chính sách đãi ngộ", "chinh sach dai ngo",
+    "phúc lợi công ty", "phuc loi cong ty",
+    "compensation & benefits",
+    "compensation and benefits",
+    "why you'll love working here",
+    "perks and benefits", "employee benefits",
+    "what we offer", "why join us", "our benefits",
+    "quyền lợi", "quyen loi",
+    "phúc lợi", "phuc loi",
+    "đãi ngộ", "dai ngo",
+    "lợi ích", "loi ich",
+    "chế độ", "che do",
+    "benefits", "we offer", "perks"
+  ],
+
+  "salary": [
+    "mức thu nhập", "muc thu nhap",
+    "thu nhập hàng tháng", "thu nhap hang thang",
+    "lương cơ bản", "luong co ban",
+    "lương thưởng", "luong thuong",
+    "lương gross", "luong gross",
+    "lương net", "luong net",
+    "mức lương", "muc luong",
+    "thu nhập", "thu nhap",
+    "salary range", "base salary",
+    "salary", "compensation", "remuneration", "package", "pay"
+  ],
+
+  "location": [
+    "địa điểm làm việc", "dia diem lam viec",
+    "địa chỉ làm việc", "dia chi lam viec",
+    "văn phòng làm việc", "van phong lam viec",
+    "nơi làm việc", "noi lam viec",
+    "work location", "work address", "job location",
+    "office location", "place of work", "where you'll work",
+    "địa điểm", "dia diem",
+    "location"
+  ],
+
+  "employment_type": [
+    "hình thức làm việc", "hinh thuc lam viec",
+    "employment type", "contract type", "position type",
+    "loại hình", "loai hinh",
+    "hình thức", "hinh thuc",
+    "job type", "work type"
+  ],
+
+  "deadline": [
+    "hạn nộp hồ sơ", "han nop ho so",
+    "thời hạn nộp", "thoi han nop",
+    "application deadline",
+    "hạn nộp", "han nop",
+    "hạn chót", "han chot",
+    "hạn cuối", "han cuoi",
+    "thời hạn", "thoi han",
+    "apply before", "closing date", "expires on", "apply by",
+    "deadline"
+  ],
+
+  "introduction": [
+    "giới thiệu công ty", "gioi thieu cong ty",
+    "company introduction", "company information",
+    "company overview", "company profile",
+    "about the company", "about company",
+    "về công ty", "ve cong ty",
+    "về chúng tôi", "ve chung toi",
+    "giới thiệu", "gioi thieu",
+    "about us", "who we are"
+  ],
+
+  "general": [
+    "good to know before applying",
+    "thông tin bổ sung", "thong tin bo sung",
+    "thông tin thêm", "thong tin them",
+    "thông tin chung", "thong tin chung",
+    "một số lưu ý", "mot so luu y",
+    "bạn cần biết", "ban can biet",
+    "additional information",
+    "more information", "things to know",
+    "good to know",
+    "lưu ý", "luu y",
+    "notes"
+  ],
+
+  "contact": [
+    "cách thức ứng tuyển", "cach thuc ung tuyen",
+    "quy trình tuyển dụng", "quy trinh tuyen dung",
+    "thông tin liên hệ", "thong tin lien he",
+    "recruitment process", "application process",
+    "ứng tuyển", "ung tuyen",
+    "nộp hồ sơ", "nop ho so",
+    "liên hệ", "lien he",
+    "how to apply", "contact us", "contact"
+  ],
+
+  "objectives": [
+    "mục tiêu công việc", "muc tieu cong viec",
+    "mục tiêu", "muc tieu",
+    "objectives"
+  ]
+}

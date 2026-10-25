@@ -1,0 +1,60 @@
+{
+  "language_english": [
+    "ielts", "toeic", "toefl ibt", "toefl itp", "toefl", 
+    "vstep", "pte academic", "pte", "aptis", 
+    "cambridge", "ket", "pet", "fce", "cae", "cpe", 
+    "toeic 4 kỹ năng", "toeic listening and reading", "toeic speaking and writing",
+    "tiếng anh", "chứng chỉ tiếng anh", "bằng tiếng anh"
+  ],
+  "language_others": [
+    "jlpt", "jlpt n1", "jlpt n2", "jlpt n3", "jlpt n4", "jlpt n5", "n1", "n2", "n3", "n4", "n5",
+    "nat-test", "j-test", "topj", "bjt", "tiếng nhật",
+    
+    "topik", "topik i", "topik ii", "klat", "tiếng hàn",
+    
+    "hsk", "hskk", "tocfl", "tiếng trung", "tiếng hoa",
+    
+    "delf", "dalf", "tcf", "tiếng pháp",
+    
+    "goethe-zertifikat", "testdaf", "dsh", "tiếng đức",
+    
+    "dele", "tiếng tây ban nha",
+    
+    "torfl", "tiếng nga"
+  ],
+  "tech_cloud": [
+    "aws", "amazon web services", "aws certified solutions architect", "aws certified developer", "aws certified sysops",
+    "azure", "microsoft azure", "az-900", "az-104", "az-204", "az-305",
+    "gcp", "google cloud", "google cloud platform", "google cloud certified",
+    "docker", "kubernetes", "cka", "ckad", "cks"
+  ],
+  
+  "tech_security": [
+    "cissp", "cisa", "cism", "ceh", "comptia security+", "oscp", 
+    "iso 27001", "cissp", "chứng chỉ an toàn thông tin", "chứng chỉ bảo mật"
+  ],
+  "tech_database_data": [
+    "oca", "ocp", "oracle certified", "microsoft sql server", "mongodb certified", 
+    "cloudera", "databricks", "tableau", "power bi"
+  ],
+  "management_project": [
+    "pmp", "capm", "pmi-acp", "prince2", 
+    "scrum", "csm", "psm i", "psm ii", "pspo", "agile", "scrum master", "safe"
+  ],
+  "management_quality": [
+    "iso 9001", "six sigma", "lean six sigma", "cmmi", "itil"
+  ],
+  "finance_accounting": [
+    "cpa", "acca", "cfa", "cma", "frm", "cia", 
+    "chứng chỉ kế toán", "chứng chỉ kiểm toán", "chứng chỉ kế toán trưởng"
+  ],
+  "office_admin": [
+    "mos", "icdl", "tin học văn phòng", "tin học mos", "chứng chỉ tin học", 
+    "chứng chỉ ngoại ngữ", "chứng chỉ hành chính"
+  ],
+  "marketing_design": [
+    "google analytics", "google ads", "google digital garage", 
+    "facebook blueprint", "meta blueprint", "hubspot", 
+    "adobe certified", "adobe", "autodesk"
+  ]
+}

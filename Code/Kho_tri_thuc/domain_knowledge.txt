@@ -1,0 +1,128 @@
+Công nghệ thông tin
+Web development
+Phát triển web
+Mobile development
+Phát triển di động
+Game development
+Phát triển game
+Software development
+Phát triển phần mềm
+Application development
+Phát triển ứng dụng
+Trí tuệ nhân tạo
+Khoa học dữ liệu
+Data science
+Big data
+An ninh mạng
+Cybersecurity
+Điện toán đám mây
+Cloud computing
+Blockchain
+Thương mại điện tử
+E-commerce
+Viễn thông
+Internet of Things
+IoT
+Hệ thống nhúng
+Embedded systems
+Phần cứng máy tính
+Trò chơi điện tử
+Tự động hóa
+DevOps
+Testing
+Quality assurance
+Kiểm thử phần mềm
+
+Developer
+Lập trình viên
+Engineer
+Kỹ sư
+Software engineer
+Kỹ sư phần mềm
+Tester
+Kiểm thử viên
+Analyst
+Chuyên viên phân tích
+Data analyst
+Business analyst
+DevOps engineer
+System admin
+Quản trị viên hệ thống
+Network admin
+Quản trị mạng
+Architect
+Kiến trúc sư phần mềm
+Consultant
+Chuyên gia tư vấn
+Product manager
+Project manager
+UI/UX designer
+Thiết kế giao diện
+Nhân sự
+HR
+Tuyển dụng
+Kinh doanh
+Sales
+Marketing
+Truyền thông
+Quảng cáo
+PR
+Chăm sóc khách hàng
+Customer service
+
+Tài chính
+Ngân hàng
+Bảo hiểm
+Chứng khoán
+Kế toán
+Kiểm toán
+Đầu tư
+Fintech
+Bất động sản
+Quản lý quỹ
+Tín dụng
+Thuế
+Logistics
+Chuỗi cung ứng
+Supply chain
+Xuất nhập khẩu
+Vận tải
+Giao nhận
+Kho bãi
+Bán lẻ
+Bán buôn
+
+Sản xuất
+Cơ khí
+Điện tử
+Ô tô
+Xe máy
+Hàng không
+Hàng hải
+Đóng tàu
+Dệt may
+Vật liệu xây dựng
+Xây dựng
+Kiến trúc
+Nội thất
+Năng lượng
+Dầu khí
+Điện lực
+Năng lượng tái tạo
+
+Du lịch
+Khách sạn
+Nhà hàng
+F&B
+Ẩm thực
+Giải trí
+Tổ chức sự kiện
+
+
+Nông nghiệp
+Lâm nghiệp
+Thủy sản
+Chăn nuôi
+Trồng trọt
+Thực phẩm
+Môi trường

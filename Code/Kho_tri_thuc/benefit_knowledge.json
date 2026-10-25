@@ -1,0 +1,72 @@
+{
+  "insurance": [
+    "bảo hiểm", "bảo hiểm xã hội", "bảo hiểm y tế", "bảo hiểm thất nghiệp", 
+    "bhxh", "bhyt", "bhtn", "bảo hiểm sức khỏe", "bảo hiểm chăm sóc sức khỏe", 
+    "bảo hiểm tai nạn 24/7", "bảo hiểm nhân thọ", "bảo hiểm toàn diện", 
+    "gói bảo hiểm", "gói bảo hiểm sức khỏe",
+    "social insurance", "health insurance", "unemployment insurance", 
+    "premium healthcare", "medical insurance"
+  ],
+  "bonus": [
+    "thưởng", "tiền thưởng", "thưởng lễ", "thưởng tết", "thưởng năm", 
+    "thưởng cuối năm", "thưởng KPI", "thưởng doanh số", "thưởng hiệu suất", 
+    "thưởng dự án", "thưởng nóng", "thưởng thâm niên", "thưởng chuyên cần",
+    "tháng 13", "tháng lương 13", "lương tháng 13", "lương tháng 14",
+    "hoa hồng", "cổ phần", "cổ phiếu", "esop", "stock options",
+    "bonus", "performance bonus", "13th month salary", "year-end bonus", 
+    "project bonus", "sales bonus", "commission", "sign-on bonus"
+  ],
+  "leave": [
+    "nghỉ phép", "phép năm", "phép năm có lương", "nghỉ mát", "nghỉ dưỡng", 
+    "nghỉ lễ", "nghỉ tết", "nghỉ ốm", "nghỉ thai sản", "nghỉ sinh nhật", 
+    "nghỉ kết hôn", "nghỉ tang chế", "nghỉ bù", "nghỉ việc riêng",
+    "annual leave", "paid leave", "unpaid leave", "sick leave", 
+    "maternity leave", "paternity leave", "personal leave"
+  ],
+  "allowance_meal": [
+    "phụ cấp ăn", "phụ cấp ăn trưa", "phụ cấp ăn ca", "phụ cấp ăn uống",
+    "tiền ăn", "tiền ăn trưa", "tiền ăn ca", "cơm trưa", "suất ăn",
+    "meal allowance", "lunch allowance", "food allowance"
+  ],
+  "allowance_transport": [
+    "phụ cấp đi lại", "phụ cấp xăng xe", "phụ cấp gửi xe", "tiền xăng xe",
+    "xe đưa đón", "xe công ty", "phụ cấp đi công tác",
+    "transportation allowance", "travel allowance", "shuttle bus", "parking allowance"
+  ],
+  "allowance_other": [
+    "phụ cấp điện thoại", "phụ cấp nhà ở", "phụ cấp chỗ ở", "phụ cấp thâm niên", 
+    "phụ cấp chuyên cần", "phụ cấp trách nhiệm", "phụ cấp độc hại", 
+    "phụ cấp ngoại ngữ", "phụ cấp tiếng anh", "phụ cấp thị trường",
+    "housing allowance", "phone allowance", "relocation allowance", 
+    "mobile phone allowance", "seniority allowance"
+  ],
+  "training": [
+    "đào tạo", "đào tạo nội bộ", "đào tạo bên ngoài", "ngân sách đào tạo",
+    "khóa học", "khóa học online", "học tiếng anh", "lộ trình thăng tiến", 
+    "cơ hội thăng tiến", "đào tạo hội nhập", "hỗ trợ chứng chỉ",
+    "training", "training budget", "certification support", 
+    "career development", "onboarding", "learning budget", "upskilling"
+  ],
+  "travel_culture": [
+    "du lịch", "du lịch công ty", "team building", "teambuilding", "team-building",
+    "company trip", "dã ngoại", "liên hoan", "tiệc cuối năm", "tiệc tất niên",
+    "year-end party", "company retreat", "team bonding", "happy hour"
+  ],
+  "equipment": [
+    "laptop", "macbook", "màn hình làm việc", "thiết bị làm việc", 
+    "trang bị thiết bị", "công cụ làm việc", "workstation", "màn hình máy tính",
+    "work equipment", "company laptop", "it equipment"
+  ],
+  "health_wellness": [
+    "khám sức khỏe", "khám sức khỏe định kỳ", "gói khám sức khỏe", 
+    "chăm sóc sức khỏe", "phòng gym", "vé tập gym", "yoga", "phòng tập thể dục",
+    "câu lạc bộ thể thao", "chăm sóc sức khỏe tinh thần", "tư vấn tâm lý",
+    "health check", "annual health check", "wellness", "mental health", "gym membership"
+  ],
+  "flexibility": [
+    "làm việc từ xa", "làm việc online", "làm việc remote", "chế độ làm việc linh hoạt", 
+    "giờ làm việc linh hoạt", "linh hoạt giờ giấc", "không cần chấm công",
+    "remote work", "work from home", "wfh policy", "hybrid working", 
+    "flexible working hours", "flexible schedule", "no timesheet", "work-life balance"
+  ]
+}

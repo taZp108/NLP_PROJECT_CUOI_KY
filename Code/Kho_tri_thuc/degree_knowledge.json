@@ -1,0 +1,162 @@
+{
+  "major": {
+        "it_software": [
+      "cntt", "công nghệ thông tin", "information technology", "it",
+      "kỹ thuật phần mềm", "software engineering", "ktpm", "software",
+      "khoa học máy tính", "computer science", "khmt", "cs", "information systems", "httt", "is", "management information systems", "mis",
+      "an toàn thông tin", "information security", "attt", "bảo mật thông tin",
+      "an ninh mạng", "cybersecurity", "cyber security",
+      "mật mã học", "cryptography", "điều tra số", "digital forensics",
+      "khoa học dữ liệu", "data science", "ds", "data analytics", "data analysis", "data engineering","computer networks", "quản trị mạng", "network administration", "network infrastructure", "quản trị hệ thống", "system administration", "software development", "software dev", "application development", "app development", "web development", "mobile development", "lập trình di động", "game development", "lập trình game",
+      "kiến trúc phần mềm", "software architecture",
+      "kiểm thử phần mềm", "software testing", 
+      "đảm bảo chất lượng phần mềm", "software quality assurance", "qa", "devops engineering",
+      "kỹ thuật máy tính", "computer engineering",
+      "hệ thống nhúng", "embedded systems", "lập trình nhúng",
+      "internet vạn vật", "internet of things", "iot",
+      "kỹ thuật vi mạch", "microelectronics", "thiết kế vi mạch", "ic design",
+      "đa phương tiện", "multimedia", "truyền thông đa phương tiện",
+      "thương mại điện tử", "e-commerce", "tmđt",
+      "phân tích nghiệp vụ", "business analysis", "ba",
+      "quản trị dự án công nghệ thông tin", "it project management"
+    ],
+    "engineering_tech": [
+      "cơ khí", "mechanical engineering", "kỹ thuật cơ khí",
+      "điện - điện tử", "điện điện tử", "electrical - electronics engineering", "điện tử", "electronics",
+      "điện tử viễn thông", "telecommunications", "đtvt", "viễn thông",
+      "tự động hóa", "automation", "điều khiển tự động", "kỹ thuật điều khiển",
+      "civil engineering", "kỹ thuật xây dựng", 
+      "kiến trúc", "architecture", "kts",
+      "công nghệ thực phẩm", "food technology", "kỹ thuật thực phẩm",
+      "hóa học", "chemistry", "kỹ thuật hóa học", "chemical engineering",
+      "vật lý", "physics", "vật lý kỹ thuật",
+      "toán học", "mathematics", "toán ứng dụng", "applied mathematics",
+      "công nghệ sinh học", "biotechnology", "kỹ thuật sinh học",
+      "environmental engineering", "kỹ thuật môi trường", "quản lý môi trường",
+      "cơ điện tử", "mechatronics", "kỹ thuật cơ điện tử",
+      "kỹ thuật ô tô", "automotive engineering", "công nghệ ô tô",
+      "kỹ thuật hàng không", "aerospace engineering", "hàng không vũ trụ",
+      "kỹ thuật tàu thủy", "naval architecture", "đóng tàu",
+      "kỹ thuật vật liệu", "materials engineering", "khoa học vật liệu",
+      "kỹ thuật nhiệt", "thermal engineering", "nhiệt lạnh",
+      "kỹ thuật địa chất", "geological engineering", "địa chất",
+      "quản lý công nghiệp", "industrial management", "qlcn",
+      "kỹ thuật in", "printing engineering", "công nghệ in",
+      "dệt may", "textile engineering", "công nghệ dệt may",
+      "kỹ thuật mỏ", "mining engineering", "khai thác mỏ",
+      "kỹ thuật dầu khí", "petroleum engineering", "Computer Engineering", "Electrical Engineering"
+    ],
+    "business_economics": [
+      "quản trị kinh doanh", "business administration", "qtkd",
+      "kinh tế", "economics", "kinh tế học", "kt",
+      "kinh tế quốc tế", "international economics",
+      "kinh doanh quốc tế", "international business", "kdbq",
+      "tài chính - ngân hàng", "tài chính ngân hàng", "finance and banking", "tcnh", "tài chính", "ngân hàng",
+      "tài chính quốc tế", "international finance",
+      "kế toán", "accounting", "kt", "kế toán doanh nghiệp",
+      "kiểm toán", "auditing", "kiểm toán viên",
+      "marketing", "quản trị marketing", "digital marketing",
+      "thương mại", "commerce", "kinh doanh thương mại",
+      "quản trị nhân lực", "quản trị nguồn nhân lực", "human resources", "hr", "qtnl",
+      "logistics và quản lý chuỗi cung ứng", "logistics and supply chain management", "quản lý chuỗi cung ứng", "supply chain",
+      "quản trị khách sạn", "hospitality management",
+      "quản trị du lịch", "tourism management",
+      "quản trị dịch vụ du lịch và lữ hành", "quản trị lữ hành",
+      "bất động sản", "real estate", "quản trị bất động sản",
+      "bảo hiểm", "insurance",
+      "chứng khoán", "securities", "thị trường chứng khoán",
+      "thuế", "tax", "nghiệp vụ thuế",
+      "hải quan", "customs", "nghiệp vụ hải quan",
+      "quản trị văn phòng", "office administration", "qtvp",
+      "hệ thống thông tin quản lý", "management information systems", "mis",
+      "phân tích tài chính", "financial analysis",
+      "đầu tư", "investment", "tài chính đầu tư",
+      "quản lý dự án", "project management", "qlbt"
+    ],
+    "social_languages": [
+      "ngôn ngữ anh", "english", "tiếng anh", "ngôn ngữ tiếng anh", "nna",
+      "ngôn ngữ nhật", "japanese", "tiếng nhật", "ngôn ngữ tiếng nhật", "nnn",
+      "ngôn ngữ trung", "chinese", "tiếng trung", "ngôn ngữ tiếng trung", "nnt", "tiếng hoa",
+      "ngôn ngữ hàn", "korean", "tiếng hàn", "ngôn ngữ tiếng hàn", "nnh",
+      "ngôn ngữ pháp", "french", "tiếng pháp", "ngôn ngữ tiếng pháp",
+      "ngôn ngữ nga", "russian", "tiếng nga",
+      "ngôn ngữ đức", "german", "tiếng đức",
+      "ngôn ngữ tây ban nha", "spanish", "tiếng tây ban nha",
+      "luật", "law", "luật kinh tế", "luật thương mại", "luật quốc tế",
+      "báo chí", "journalism", "truyền thông", "communications", "truyền thông đa phương tiện",
+      "quan hệ công chúng", "public relations", "pr",
+      "quan hệ quốc tế", "international relations", "qhqt",
+      "tâm lý học", "psychology", "tâm lý",
+      "sư phạm", "education", "pedagogy", "giáo dục học", "sư phạm tiếng anh", "sư phạm toán",
+      "xã hội học", "sociology",
+      "công tác xã hội", "social work",
+      "đông phương học", "oriental studies",
+      "quốc tế học", "international studies",
+      "chính trị học", "political science",
+      "lịch sử", "history", "văn học", "literature", "ngữ văn",
+      "địa lý", "geography",
+      "triết học", "philosophy",
+      "thư viện", "library", "thông tin thư viện",
+      "quản lý nhà nước", "public administration", "hành chính công",
+      "hành chính học", "quản trị nhà nước"
+    ],
+    "medical_health": [
+      "y khoa", "medicine", "bác sĩ đa khoa", "y đa khoa",
+      "y học cổ truyền", "traditional medicine",
+      "dược học", "pharmacy", "dược sĩ", "dược",
+      "điều dưỡng", "nursing", "y tá",
+      "kỹ thuật y học", "medical technology", "kỹ thuật hình ảnh y học",
+      "xét nghiệm y học", "medical laboratory",
+      "răng hàm mặt", "dentistry", "nha khoa",
+      "y tế công cộng", "public health", "sức khỏe cộng đồng",
+      "vật lý trị liệu", "physiotherapy", "phục hồi chức năng",
+      "dinh dưỡng", "nutrition", "dinh dưỡng lâm sàng",
+      "quản lý bệnh viện", "hospital management",
+      "thú y"
+    ],  
+    "science_agriculture": [
+      "khoa học tự nhiên", "natural sciences",
+      "sinh học", "biology", "công nghệ sinh học",
+      "nông nghiệp", "agriculture", "khoa học nông nghiệp",
+      "trồng trọt", "crop science", "chăn nuôi", "animal science",
+      "bảo vệ thực vật", "plant protection",
+      "lâm nghiệp", "forestry", "lâm sinh",
+      "thủy sản", "aquaculture", "nuôi trồng thủy sản",
+      "khí tượng thủy văn", "meteorology and hydrology",
+      "hải dương học", "oceanography",
+      "địa chất học", "geology",
+      "tài nguyên và môi trường", "natural resources and environment"
+    ]
+  },
+  "level": {
+    "bachelor": [
+      "đại học", "đh", "cử nhân", "bachelor", "bachelors", 
+      "university", "undergraduate", "bsc", "ba", "beng", "b.e", "b.s", "b.a",
+      "cử nhân", "BS", "Bs", "bs"
+    ],
+    "college": [
+      "cao đẳng", "cđ", "college", "associate", "associate degree", 
+      "cao đẳng nghề", "bằng cao đẳng", "tốt nghiệp cao đẳng", 
+      "hệ cao đẳng", "cao đẳng chuyên nghiệp", "cao đẳng chính quy"
+    ],
+    "master": [
+      "thạc sĩ", "ths", "thạc sỹ", "master", "masters", "mba", "msc", "ma", "meng", "mpa", "llm",
+      "bằng thạc sĩ", "tốt nghiệp thạc sĩ", "học vị thạc sĩ", 
+      "sau đại học", "hệ sau đại học", "thạc sĩ quản trị kinh doanh"
+    ],
+    "phd": [
+      "tiến sĩ", "ts", "tiến sỹ", "phd", "ph.d", "doctor", 
+      "doctorate", "doctoral", "bằng tiến sĩ", "tốt nghiệp tiến sĩ", 
+      "học vị tiến sĩ", "nghiên cứu sinh", "ncs"
+    ],
+    "vocational": [
+      "trung cấp", "vocational", "trung cấp nghề", "sơ cấp nghề", "sơ cấp",
+      "chứng chỉ nghề", "bằng trung cấp", "cao đẳng nghề", "trung học nghề",
+      "hệ trung cấp", "đào tạo nghề", "trường nghề", "trung cấp chuyên nghiệp"
+    ],
+    "high_school": [
+      "trung học", "trung học phổ thông", "thpt", "high school", 
+      "12/12", "cấp 3", "tốt nghiệp thpt", "tốt nghiệp cấp 3", "tú tài", "hệ phổ thông"
+    ]
+  }
+}

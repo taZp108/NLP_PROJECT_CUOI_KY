@@ -1,0 +1,165 @@
+{
+  "PROGRAMMING_LANGUAGE": [
+    "Python", "Java", "JavaScript", "TypeScript", "C", "C++", "C#", "Go", "Rust", 
+    "Ruby", "PHP", "Swift", "Kotlin", "Dart", "Scala", "R", "MATLAB", "Solidity", 
+    "Bash", "PowerShell", "Assembly", "Objective-C", "Elixir", "Lua", "Perl", 
+    "Haskell", "COBOL", "Fortran", "Groovy", "Julia", "Clojure", "F#", "Visual Basic", 
+    "Delphi", "Pascal", "Prolog", "Scheme", "Lisp", "Crystal", "Nim", "Zig", "VBA",
+    "Erlang", "OCaml", "ReasonML", "PureScript", "Elm", "Ada", "APL", "Forth", 
+    "Tcl", "Awk", "Sed", "Smalltalk", "Simula", "ALGOL", "PL/SQL", "T-SQL", "Cypher", 
+    "Vyper", "Move", "Cairo", "Raku", "Vala", "Haxe", "D", "Nim", "V", "Mojo", "GDScript"
+  ],
+  "FRONTEND": [
+    "React.js", "Vue.js", "Angular", "Next.js", "Nuxt.js", "Svelte", "SvelteKit", 
+    "Solid.js", "Astro", "Remix", "Qwik", "Ember.js", "Backbone.js", "Alpine.js", 
+    "Preact", "Mithril", "Polymer", "Lit", "Stencil", "Marko", "Inferno",
+    "Tailwind CSS", "Bootstrap", "jQuery", "SASS", "SCSS", "Less", "Bulma", 
+    "Materialize", "Foundation", "Chakra UI", "MUI", "Ant Design", "Vuetify", 
+    "Redux", "Zustand", "MobX", "Recoil", "Pinia", "Vuex", "NgRx", "Elf",
+    "Vite", "Webpack", "Rollup", "Parcel", "Turbopack", "esbuild", "Babel", 
+    "ESLint", "Prettier", "Storybook", "Three.js", "D3.js", "Chart.js", "Highcharts",
+    "HTML5", "CSS3", "Web Components", "WebAssembly", "WebGL", "Canvas API"
+  ],
+  "BACKEND": [
+    "Node.js", "Express.js", "NestJS", "Fastify", "Koa", "Hapi.js", "AdonisJS", 
+    "Sails.js", "LoopBack", "Spring Boot", "Spring Framework", "Spring Security", 
+    "Spring Cloud", "Quarkus", "Micronaut", "Vert.x", "Dropwizard", "Play Framework", 
+    "Akka", "Django", "Flask", "FastAPI", "Pyramid", "Tornado", "Sanic",
+    "Laravel", "Symfony", "CodeIgniter", "Yii", "CakePHP", "Zend Framework", "Slim", "Lumen",
+    ".NET", "ASP.NET Core", "Blazor", "WCF", "WPF", "Ruby on Rails", "Sinatra", "Hanami",
+    "Gin", "Echo", "Fiber", "Chi", "Buffalo", "Revel", "Gorilla Mux",
+    "Phoenix", "Actix Web", "Rocket", "Ktor", "Strapi", "GraphQL Yoga", "Apollo Server"
+  ],
+  "MOBILE": [
+    "Flutter", "React Native", "Ionic", "Xamarin", ".NET MAUI", "SwiftUI", "UIKit", 
+    "Jetpack Compose", "XML Layouts", "Kotlin Multiplatform", "Cordova", "Capacitor", 
+    "NativeScript", "Expo", "Framework7", "Native Android", "Native iOS", "Titanium"
+  ],
+  "DATABASE": [
+    "MySQL", "PostgreSQL", "MariaDB", "Oracle Database", "SQL Server", "SQLite", 
+    "CockroachDB", "YugabyteDB", "Amazon Aurora", "IBM DB2", "Teradata", "SAP HANA",
+    "MongoDB", "Couchbase", "Firestore", "RavenDB", "CouchDB", "DocumentDB",
+    "Redis", "DynamoDB", "Memcached", "Riak", "Aerospike", "KeyDB",
+    "Cassandra", "HBase", "ScyllaDB", "ClickHouse", "BigTable", "Accumulo",
+    "Neo4j", "ArangoDB", "Amazon Neptune", "JanusGraph", "OrientDB",
+    "InfluxDB", "TimescaleDB", "QuestDB", "Prometheus", "OpenTSDB",
+    "Elasticsearch", "Solr", "Meilisearch", "Typesense", "OpenSearch", "Algolia",
+    "Pinecone", "Milvus", "Qdrant", "Weaviate", "Chroma", "FAISS", "pgvector"
+  ],
+  "BIG_DATA": [
+    "Hadoop", "Apache Spark", "PySpark", "Apache Hive", "Presto", "Trino", 
+    "Apache Flink", "Apache Beam", "Apache Storm", "Apache NiFi", "Apache Kafka", 
+    "Apache Airflow", "Apache Oozie", "Apache Iceberg", "Delta Lake", "Apache Hudi", 
+    "Snowflake", "BigQuery", "Redshift", "Databricks", "Fivetran", "Airbyte", "dbt"
+  ],
+  "CLOUD": [
+    "AWS", "Azure", "GCP", "Alibaba Cloud", "IBM Cloud", "Oracle Cloud", 
+    "DigitalOcean", "Linode", "Vultr", "Heroku", "Vercel", "Netlify", 
+    "Cloudflare", "Render", "Railway", "Fly.io", "OpenStack", "VMware Cloud", 
+    "OpenShift", "Rancher", "AWS Lambda", "Azure Functions", "Google Cloud Functions"
+  ],
+  "DEVOPS": [
+    "Docker", "Kubernetes", "Podman", "Nomad", "Docker Compose", "Docker Swarm", 
+    "Jenkins", "GitLab CI/CD", "GitHub Actions", "CircleCI", "Travis CI", 
+    "TeamCity", "Bamboo", "ArgoCD", "FluxCD", "Spinnaker", "Tekton",
+    "Terraform", "Pulumi", "AWS CloudFormation", "Ansible", "Chef", "Puppet", 
+    "SaltStack", "Vagrant", "Packer", "Istio", "Linkerd", "Consul", "Envoy", 
+    "Nexus", "Artifactory", "Harbor", "SonarQube", "Snyk", "Trivy"
+  ],
+  "MONITORING": [
+    "Prometheus", "Grafana", "Datadog", "New Relic", "Dynatrace", "Splunk", 
+    "ELK Stack", "Logstash", "Kibana", "Sentry", "Jaeger", "Zipkin", 
+    "OpenTelemetry", "Zabbix", "Nagios", "CloudWatch", "Azure Monitor", 
+    "Google Cloud Monitoring", "PagerDuty", "Opsgenie", "VictoriaMetrics"
+  ],
+  "TESTING": [
+    "Selenium", "Cypress", "Playwright", "Puppeteer", "WebdriverIO", "Appium", 
+    "Jest", "Mocha", "Chai", "Jasmine", "Vitest", "PyTest", "UnitTest", 
+    "JUnit", "TestNG", "Mockito", "RSpec", "PHPUnit", "xUnit", "Robot Framework",
+    "JMeter", "LoadRunner", "Gatling", "k6", "Locust", "Postman", "Insomnia", 
+    "SoapUI", "Swagger", "Cucumber", "OWASP ZAP", "Burp Suite", "TestComplete", 
+    "Ranorex", "Katalon"
+  ],
+  "AI": [
+    "TensorFlow", "PyTorch", "Keras", "Scikit-learn", "XGBoost", "LightGBM", 
+    "CatBoost", "JAX", "Flax", "MXNet", "Caffe", "Theano", "ONNX", "TensorRT", 
+    "Hugging Face", "LangChain", "LlamaIndex", "OpenAI API", "Anthropic API", 
+    "Pinecone", "FAISS", "Chroma", "MLflow", "Kubeflow", "Weights & Biases", 
+    "DVC", "Ray", "BentoML", "vLLM", "DeepSpeed", "Accelerate", "Diffusers", 
+    "MediaPipe", "Detectron2", "MMDetection", "YOLO", "OpenCV", "spaCy", 
+    "NLTK", "Gensim", "Stanford NLP", "AllenNLP", "CoreNLP", "CNTK"
+  ],
+  "SECURITY": [
+    "Metasploit", "Burp Suite", "Nmap", "Wireshark", "John the Ripper", 
+    "Hashcat", "Aircrack-ng", "OWASP ZAP", "Nessus", "Snort", "Suricata", 
+    "Fail2ban", "Wazuh", "Kali Linux", "Keycloak", "Auth0", "Okta", 
+    "OAuth2", "OIDC", "JWT", "Vault", "AWS IAM", "Azure AD", "OpenSSL", 
+    "GPG", "Let's Encrypt", "Snyk", "Dependabot", "Trivy", "Qualys"
+  ],
+  "PROTOCOLS": [
+    "HTTP", "HTTPS", "TCP/IP", "UDP", "SSH", "FTP", "SFTP", "SMTP", "POP3", 
+    "IMAP", "DNS", "DHCP", "MQTT", "AMQP", "WebSocket", "WebRTC", "gRPC", 
+    "GraphQL", "REST", "SOAP", "Bluetooth", "Zigbee", "LoRaWAN", "Modbus", 
+    "CAN bus", "I2C", "SPI", "UART", "CoAP", "SNMP", "LDAP", "BGP", "OSPF", 
+    "TLS/SSL", "QUIC", "IPsec", "GRE", "VXLAN"
+  ],
+  "GAME_DEV": [
+    "Unity", "Unreal Engine", "Godot", "CryEngine", "GameMaker Studio", 
+    "Cocos2d-x", "Phaser", "Three.js", "Babylon.js", "PlayCanvas", "SDL", 
+    "OpenGL", "Vulkan", "DirectX", "MonoGame", "RPG Maker"
+  ],
+  "EMBEDDED": [
+    "Arduino", "Raspberry Pi", "ESP32", "ESP8266", "STM32", "PIC", "AVR", 
+    "ARM Cortex", "FreeRTOS", "Zephyr", "VxWorks", "QNX", "Embedded Linux", 
+    "Yocto Project", "PlatformIO", "Keil", "IAR Embedded Workbench", 
+    "Firmware", "Bare Metal", "Embedded C", "RTOS"
+  ],
+  "BLOCKCHAIN": [
+    "Ethereum", "Solana", "Hyperledger Fabric", "Polygon", "Binance Smart Chain", 
+    "Avalanche", "Polkadot", "Cosmos", "Smart Contract", "Solidity", "Vyper", 
+    "Web3.js", "Ethers.js", "Truffle", "Hardhat", "Foundry", "IPFS", "Bitcoin", 
+    "Layer 2", "Rollups", "Zero-Knowledge Proofs", "Rust Smart Contracts", "Move"
+  ],
+  "METHODOLOGY": [
+    "Agile", "Scrum", "Kanban", "Waterfall", "TDD", "BDD", "ATDD", "SAFe", 
+    "LeSS", "XP", "Lean", "Six Sigma", "Domain-Driven Design", "Clean Architecture"
+  ],
+  "MESSAGE_QUEUE": [
+    "Apache Kafka", "RabbitMQ", "ActiveMQ", "ZeroMQ", "AWS SQS", 
+    "AWS SNS", "Google Pub/Sub", "Azure Service Bus", "NATS", "Pulsar", "IBM MQ"
+  ],
+  "NETWORKING": [
+    "Cisco IOS", "Juniper Junos", "pfSense", "Nginx", "HAProxy", "Envoy", 
+    "Traefik", "Kong", "Apache APISIX", "AWS Route 53", "BIND", "Keepalived", 
+    "FRRouting", "Open vSwitch", "WireGuard", "OpenVPN"
+  ],
+  "DATA_VISUALIZATION": [
+    "Tableau", "Power BI", "Looker", "Qlik", "Apache Superset", "Metabase", 
+    "Redash", "Grafana", "Google Data Studio", "D3.js", "Plotly", "Bokeh", 
+    "Matplotlib", "Seaborn"
+  ],
+  "RPA": [
+    "UiPath", "Blue Prism", "Automation Anywhere", "Power Automate", 
+    "WorkFusion", "Nice Automate"
+  ],
+  "CMS_ECOMMERCE": [
+    "WordPress", "Drupal", "Joomla", "Magento", "Shopify", "Contentful", 
+    "Sanity", "Strapi", "Ghost", "Wix", "Squarespace", "WooCommerce", 
+    "PrestaShop", "OpenCart", "Saleor", "Medusa"
+  ],
+  "ERP_CRM": [
+    "SAP", "Oracle ERP", "Odoo", "Microsoft Dynamics 365", "NetSuite", 
+    "Epicor", "Infor", "Tally", "Salesforce", "HubSpot", "Zoho CRM", 
+    "Freshsales", "Pipedrive", "SugarCRM"
+  ],
+  "PACKAGE_MANAGERS": [
+    "npm", "yarn", "pnpm", "pip", "conda", "poetry", "Maven", "Gradle", 
+    "NuGet", "Composer", "Cargo", "Go Modules", "Bundler", "Homebrew", 
+    "Chocolatey", "apt", "yum", "dnf", "pacman", "Bazel", "Buck", "Pants"
+  ],
+  "DESIGN_TOOLS": [
+    "Figma", "Sketch", "Adobe XD", "Adobe Photoshop", "Adobe Illustrator", 
+    "InVision", "Axure RP", "Balsamiq", "Framer", "Canva", "Blender", "Maya", 
+    "Cinema 4D", "ZBrush", "Substance Painter"
+  ]
+}

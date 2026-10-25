@@ -1,0 +1,204 @@
+{
+  "HCM": [
+    "tp.hcm", "tp hcm", "tphcm", "hcm", "sg", "hồ chí minh", "ho chi minh", 
+    "tp. hồ chí minh", "tp hồ chí minh", "hcm city", "ho chi minh city", 
+    "sài gòn", "saigon", "thành phố hồ chí minh", "tphcm city"
+  ],
+  "HN": [
+    "hn", "hanoi", "hà nội", "ha noi", "tp hà nội", "tp. hà nội", 
+    "hanoi city", "ha noi city", "thủ đô hà nội", "thành phố hà nội"
+  ],
+  "HP": [
+    "hp", "haiphong", "hải phòng", "hai phong", "tp hải phòng", 
+    "tp. hải phòng", "thành phố hải phòng", "hai phong city"
+  ],
+  "DN": [
+    "dn", "danang", "đà nẵng", "da nang", "tp đà nẵng", "tp. đà nẵng", 
+    "da nang city", "thành phố đà nẵng"
+  ],
+  "CT": [
+    "ct", "cantho", "cần thơ", "can tho", "tp cần thơ", "tp. cần thơ", 
+    "thành phố cần thơ"
+  ],
+  "BD": [
+    "bd", "binhduong", "bình dương", "binh duong", "tp bình dương", 
+    "tp. bình dương", "thủ dầu một", "thu dau mot", "tỉnh bình dương"
+  ],
+  "DNI": [
+    "dni", "dongnai", "đồng nai", "dong nai", "tp đồng nai", 
+    "tp. đồng nai", "biên hòa", "bien hoa", "tỉnh đồng nai"
+  ],
+  "BRVT": [
+    "brvt", "vt", "vungtau", "vũng tàu", "vung tau", "bà rịa vũng tàu", 
+    "ba ria vung tau", "bà rịa - vũng tàu", "tp vũng tàu", "tỉnh bà rịa vũng tàu"
+  ],
+  "HUE": [
+    "hue", "huế", "tp huế", "tp. huế", "thừa thiên huế", "thua thien hue", 
+    "thừa thiên - huế", "tỉnh thừa thiên huế"
+  ],
+  "KH": [
+    "kh", "khánh hòa", "khanh hoa", "nha trang", "nhatrang", "nt", 
+    "tp nha trang", "tỉnh khánh hòa"
+  ],
+  "QN": [
+    "qn", "quảng ninh", "quang ninh", "hạ long", "ha long", "vịnh hạ long", 
+    "tp hạ long", "tỉnh quảng ninh"
+  ],
+  "LD": [
+    "ld", "lâm đồng", "lam dong", "đà lạt", "da lat", "tp đà lạt", 
+    "thành phố đà lạt", "tỉnh lâm đồng"
+  ],
+  "QNI": [
+    "qni", "quảng nam", "quang nam", "hội an", "hoi an", "tam kỳ", "tam ky", "tỉnh quảng nam"
+  ],
+  "DNAI": [
+    "bn", "bắc ninh", "bac ninh", "tỉnh bắc ninh"
+  ],
+  "HDU": [
+    "hdu", "hải dương", "hai duong", "tp hải dương", "tỉnh hải dương"
+  ],
+  "QNG": [
+    "qng", "quảng ngãi", "quang ngai", "dung quất", "dung quat", "tỉnh quảng ngãi"
+  ],
+  "BDH": [
+    "bdh", "bình định", "binh dinh", "quy nhơn", "quy nhon", "tỉnh bình định"
+  ],
+  "PY": [
+    "py", "phú yên", "phu yen", "tuy hòa", "tuy hoa", "tỉnh phú yên"
+  ],
+  "NTH": [
+    "nth", "ninh thuận", "ninh thuan", "phan rang", "tỉnh ninh thuận"
+  ],
+  "BTH": [
+    "bth", "bình thuận", "binh thuan", "phan thiết", "phan thiet", "mũi né", "mui ne", "tỉnh bình thuận"
+  ],
+  "LA": [
+    "la", "long an", "tỉnh long an", "tân an", "tan an"
+  ],
+  "TG": [
+    "tg", "tiền giang", "tien giang", "mỹ tho", "my tho", "tỉnh tiền giang"
+  ],
+  "BT": [
+    "bt", "bến tre", "ben tre", "tỉnh bến tre"
+  ],
+  "TV": [
+    "tv", "trà vinh", "tra vinh", "tỉnh trà vinh"
+  ],
+  "VL": [
+    "vl", "vĩnh long", "vinh long", "tỉnh vĩnh long"
+  ],
+  "DT": [
+    "dt", "đồng tháp", "dong thap", "cao lãnh", "cao lanh", "tỉnh đồng tháp"
+  ],
+  "AG": [
+    "ag", "an giang", "long xuyên", "long xuyen", "châu đốc", "chau doc", "tỉnh an giang"
+  ],
+  "KG": [
+    "kg", "kiên giang", "kien giang", "rạch giá", "rach gia", "phú quốc", "phu quoc", "tỉnh kiên giang"
+  ],
+  "HG": [
+    "hg", "hậu giang", "hau giang", "vị thanh", "vi thanh", "tỉnh hậu giang"
+  ],
+  "ST": [
+    "st", "sóc trăng", "soc trang", "tỉnh sóc trăng"
+  ],
+  "BL": [
+    "bl", "bạc liêu", "bac lieu", "tỉnh bạc liêu"
+  ],
+  "CM": [
+    "cm", "cà mau", "ca mau", "tỉnh cà mau"
+  ],
+  "BP": [
+    "bp", "bình phước", "binh phuoc", "đồng xoài", "dong xoai", "tỉnh bình phước"
+  ],
+  "TN": [
+    "tn", "tây ninh", "tay ninh", "tỉnh tây ninh"
+  ],
+  "BTR": [
+    "btr", "bà rịa", "ba ria", "tỉnh bà rịa"
+  ],
+  "TH": [
+    "th", "thanh hóa", "thanh hoa", "tp thanh hóa", "tỉnh thanh hóa", "sầm sơn", "sam son"
+  ],
+  "NA": [
+    "na", "nghệ an", "nghe an", "vinh", "tp vinh", "tỉnh nghệ an"
+  ],
+  "HT": [
+    "ht", "hà tĩnh", "ha tinh", "tỉnh hà tĩnh"
+  ],
+  "QB": [
+    "qb", "quảng bình", "quang binh", "đồng hới", "dong hoi", "phong nha", "tỉnh quảng bình"
+  ],
+  "QT": [
+    "qt", "quảng trị", "quang tri", "đông hà", "dong ha", "tỉnh quảng trị"
+  ],
+  "KT": [
+    "kt", "kon tum", "tỉnh kon tum"
+  ],
+  "GL": [
+    "gl", "gia lai", "pleiku", "tỉnh gia lai"
+  ],
+  "DL": [
+    "dl", "đắk lắk", "dak lak", "daklak", "buôn ma thuột", "buon ma thuot", "tỉnh đắk lắk"
+  ],
+  "DNO": [
+    "dno", "đắk nông", "dak nong", "daknong", "gia nghĩa", "gia nghia", "tỉnh đắk nông"
+  ],
+  "VP": [
+    "vp", "vĩnh phúc", "vinh phuc", "vĩnh yên", "vinh yen", "tỉnh vĩnh phúc"
+  ],
+  "HY": [
+    "hy", "hưng yên", "hung yen", "tỉnh hưng yên"
+  ],
+  "TB": [
+    "tb", "thái bình", "thai binh", "tỉnh thái bình"
+  ],
+  "HNA": [
+    "hna", "hà nam", "ha nam", "phủ lý", "phu ly", "tỉnh hà nam"
+  ],
+  "ND": [
+    "nd", "nam định", "nam dinh", "tỉnh nam định"
+  ],
+  "NB": [
+    "nb", "ninh bình", "ninh binh", "tam điệp", "tam diep", "tỉnh ninh bình"
+  ],
+  "HG2": [
+    "hg", "hà giang", "ha giang", "tỉnh hà giang"
+  ],
+  "CB": [
+    "cb", "cao bằng", "cao bang", "tỉnh cao bằng"
+  ],
+  "BK": [
+    "bk", "bắc kạn", "bac kan", "tỉnh bắc kạn"
+  ],
+  "TQ": [
+    "tq", "tuyên quang", "tuyen quang", "tỉnh tuyên quang"
+  ],
+  "LC": [
+    "lc", "lào cai", "lao cai", "sapa", "sa pa", "tỉnh lào cai"
+  ],
+  "YB": [
+    "yb", "yên bái", "yen bai", "tỉnh yên bái"
+  ],
+  "TNG": [
+    "tng", "thái nguyên", "thai nguyen", "tỉnh thái nguyên"
+  ],
+  "LS": [
+    "ls", "lạng sơn", "lang son", "tỉnh lạng sơn"
+  ],
+  "PT": [
+    "pt", "phú thọ", "phu tho", "việt trì", "viet tri", "tỉnh phú thọ"
+  ],
+  "DB": [
+    "db", "điện biên", "dien bien", "tỉnh điện biên"
+  ],
+  "LC2": [
+    "lai châu", "lai chau", "tỉnh lai châu"
+  ],
+  "SL": [
+    "sl", "sơn la", "son la", "tỉnh sơn la"
+  ],
+  "HB": [
+    "hb", "hòa bình", "hoa binh", "tỉnh hòa bình"
+  ]
+}
