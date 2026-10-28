@@ -1,0 +1,43 @@
+Vị trí: Data Engineer | Công ty: Công ty Cổ phần VNG
+Địa điểm làm việc: Tòa nhà VNG Campus, Quận 7, TP.HCM
+Mức lương: 2000 - 3000 USD/tháng
+
+Trách nhiệm chính:
+
+Thiết kế, xây dựng và quản lý các luồng dữ liệu (Data Pipeline) quy mô lớn.
+
+Phát triển và tối ưu hóa các quy trình ETL/ELT.
+
+Làm việc với các hệ thống lưu trữ dữ liệu lớn (Data Warehouse, Data Lake).
+
+Phối hợp với đội ngũ Data Scientist và Analyst để đảm bảo chất lượng dữ liệu.
+
+Yêu cầu ứng viên:
+
+Tốt nghiệp Đại học chuyên ngành Công nghệ thông tin, Khoa học máy tính hoặc liên quan.
+
+Có tối thiểu 3 năm kinh nghiệm làm Data Engineer.
+
+Thành thạo Python và SQL.
+
+Có kinh nghiệm với các công cụ Big Data như Spark, Kafka, Airflow.
+
+Ưu tiên ứng viên có chứng chỉ AWS Certified Data Analytics.
+
+Khả năng đọc hiểu tài liệu tiếng Anh tốt.
+
+Chế độ đãi ngộ:
+
+Mức lương cạnh tranh, review lương 2 lần/năm.
+
+Thưởng tháng 13, thưởng KPI dự án.
+
+Đóng BHXH, BHYT, BHTN full lương.
+
+Cấp Macbook Pro làm việc.
+
+14 ngày phép năm, khám sức khỏe định kỳ.
+
+Làm việc Hybrid, tham gia CLB thể thao.
+
+Hạn chót ứng tuyển: 30/11/2024.

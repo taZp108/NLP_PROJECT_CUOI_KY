@@ -1,0 +1,30 @@
+Vị trí tuyển dụng: Senior Mobile Developer (React Native/Flutter)
+Công ty: Công ty TNHH Shopee
+Địa điểm: Tòa nhà Saigon Centre, Quận 1, TP.HCM
+Mức lương: 2500 - 4000 USD/tháng
+
+Mô tả công việc:
+Phát triển và bảo trì các tính năng ứng dụng di động đa nền tảng.
+Tối ưu hóa hiệu năng ứng dụng, đảm bảo trải nghiệm người dùng mượt mà.
+Tích hợp các API từ Backend (RESTful, GraphQL) vào ứng dụng.
+Tham gia review code và đảm bảo chất lượng mã nguồn.
+Phối hợp với đội ngũ UI/UX để triển khai giao diện chuẩn xác.
+
+Yêu cầu công việc:
+Tốt nghiệp Đại học chuyên ngành Kỹ thuật phần mềm, Công nghệ thông tin hoặc liên quan.
+Có tối thiểu 4 năm kinh nghiệm phát triển ứng dụng di động với React Native hoặc Flutter.
+Có kinh nghiệm với Native iOS (Swift) hoặc Android (Kotlin) là một lợi thế.
+Hiểu biết về các thư viện quản lý trạng thái (Redux, Provider, Riverpod).
+Có kinh nghiệm làm việc với Docker và CI/CD.
+Chứng chỉ tiếng Anh IELTS 6.5 trở lên.
+
+Quyền lợi:
+Mức lương hấp dẫn, thỏa thuận theo năng lực.
+Thưởng tháng 13, tháng 14 và thưởng KPI.
+Bảo hiểm sức khỏe PVI cao cấp cho nhân viên và người thân.
+15 ngày phép năm, nghỉ lễ Tết theo quy định.
+Cấp Macbook Pro làm việc.
+Làm việc Hybrid (2 ngày remote/tuần).
+Tham gia CLB Gym, Yoga, bóng đá miễn phí.
+
+Hạn nộp hồ sơ: 30/11/2024.

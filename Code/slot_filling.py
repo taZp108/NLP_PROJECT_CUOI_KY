@@ -1075,65 +1075,107 @@ class SlotFiller:
             "period":   best_norm["period"],
         }
 
+
     def _dien_experience(self, template, spans_theo_nhan):
-        spans = spans_theo_nhan.get(NHAN_EXPERIENCE, [])
-        if not spans:
+        exp_spans = spans_theo_nhan.get(NHAN_EXPERIENCE, [])
+        if not exp_spans:
             return
 
-        by_line: Dict = {}
-        for span in spans:
-            by_line.setdefault(span.get("line_idx"), []).append(span)
+        # Lấy tất cả các span target có thể làm domain
+        target_labels = {NHAN_SKILL, NHAN_SKILL_GROUP, NHAN_POSITION}
+        target_spans = []
+        for lbl in target_labels:
+            target_spans.extend(spans_theo_nhan.get(lbl, []))
 
-        for li, group in by_line.items():
-            anchor = group[0]
+        # Gom nhóm theo dòng
+        exp_by_line: Dict = {}
+        for span in exp_spans:
+            exp_by_line.setdefault(span.get("line_idx"), []).append(span)
 
-            min_years = max_years = None
-            has_years = False
-            domains: List[str] = []
-            raw_parts: List[str] = []
-            is_preferred = False
-            related_ok = False
+        target_by_line: Dict = {}
+        for span in target_spans:
+            target_by_line.setdefault(span.get("line_idx"), []).append(span)
+
+        for li, group in exp_by_line.items():
+            # Sắp xếp các exp trên cùng dòng theo vị trí start
+            group.sort(key=lambda x: x["start"])
+            
+            # Khởi tạo thông tin cho từng exp span trên dòng này
+            exp_infos = {}
+            for span in group:
+                exp_infos[span["start"]] = {
+                    "span": span,
+                    "min_years": None,
+                    "max_years": None,
+                    "has_years": False,
+                    "domains": [],
+                    "raw_parts": [],
+                    "is_preferred": False,
+                    "related_ok": False
+                }
 
             for span in group:
+                info = exp_infos[span["start"]]
                 text = span["text"]
-                raw_parts.append(text)
+                info["raw_parts"].append(text)
 
                 if re.search(r"\d", text):
                     norm = chuan_hoa_kinh_nghiem(text)
                     if norm["min_years"] is not None:
-                        has_years = True
-                        min_years = (norm["min_years"] if min_years is None
-                                     else min(min_years, norm["min_years"]))
+                        info["has_years"] = True
+                        info["min_years"] = (norm["min_years"] if info["min_years"] is None
+                                     else min(info["min_years"], norm["min_years"]))
                     if norm["max_years"] is not None:
-                        has_years = True
-                        max_years = (norm["max_years"] if max_years is None
-                                     else max(max_years, norm["max_years"]))
+                        info["has_years"] = True
+                        info["max_years"] = (norm["max_years"] if info["max_years"] is None
+                                     else max(info["max_years"], norm["max_years"]))
                 elif _la_span_related(text):
-                    related_ok = True
+                    info["related_ok"] = True
                 else:
-                    domains.append(text.strip())
+                    info["domains"].append(text.strip())
 
                 if xac_dinh_level(span) == LEVEL_PREFERRED:
-                    is_preferred = True
+                    info["is_preferred"] = True
                 if xac_dinh_related_ok(span):
-                    related_ok = True
+                    info["related_ok"] = True
 
-            if is_preferred:
-                level = LEVEL_PREFERRED
-            elif has_years:
-                level = LEVEL_REQUIRED
-            else:
-                sec = (anchor.get("section") or "").lower()
-                level = LEVEL_REQUIRED if sec in REQUIRED_SECTIONS else LEVEL_PREFERRED
+         
+            line_targets = target_by_line.get(li, [])
+            for ts in line_targets:
+                best_exp_start = None
+                for exp_span in group:
+                    # Chỉ xét các exp nằm bên trái của target
+                    if exp_span["start"] < ts["start"]:
+                        if best_exp_start is None or exp_span["start"] > best_exp_start:
+                            best_exp_start = exp_span["start"]
+                
+                # Nếu tìm thấy exp gần nhất bên trái, gán target vào domains của exp đó
+                if best_exp_start is not None:
+                    domain_text = ts["text"].strip()
+                    if domain_text not in exp_infos[best_exp_start]["domains"]:
+                        exp_infos[best_exp_start]["domains"].append(domain_text)
 
-            template["experience"].append(tao_experience(
-                raw=" ".join(raw_parts).strip() or anchor["text"],
-                min_years=min_years,
-                max_years=max_years,
-                domains=domains,
-                level=level,
-                related_ok=related_ok,
-            ))
+            # 3. Tạo output cho từng entry experience
+            for start in sorted(exp_infos.keys()):
+                info = exp_infos[start]
+                anchor = info["span"]
+                
+                if info["is_preferred"]:
+                    level = LEVEL_PREFERRED
+                elif info["has_years"]:
+                    level = LEVEL_REQUIRED
+                else:
+                    sec = (anchor.get("section") or "").lower()
+                    level = LEVEL_REQUIRED if sec in REQUIRED_SECTIONS else LEVEL_PREFERRED
+
+                template["experience"].append(tao_experience(
+                    raw=" ".join(info["raw_parts"]).strip() or anchor["text"],
+                    min_years=info["min_years"],
+                    max_years=info["max_years"],
+                    domains=info["domains"],
+                    level=level,
+                    related_ok=info["related_ok"],
+                ))
     
     def _dien_degree(self, template, spans_theo_nhan):
         spans = spans_theo_nhan.get(NHAN_DEGREE, [])
